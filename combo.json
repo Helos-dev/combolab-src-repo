@@ -1,18 +1,18 @@
 {
   "info": {
     "game": "Blox Fruits",
-    "source": "",
-    "note": ""
+    "source": "experience",
+    "note": "due to constant reworks combos can change "
   },
   "combos": [
     {
-      "name": "",
-      "frutti": ["", ""],
-      "spada": "",
-      "pistola": "",
-      "razza": "",
-      "accessorio": "",
-      "sequenza": "",
+      "name": "Ice no escape combo ",
+      "frutti": ["iceV2", ""],
+      "spada": "Gravity Cane",
+      "pistola": "Dragonstorm",
+      "razza": "Cyborg",
+      "accessorio": "Dino hood",
+      "sequenza": " GRAVITY CANE Z -> ICE V2 V -> ICE V1 C -> ICE V2 Z -> GODHUMAN X -> GODHUMAN Z -> GODHUMAN C -> GRAVITY CANE X -> ICE V2 X",
       "rating": 0
     },
     {
