@@ -1,4 +1,3 @@
-
 {
   "info": {
     "game": "Blox Fruits",
@@ -8,18 +7,18 @@
   "combos": [
     {
       "name": "ICE NO ESCAPE COMBO",
-      "fruits": ["ICEV2", ""],
+      "fruits": "ICEV2",
       "sword": "GRAVITYCANE",
       "gun": "DRAGONSTORM",
       "race": "CYBORG",
-      "accessory": "DINO HOOD ",
+      "accessory": "DINO HOOD",
       "melee": "GODHUMAN",
-      "sequence": "GRAVITY CANE Z -> ICE V2 V -> ICE V1 C -> ICE V2 Z -> CYBORG V3 -> GODHUMAN X -> GODHUMAN Z -> GODHUMAN C -> GRAVITY CANE X -> ICE V2 X",",
-      "rating": 4.5 
+      "sequence": "GRAVITY CANE Z -> ICE V2 V -> ICE V1 C -> ICE V2 Z -> CYBORG V3 -> GODHUMAN X -> GODHUMAN Z -> GODHUMAN C -> GRAVITY CANE X -> ICE V2 X",
+      "rating": 4.5
     },
     {
       "name": "GAS OP COMBO",
-      "fruits": ["GAS", ""],
+      "fruits": "GAS",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
       "race": "CYBORG",
@@ -30,7 +29,7 @@
     },
     {
       "name": "DOUGH BASIC COMBO",
-      "fruits": ["DOUGH V2", ""],
+      "fruits": "DOUGH V2",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
       "race": "CYBORG",
@@ -41,24 +40,24 @@
     },
     {
       "name": "TREX COMBO",
-      "fruits": ["TREX", ""],
+      "fruits": "TREX",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
       "race": "CYBORG",
       "accessory": "SWAN GLASSES",
       "melee": "GODHUMAN",
-      "sequence": "GODHUMAN C -> CYBORG V3 -> TREX C -> TREX X (HOLD FOR MAX DAMAGE) -> CURSED DUAL KATANA X -> TURN AROUND -> GODHUMAN Z -> GODHUMAN X -> LOOK SLIGHTLY UP -> TREX Z -> GODHUMAN C -> REPEAT ",
+      "sequence": "GODHUMAN C -> CYBORG V3 -> TREX C -> TREX X (HOLD FOR MAX DAMAGE) -> CURSED DUAL KATANA X -> TURN AROUND -> GODHUMAN Z -> GODHUMAN X -> LOOK SLIGHTLY UP -> TREX Z -> GODHUMAN C -> REPEAT",
       "rating": 3.5
     },
     {
       "name": "KING'S COMBO",
-      "fruits": ["FLAME V2", ""],
+      "fruits": "FLAME V2",
       "sword": "CURSED DUAL KATANA",
       "gun": "KABUCHA",
       "race": "GHOUL",
       "accessory": "SWAN GLASSES",
       "melee": "ELECTRIC CLAW",
-      "sequence": "ELECTRIC CLAW C -> FLAME V2 C -> CURSED DUAL KATANA Z -> KABUCHA X -> FLAME V2 V -> FLAME V2 Z -> FLAME V2 X -> ELECTRIC CLAW X -> CURSED DUAL KATANA X -> TURN AROUND -> ELETRIC CLAW Z ",
+      "sequence": "ELECTRIC CLAW C -> FLAME V2 C -> CURSED DUAL KATANA Z -> KABUCHA X -> FLAME V2 V -> FLAME V2 Z -> FLAME V2 X -> ELECTRIC CLAW X -> CURSED DUAL KATANA X -> TURN AROUND -> ELECTRIC CLAW Z",
       "rating": 5
     }
   ]
