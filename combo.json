@@ -6,6 +6,7 @@
   },
   "combos": [
     {
+      "id": 0,
       "name": "ICE NO ESCAPE COMBO",
       "fruits": "ICEV2",
       "sword": "GRAVITYCANE",
@@ -17,6 +18,7 @@
       "rating": 4.5
     },
     {
+      "id": 1,
       "name": "GAS OP COMBO",
       "fruits": "GAS",
       "sword": "CURSED DUAL KATANA",
@@ -28,6 +30,7 @@
       "rating": 5
     },
     {
+      "id": 2,
       "name": "DOUGH BASIC COMBO",
       "fruits": "DOUGH V2",
       "sword": "CURSED DUAL KATANA",
@@ -39,6 +42,7 @@
       "rating": 4
     },
     {
+      "id": 3,
       "name": "TREX COMBO",
       "fruits": "TREX",
       "sword": "CURSED DUAL KATANA",
@@ -50,6 +54,7 @@
       "rating": 3.5
     },
     {
+      "id": 4,
       "name": "KING'S COMBO",
       "fruits": "FLAME V2",
       "sword": "CURSED DUAL KATANA",
