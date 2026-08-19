@@ -69,7 +69,7 @@
       "melee": "ELECTRIC CLAW",
       "sequence": "ELECTRIC CLAW C -> FLAME V2 C -> CURSED DUAL KATANA Z -> KABUCHA X -> FLAME V2 V -> FLAME V2 Z -> FLAME V2 X -> ELECTRIC CLAW X -> CURSED DUAL KATANA X -> TURN AROUND -> ELECTRIC CLAW Z",
       "rating": 5
-    }
+    },
     {
       "id": 5,
       "name": "PORTAL META ONE-TAP",
@@ -81,8 +81,8 @@
       "accessory": "PALE SCARF",
       "melee": "GODHUMAN",
       "sequence": "PORTAL X -> SOUL GUITAR Z -> GODHUMAN C -> CURSED DUAL KATANA Z -> CURSED DUAL KATANA X -> GODHUMAN Z -> GODHUMAN X",
-      "rating": 5,
-  }
+      "rating": 5
+  },
   {
       "id": 6,
       "name": "SANGUINE RUMBLE ONE-SHOT",
@@ -95,6 +95,6 @@
       "melee": "SANGUINE ART",
       "sequence": "RUMBLE V2 F -> RUMBLE V2 X -> RUMBLE V2 C -> SOUL GUITAR Z -> SANGUINE ART C -> GRAVITY BLADE Z -> SANGUINE ART Z -> SANGUINE ART X",
       "rating": 5,
-  }
+  },
   ]
 }
