@@ -8,7 +8,7 @@
     {
       "id": 0,
       "name": "ICE NO ESCAPE COMBO",
-      "description":  "ICE NO ESCAPE COMBO is a powerful freeze combo that chains ICE V2, Gravity Cane, Cyborg, and Godhuman for constant pressure and devastating damage.",
+      "description": "ICE NO ESCAPE COMBO is a powerful freeze combo that chains ICE V2, Gravity Cane, Cyborg, and Godhuman for constant pressure and devastating damage.",
       "fruits": "ICEV2",
       "sword": "GRAVITYCANE",
       "gun": "DRAGONSTORM",
@@ -21,7 +21,7 @@
     {
       "id": 1,
       "name": "GAS OP COMBO",
-      "description":  "GAS OP COMBO is a relentless combo that chains Gas, Cursed Dual Katana, Cyborg, and Godhuman for massive damage and nonstop pressure.",
+      "description": "GAS OP COMBO is a relentless combo that chains Gas, Cursed Dual Katana, Cyborg, and Godhuman for massive damage and nonstop pressure.",
       "fruits": "GAS",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
@@ -34,7 +34,7 @@
     {
       "id": 2,
       "name": "DOUGH BASIC COMBO",
-      "description":  "DOUGH BASIC COMBO is a deadly combo that chains Dough V2, Cursed Dual Katana, Cyborg, and Godhuman for huge damage and relentless pressure",
+      "description": "DOUGH BASIC COMBO is a deadly combo that chains Dough V2, Cursed Dual Katana, Cyborg, and Godhuman for huge damage and relentless pressure",
       "fruits": "DOUGH V2",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
@@ -47,7 +47,7 @@
     {
       "id": 3,
       "name": "TREX COMBO",
-       "description":  "TREX COMBO is a powerful combo that chains T-Rex, Cursed Dual Katana, Cyborg, and Godhuman for heavy damage and strong pressure.",
+      "description": "TREX COMBO is a powerful combo that chains T-Rex, Cursed Dual Katana, Cyborg, and Godhuman for heavy damage and strong pressure.",
       "fruits": "TREX",
       "sword": "CURSED DUAL KATANA",
       "gun": "SKULL GUITAR",
@@ -60,7 +60,7 @@
     {
       "id": 4,
       "name": "KING'S COMBO",
-      "description":  "KING'S COMBO is a devastating combo that chains Flame V2, Cursed Dual Katana, Ghoul, and Electric Claw for massive damage and relentless pressure.",
+      "description": "KING'S COMBO is a devastating combo that chains Flame V2, Cursed Dual Katana, Ghoul, and Electric Claw for massive damage and relentless pressure.",
       "fruits": "FLAME V2",
       "sword": "CURSED DUAL KATANA",
       "gun": "KABUCHA",
@@ -82,8 +82,8 @@
       "melee": "GODHUMAN",
       "sequence": "PORTAL X -> SOUL GUITAR Z -> GODHUMAN C -> CURSED DUAL KATANA Z -> CURSED DUAL KATANA X -> GODHUMAN Z -> GODHUMAN X",
       "rating": 5
-  },
-  {
+    },
+    {
       "id": 6,
       "name": "SANGUINE RUMBLE ONE-SHOT",
       "description": "SANGUINE RUMBLE ONE-SHOT abuses Rumble V2's heavy stuns and Sanguine Art's lifesteal to completely lock down meta players.",
@@ -94,7 +94,7 @@
       "accessory": "PALE SCARF",
       "melee": "SANGUINE ART",
       "sequence": "RUMBLE V2 F -> RUMBLE V2 X -> RUMBLE V2 C -> SOUL GUITAR Z -> SANGUINE ART C -> GRAVITY BLADE Z -> SANGUINE ART Z -> SANGUINE ART X",
-      "rating": 5,
-  },
+      "rating": 5
+    }
   ]
 }
