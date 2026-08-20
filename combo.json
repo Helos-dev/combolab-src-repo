@@ -96,5 +96,18 @@
       "sequence": "RUMBLE V2 F -> RUMBLE V2 X -> RUMBLE V2 C -> SOUL GUITAR Z -> SANGUINE ART C -> GRAVITY BLADE Z -> SANGUINE ART Z -> SANGUINE ART X",
       "rating": 5
     }
+    {
+      "id": 7,
+      "name": "DARK REQUIEM",
+      "description": "DARK BLOOD COMBO is a deadly combo that combines Dark, Sanguine Art, Cursed Dual Katana, Kabucha, and Ghoul for heavy damage and relentless pressure.",
+      "fruits": "DARK V2",
+      "sword": "CURSED DUAL KATANA",
+      "gun": "KABUCHA",
+      "race": "GHOUL",
+      "accessory": "SWAN GLASSES",
+      "melee": "SANGUINE ART",
+      "sequence": "DARK V2 C -> SANGUINE ART C -> SANGUINE ART Z -> CURSED DUAL KATANA X -> CURSED DUAL KATANA Z (HOLD) -> SANGUINE ART X",
+      "rating": 4.5
+    }
   ]
 }
