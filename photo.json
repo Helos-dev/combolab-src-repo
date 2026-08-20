@@ -151,5 +151,145 @@
   {
     "name": "Kitsune",
     "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Kitsune_Fruit.png/revision/latest"
+  },
+  {
+   "name": "Cursed Dual Katana",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3a/Cursed_Dual_Katana.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Dark Blade",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2e/Dark_Blade.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Hallow Scythe",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/56/Hallow_Scythe.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Tushita",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/Tushita.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Yama",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9a/Yama.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "True Triple Katana",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/4e/True_Triple_Katana.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Fox Lamp",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/82/Fox_Lamp.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Dragonheart",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/1e/Dragonheart.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Midnight Blade",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/Midnight_Blade.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Rengoku",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/25/Rengoku.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Bisento",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6f/Bisento.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Saber",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8b/Saber.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Shark Anchor",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/94/Shark_Anchor.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Gravity Blade",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/76/Gravity_Blade.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Katana",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/12/Katana.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Cutlass",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/45/Cutlass.png/revision/latest",
+    "type": "sword"
+  },
+  {
+    "name": "Kitsune Mask",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/54/Kitsune_Mask.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Pale Scarf",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/35/Pale_Scarf.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Leviathan Crown",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/27/Leviathan_Crown.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Valkyrie Helm",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9e/Valkyrie_Helm.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Dino Hood",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8a/Dino_Hood.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Swan Glasses",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6f/Swan_Glasses.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Jaw Shield",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/Jaw_Shield.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Pilot Helmet",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/55/Pilot_Helmet.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "T-Rex Skull",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/33/T-Rex_Skull.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Black Cape",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/22/Black_Cape.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Swordsman Hat",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/15/Swordsman_Hat.png/revision/latest",
+    "type": "accessory"
+  },
+  {
+    "name": "Tomoe Ring",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/92/Tomoe_Ring.png/revision/latest",
+    "type": "accessory"
   }
-]   
+]
