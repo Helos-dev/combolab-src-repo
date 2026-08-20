@@ -1,0 +1,155 @@
+[
+  {
+    "name": "Rocket",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Rocket_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Spin",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Spin_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Chop",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f0/Chop_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Spring",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d4/Spring_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Bomb",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9b/Bomb_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Smoke",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/Smoke_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Spike",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/33/Spike_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Flame",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Flame_Cristian.png"
+  },
+  {
+    "name": "Falcon",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e6/Falcon_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Ice",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Ice_Cristian.png"
+  },
+  {
+    "name": "Sand",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/c3/Sand_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Dark",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/07/Dark_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Diamond",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/93/Diamond_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Light",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Light_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Rubber",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Rubber_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Barrier",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Barrier_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Magma",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Magma_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Quake",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/Quake_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Buddha",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Buddha_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Love",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Love_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Spider",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Spider_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Phoenix",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Phoenix_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Portal",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Portal_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Rumble",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Rumble_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Pain",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Pain_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Blizzard",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Blizzard_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Gravity",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/Gravity_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Mammoth",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Mammoth_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Dough",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Dough_Cristian_2.png"
+  },
+  { "name": "Trex",
+    "image" : "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Trex_Cristian.png"
+  },
+  
+  {
+    "name": "Shadow",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Shadow_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Venom",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Venom_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Control",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Control_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Spirit",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Spirit_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Gas",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Gas_Cristian.png"
+    
+  },
+  {
+    "name": "Dragon",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/Dragon_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Leopard",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Leopard_Fruit.png/revision/latest"
+  },
+  {
+    "name": "Kitsune",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Kitsune_Fruit.png/revision/latest"
+  }
+]   
