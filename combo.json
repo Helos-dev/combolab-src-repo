@@ -108,6 +108,19 @@
       "melee": "SANGUINE ART",
       "sequence": "DARK V2 C -> SANGUINE ART C -> SANGUINE ART Z -> CURSED DUAL KATANA X -> CURSED DUAL KATANA Z (HOLD) -> SANGUINE ART X",
       "rating": 4.5
+    },
+     {
+      "id": 8,
+      "name": "EARTHBREAKER",
+      "description": "Trap your enemy, break their defenses, and unleash a cataclysm of earthquakes and venom. A brutal combo with no escape.",
+      "fruits": "Quake V2",
+      "sword": "SPIKEY TRIDENT",
+      "gun": "VENOM BOW",
+      "race": "HUMAN",
+      "accessory": "SPILOT HELMET",
+      "melee": "GOD HUMAN",
+      "sequence": "QUAKE V2 V -> SPIKEY TRIDENT X -> VENOM BOW X -> GOD HUMAN X -> GOD HUMAN Z -> GOD HUMAN C -> QUAKE V2 Z",
+      "rating": 5
     }
   ]
 }
