@@ -14,10 +14,10 @@
     {
       "name": "Lightning",
       "rarity": "Legendary",
-      "value_normal": "50m",
-      "value_permanent": "3,43B:",
-      "demand": 6,
-      "trend": "Underpaid",
+      "value_normal": "55M",
+      "value_permanent": "2.94B",
+      "demand": "Medium",
+      "trend": "Underpaid"
     },
     {
       "name": "Gas",
@@ -66,14 +66,6 @@
       "value_permanent": "802.50M",
       "demand": "Very Low",
       "trend": "Stable"
-    },
-    {
-      "name": "Lightning",
-      "rarity": "Legendary",
-      "value_normal": "55M",
-      "value_permanent": "2.94B",
-      "demand": "Medium",
-      "trend": "Underpaid"
     },
     {
       "name": "Portal",
