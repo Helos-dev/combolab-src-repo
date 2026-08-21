@@ -147,6 +147,19 @@
       "melee": "GOD HUMAN",
       "sequence": "GOD HUMAN C -> KITSUNE F -> YAMA X -> KITSUNE X -> KITSUNE V -> GOD HUMAN X -> GOD HUMAN Z",
       "rating": 4.5
+    },
+     {
+      "id": 11,
+      "name": "PAIN DEVASTATION",
+      "description": "A fast and devastating combo combining the power of God Human, the control of Yama, and the unpredictable attacks of Pain.",
+      "fruits": "Pain",
+      "sword": "YAMA",
+      "gun": "SKULL GUITAR",
+      "race": "CYBORG",
+      "accessory": "SWAN GLASSES",
+      "melee": "GOD HUMAN",
+      "sequence": "GOD HUMAN C -> PAIN X -> YAMA X -> PAIN V -> PAIN C -> GOD HUMAN X -> GOD HUMAN Z",
+      "rating": 4
     }
   ]
 }
