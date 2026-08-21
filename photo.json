@@ -115,10 +115,10 @@
     "name": "Dough",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Dough_Cristian_2.png"
   },
-  { "name": "Trex",
-    "image" : "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Trex_Cristian.png"
+  {
+    "name": "Trex",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Trex_Cristian.png"
   },
-  
   {
     "name": "Shadow",
     "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Shadow_Fruit.png/revision/latest"
@@ -138,7 +138,6 @@
   {
     "name": "Gas",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Gas_Cristian.png"
-    
   },
   {
     "name": "Dragon",
@@ -153,143 +152,543 @@
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/KitSgravo.png"
   },
   {
-   "name": "Cursed Dual Katana",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3a/Cursed_Dual_Katana.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Dark Blade",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/2e/Dark_Blade.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Hallow Scythe",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/56/Hallow_Scythe.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Tushita",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/7d/Tushita.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Yama",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9a/Yama.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "True Triple Katana",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/4e/True_Triple_Katana.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Fox Lamp",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/82/Fox_Lamp.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Dragonheart",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/1e/Dragonheart.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Midnight Blade",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/3f/Midnight_Blade.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Rengoku",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/25/Rengoku.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Bisento",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6f/Bisento.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Saber",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8b/Saber.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Shark Anchor",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/94/Shark_Anchor.png/revision/latest",
-    "type": "sword"
-  },
-  {
-    "name": "Gravity Blade",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/7/76/Gravity_Blade.png/revision/latest",
-    "type": "sword"
-  },
-  {
     "name": "Katana",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/12/Katana.png/revision/latest",
+    "image": "https://bloxfruitsdatabase.com/item-images/katana.webp",
     "type": "sword"
   },
   {
     "name": "Cutlass",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/45/Cutlass.png/revision/latest",
+    "image": "https://bloxfruitsdatabase.com/item-images/cutlass.webp",
     "type": "sword"
   },
   {
-    "name": "Kitsune Mask",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/54/Kitsune_Mask.png/revision/latest",
+    "name": "Iron Mace",
+    "image": "https://bloxfruitsdatabase.com/item-images/iron-mace.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Triple Katana",
+    "image": "https://bloxfruitsdatabase.com/item-images/triple-katana.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Soul Cane",
+    "image": "https://bloxfruitsdatabase.com/item-images/soul-cane.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Bisento",
+    "image": "https://bloxfruitsdatabase.com/item-images/bisento.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Saber",
+    "image": "https://bloxfruitsdatabase.com/item-images/saber.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Pole (1st Form)",
+    "image": "https://bloxfruitsdatabase.com/item-images/pole-1st-form.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Rengoku",
+    "image": "https://bloxfruitsdatabase.com/item-images/rengoku.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Shizu",
+    "image": "https://bloxfruitsdatabase.com/item-images/shisui.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Tushita",
+    "image": "https://bloxfruitsdatabase.com/item-images/tushita.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Yama",
+    "image": "https://bloxfruitsdatabase.com/item-images/yama.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Fox Lamp",
+    "image": "https://bloxfruitsdatabase.com/item-images/fox-lamp.webp",
+    "type": "sword"
+  },
+  {
+    "name": "True Triple Katana",
+    "image": "https://bloxfruitsdatabase.com/item-images/true-triple-katana.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Dark Blade",
+    "image": "https://bloxfruitsdatabase.com/item-images/dark-blade.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Cursed Dual Katana",
+    "image": "https://bloxfruitsdatabase.com/item-images/cursed-dual-katana.webp",
+    "type": "sword"
+  },
+  {
+    "name": "Slingshot",
+    "image": "https://bloxfruitsdatabase.com/item-images/slingshot.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Musket",
+    "image": "https://bloxfruitsdatabase.com/item-images/musket.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Flintlock",
+    "image": "https://bloxfruitsdatabase.com/item-images/flintlock.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Cannon",
+    "image": "https://bloxfruitsdatabase.com/item-images/cannon.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Bazooka",
+    "image": "https://bloxfruitsdatabase.com/item-images/bazooka.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Kabucha",
+    "image": "https://bloxfruitsdatabase.com/item-images/kabucha.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Venom Bow",
+    "image": "https://bloxfruitsdatabase.com/item-images/venom-bow.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Dragonstorm",
+    "image": "https://bloxfruitsdatabase.com/item-images/dragonstorm.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Skull Guitar",
+    "image": "https://bloxfruitsdatabase.com/item-images/skull-guitar.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Dojo Belt (Blue)",
+    "image": "https://bloxfruitsdatabase.com/item-images/blue-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Pale Scarf",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/35/Pale_Scarf.png/revision/latest",
+    "name": "Dojo Belt (Green)",
+    "image": "https://bloxfruitsdatabase.com/item-images/green-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Leviathan Crown",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/27/Leviathan_Crown.png/revision/latest",
+    "name": "Dojo Belt (Orange)",
+    "image": "https://bloxfruitsdatabase.com/item-images/orange-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Valkyrie Helm",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9e/Valkyrie_Helm.png/revision/latest",
+    "name": "Dojo Belt (Purple)",
+    "image": "https://bloxfruitsdatabase.com/item-images/purple-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Dino Hood",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/8a/Dino_Hood.png/revision/latest",
+    "name": "Dojo Belt (Red)",
+    "image": "https://bloxfruitsdatabase.com/item-images/red-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Swan Glasses",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/6f/Swan_Glasses.png/revision/latest",
+    "name": "Dojo Belt (White)",
+    "image": "https://bloxfruitsdatabase.com/item-images/white-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Jaw Shield",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/Jaw_Shield.png/revision/latest",
+    "name": "Dojo Belt (Yellow)",
+    "image": "https://bloxfruitsdatabase.com/item-images/yellow-belt.webp",
     "type": "accessory"
   },
   {
-    "name": "Pilot Helmet",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/55/Pilot_Helmet.png/revision/latest",
+    "name": "Headband (Black)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-black.webp",
     "type": "accessory"
   },
   {
-    "name": "T-Rex Skull",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/33/T-Rex_Skull.png/revision/latest",
+    "name": "Pink Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/pink-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Bandanna (Black)",
+    "image": "https://bloxfruitsdatabase.com/item-images/bandanna-black.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Bandanna (Green)",
+    "image": "https://bloxfruitsdatabase.com/item-images/bandanna-green.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Bandanna (Red)",
+    "image": "https://bloxfruitsdatabase.com/item-images/bandanna-red.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Bear Ears",
+    "image": "https://bloxfruitsdatabase.com/item-images/bear-ears.webp",
     "type": "accessory"
   },
   {
     "name": "Black Cape",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/22/Black_Cape.png/revision/latest",
+    "image": "https://bloxfruitsdatabase.com/item-images/black-cape.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Black Spikey Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/black-spikey-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Blue Spikey Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/blue-spikey-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Choppa",
+    "image": "https://bloxfruitsdatabase.com/item-images/choppa.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Cool Shades",
+    "image": "https://bloxfruitsdatabase.com/item-images/cool-shades.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Dojo Belt (Black)",
+    "image": "https://bloxfruitsdatabase.com/item-images/black-belt.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Elf Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/elf-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Ghoul Mask",
+    "image": "https://bloxfruitsdatabase.com/item-images/ghoul-mask.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Golden Sunhat",
+    "image": "https://bloxfruitsdatabase.com/item-images/golden-sunhat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Hunter Cape (Black)",
+    "image": "https://bloxfruitsdatabase.com/item-images/hunter-cape-black.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Hunter Cape (Green)",
+    "image": "https://bloxfruitsdatabase.com/item-images/hunter-cape-green.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Hunter Cape (Red)",
+    "image": "https://bloxfruitsdatabase.com/item-images/hunter-cape-red.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Jaw Shield",
+    "image": "https://bloxfruitsdatabase.com/item-images/jaw-shield.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Lei",
+    "image": "https://bloxfruitsdatabase.com/item-images/lei.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Marine Cap",
+    "image": "https://bloxfruitsdatabase.com/item-images/marine-cap.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Pilot Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/pilot-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Pretty Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/pretty-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Red Spikey Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/red-spikey-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Santa Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/santa-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Shark Tooth Necklace",
+    "image": "https://bloxfruitsdatabase.com/item-images/shark-tooth-necklace.webp",
     "type": "accessory"
   },
   {
     "name": "Swordsman Hat",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/1/15/Swordsman_Hat.png/revision/latest",
+    "image": "https://bloxfruitsdatabase.com/item-images/swordsman-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "T-Rex Skull",
+    "image": "https://bloxfruitsdatabase.com/item-images/t-rex-skull.webp",
     "type": "accessory"
   },
   {
     "name": "Tomoe Ring",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/92/Tomoe_Ring.png/revision/latest",
+    "image": "https://bloxfruitsdatabase.com/item-images/tomoe-ring.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Top Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/top-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Usoap's Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/usoaps-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Warrior Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/warrior-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "50b Party Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/50b-party-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Celestial Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/celestial-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Coven Witch Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/coven-witch-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Cracked Egg Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/cracked-egg-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Cupid's Top Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/cupids-top-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Dark Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/dark-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Divine Cloak",
+    "image": "https://bloxfruitsdatabase.com/item-images/divine-cloak.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Easter Bunny Cape",
+    "image": "https://bloxfruitsdatabase.com/item-images/easter-bunny-cape.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Frosty Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/frosty-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Holiday Cloak",
+    "image": "https://bloxfruitsdatabase.com/item-images/holiday-cloak.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Leviathan Shield",
+    "image": "https://bloxfruitsdatabase.com/item-images/leviathan-shield.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Oni Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/oni-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Party Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/party-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Peppermint Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/peppermint-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Pumpkin Mask",
+    "image": "https://bloxfruitsdatabase.com/item-images/pumpkin-mask.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Red Ribbon",
+    "image": "https://bloxfruitsdatabase.com/item-images/red-ribbon.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Romantic Bouquet",
+    "image": "https://bloxfruitsdatabase.com/item-images/romantic-bouquet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Sanguine Cloak",
+    "image": "https://bloxfruitsdatabase.com/item-images/sanguine-cloak.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Uzoth's Cloak",
+    "image": "https://bloxfruitsdatabase.com/item-images/uzoths-cloak.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Cupid's Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/cupids-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "D.S. Coat",
+    "image": "https://bloxfruitsdatabase.com/item-images/ds-coat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Dino Hood",
+    "image": "https://bloxfruitsdatabase.com/item-images/dino-hood.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Dragon Mantle",
+    "image": "https://bloxfruitsdatabase.com/item-images/dragon-mantle.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Feathered Visage",
+    "image": "https://bloxfruitsdatabase.com/item-images/feathered-visage.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Heart Shades",
+    "image": "https://bloxfruitsdatabase.com/item-images/heart-shades.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Holy Crown",
+    "image": "https://bloxfruitsdatabase.com/item-images/holy-crown.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Kitsune Mask",
+    "image": "https://bloxfruitsdatabase.com/item-images/kitsune-mask.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Kitsune Ribbon",
+    "image": "https://bloxfruitsdatabase.com/item-images/kitsune-ribbon.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Leviathan Crown",
+    "image": "https://bloxfruitsdatabase.com/item-images/leviathan-crown.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Musketeer Hat",
+    "image": "https://bloxfruitsdatabase.com/item-images/musketeer-hat.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Pale Scarf",
+    "image": "https://bloxfruitsdatabase.com/item-images/pale-scarf.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Swan Glasses",
+    "image": "https://bloxfruitsdatabase.com/item-images/swan-glasses.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Terror Jaw",
+    "image": "https://bloxfruitsdatabase.com/item-images/terror-jaw.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Valkyrie Helm",
+    "image": "https://bloxfruitsdatabase.com/item-images/valkyrie-helm.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Wyvern Helmet",
+    "image": "https://bloxfruitsdatabase.com/item-images/wyvern-helmet.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Zebra Cap",
+    "image": "https://bloxfruitsdatabase.com/item-images/zebra-cap.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Blue)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-blue.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Green)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-green.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Orange)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-orange.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Purple)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-purple.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Red)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-red.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (White)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-white.webp",
+    "type": "accessory"
+  },
+  {
+    "name": "Headband (Yellow)",
+    "image": "https://bloxfruitsdatabase.com/item-images/headband-yellow.webp",
     "type": "accessory"
   }
 ]
