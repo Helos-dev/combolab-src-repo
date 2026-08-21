@@ -1,0 +1,337 @@
+{
+  "races": [
+    {
+      "id": 0,
+      "name": "Human",
+      "display_name": "Human",
+      "description": "Human is a highly offensive race focused on raw damage, mobility and aggressive PvP. It becomes significantly stronger after upgrading to V2 and V3. Human is especially effective for players who rely on combos, precise movement and burst damage. Its V3 ability becomes stronger as the player's health decreases, making it particularly dangerous during clutch situations.",
+      "specialty": "Damage & Aggressive PvP",
+      "rarity": "Starter",
+      "versions": {
+        "V1": {
+          "name": "Human V1",
+          "description": "Human V1 does not provide a major passive combat ability. It is the basic version of the race and serves as the starting point for later upgrades."
+        },
+        "V2": {
+          "name": "Human V2",
+          "description": "Human V2 improves mobility and combat utility. It increases movement speed, improves Flash Step and provides additional mobility and Instinct utility."
+        },
+        "V3": {
+          "name": "Last Resort",
+          "description": "Last Resort increases the player's damage according to their missing health. The less health the player has, the stronger the damage bonus becomes."
+        },
+        "V4": {
+          "name": "Human V4",
+          "description": "Human V4 provides powerful offensive and mobility options depending on the selected Gears. Its abilities focus on increasing damage, movement and aggressive pressure."
+        }
+      },
+      "strengths": [
+        "Very high burst damage",
+        "Excellent for aggressive PvP",
+        "Strong one-shot combo potential",
+        "Excellent mobility after V2",
+        "Extremely powerful when low on health",
+        "Strong V4 offensive abilities"
+      ],
+      "weaknesses": [
+        "Low defensive utility",
+        "Requires good combo execution",
+        "V3 requires low health for maximum damage",
+        "Less forgiving for inexperienced players"
+      ],
+      "best_for": [
+        "PvP",
+        "One-shot combos",
+        "Bounty hunting",
+        "Experienced players"
+      ]
+    },
+
+    {
+      "id": 1,
+      "name": "Rabbit",
+      "display_name": "Rabbit",
+      "description": "Rabbit is the mobility-focused race of Blox Fruits. Its main advantage is extremely high movement speed combined with improved dashing. It is excellent for chasing opponents, escaping dangerous situations and repositioning during combos.",
+      "specialty": "Speed & Mobility",
+      "rarity": "Starter",
+      "versions": {
+        "V1": {
+          "name": "Rabbit V1",
+          "description": "Rabbit V1 increases the player's movement speed and gives the race its distinctive rabbit appearance."
+        },
+        "V2": {
+          "name": "Rabbit V2",
+          "description": "Rabbit V2 significantly increases movement speed and improves dashes by making them more efficient."
+        },
+        "V3": {
+          "name": "Agility",
+          "description": "Agility dramatically increases movement speed for a short period. It also improves dash distance and allows the player to reposition extremely quickly."
+        },
+        "V4": {
+          "name": "Rabbit V4",
+          "description": "Rabbit V4 provides powerful mobility-focused Gear options. Its abilities can create tornadoes during dashes, improve dash distance and provide additional movement options."
+        }
+      },
+      "strengths": [
+        "Extremely high mobility",
+        "Excellent for chasing players",
+        "Excellent for escaping",
+        "Longer and more efficient dashes",
+        "Very effective for repositioning"
+      ],
+      "weaknesses": [
+        "Lower defensive utility",
+        "Less raw damage than Human",
+        "Requires good movement control",
+        "Speed alone does not guarantee high combo damage"
+      ],
+      "best_for": [
+        "PvP",
+        "Chasing",
+        "Escaping",
+        "Mobility builds",
+        "Fast movement players"
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Shark",
+      "display_name": "Shark",
+      "description": "Shark is a defensive race designed around damage reduction and survivability. It is one of the safest choices for players who prefer surviving enemy combos instead of relying entirely on mobility. Shark is particularly effective against heavy burst damage and is extremely useful in long fights.",
+      "specialty": "Defense & Survivability",
+      "rarity": "Starter",
+      "versions": {
+        "V1": {
+          "name": "Shark V1",
+          "description": "Shark V1 provides the basic characteristics of the Shark race and makes the player more suited to surviving dangerous situations."
+        },
+        "V2": {
+          "name": "Shark V2",
+          "description": "Shark V2 improves the race's defensive capabilities and provides stronger protection compared with the basic version."
+        },
+        "V3": {
+          "name": "Water Body",
+          "description": "Water Body greatly reduces incoming damage for a limited period, allowing the player to survive powerful attacks and enemy combos."
+        },
+        "V4": {
+          "name": "Shark V4",
+          "description": "Shark V4 provides powerful defensive Gear options. Its abilities focus on slowing enemies, creating defensive protection and improving survivability."
+        }
+      },
+      "strengths": [
+        "Excellent damage reduction",
+        "Very high survivability",
+        "Strong against burst combos",
+        "Powerful defensive V3",
+        "Strong defensive V4 options",
+        "Excellent in long fights"
+      ],
+      "weaknesses": [
+        "Lower mobility than Rabbit",
+        "Less offensive pressure than Human",
+        "Can struggle against highly mobile opponents",
+        "Primarily defensive playstyle"
+      ],
+      "best_for": [
+        "Defensive PvP",
+        "Survival",
+        "Long fights",
+        "Countering burst builds",
+        "Tank builds"
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Angel",
+      "display_name": "Angel",
+      "description": "Angel is a race focused on aerial mobility, energy management and regeneration. It is particularly useful for players who like controlling vertical space and maintaining strong survivability during fights.",
+      "specialty": "Regeneration & Aerial Mobility",
+      "rarity": "Starter",
+      "versions": {
+        "V1": {
+          "name": "Angel V1",
+          "description": "Angel V1 provides the basic characteristics of the Angel race and its distinctive angelic appearance."
+        },
+        "V2": {
+          "name": "Angel V2",
+          "description": "Angel V2 improves the race's movement and energy-related capabilities, making it easier to remain effective during extended fights."
+        },
+        "V3": {
+          "name": "Heavenly Blood",
+          "description": "Heavenly Blood provides powerful recovery and defensive benefits, allowing the player to restore health and energy while remaining active during combat."
+        },
+        "V4": {
+          "name": "Angel V4",
+          "description": "Angel V4 provides powerful aerial and area-control abilities depending on the selected Gear. Its abilities improve aerial movement and can negatively affect nearby enemies."
+        }
+      },
+      "strengths": [
+        "Strong regeneration",
+        "Excellent aerial mobility",
+        "Good energy management",
+        "Strong defensive utility",
+        "Powerful V4 area control"
+      ],
+      "weaknesses": [
+        "Lower raw burst damage than Human",
+        "Less direct defense than Shark",
+        "Requires good aerial movement",
+        "Some abilities require good positioning"
+      ],
+      "best_for": [
+        "PvP",
+        "Aerial combat",
+        "Regeneration builds",
+        "Long fights",
+        "Vertical movement"
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Ghoul",
+      "display_name": "Ghoul",
+      "description": "Ghoul is a combat-focused race with strong regeneration and life-stealing abilities. It is particularly effective when using fighting styles because its life-steal mechanics allow the player to recover health while dealing damage. Ghoul becomes even stronger at night and is excellent for sustained combat.",
+      "specialty": "Life Steal & Combat",
+      "rarity": "Unlockable",
+      "versions": {
+        "V1": {
+          "name": "Ghoul V1",
+          "description": "Ghoul V1 provides increased health regeneration and additional benefits during nighttime."
+        },
+        "V2": {
+          "name": "Life Leech",
+          "description": "Ghoul V2 unlocks Life Leech. Fighting-style attacks can restore a percentage of the damage dealt, allowing the player to recover health while maintaining pressure."
+        },
+        "V3": {
+          "name": "Heightened Senses",
+          "description": "Heightened Senses provides a combination of damage, speed and defensive benefits while improving the player's ability to maintain pressure during combat."
+        },
+        "V4": {
+          "name": "Ghoul V4",
+          "description": "Ghoul V4 provides powerful Gear choices focused on enemy control and life steal. Its abilities allow the player to recover health while dealing damage and can interfere with enemies inside the affected area."
+        }
+      },
+      "strengths": [
+        "Excellent life steal",
+        "Strong regeneration",
+        "Very strong with fighting styles",
+        "Powerful nighttime benefits",
+        "Excellent sustained combat",
+        "Strong V3 utility"
+      ],
+      "weaknesses": [
+        "Life steal depends on effective attacks",
+        "Lower mobility than Rabbit",
+        "Requires aggressive combat",
+        "Less focused on single-hit burst"
+      ],
+      "best_for": [
+        "PvP",
+        "Fighting-style builds",
+        "Long fights",
+        "Sustained combat",
+        "Aggressive healing"
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Cyborg",
+      "display_name": "Cyborg",
+      "description": "Cyborg is a technological race focused on energy, area damage and combat control. Its abilities provide powerful utility against players who depend heavily on Instinct and make it effective in close-range combat and situations involving multiple enemies.",
+      "specialty": "Energy & Area Damage",
+      "rarity": "Unlockable",
+      "versions": {
+        "V1": {
+          "name": "Cyborg V1",
+          "description": "Cyborg V1 does not provide a major passive combat ability. Its main characteristics become more noticeable after upgrading the race."
+        },
+        "V2": {
+          "name": "Cyborg V2",
+          "description": "Cyborg V2 improves the race's combat utility and prepares it for the stronger V3 abilities."
+        },
+        "V3": {
+          "name": "Energy Core",
+          "description": "Energy Core creates an electrical area around the player that can deal damage and interfere with enemy Instinct. It also provides defensive utility during close-range combat."
+        },
+        "V4": {
+          "name": "Cyborg V4",
+          "description": "Cyborg V4 enhances its electrical and energy-based mechanics. Its Gear options provide additional damage, Instinct disruption and mobility."
+        }
+      },
+      "strengths": [
+        "Excellent area damage",
+        "Strong against Instinct users",
+        "Good energy utility",
+        "Strong close-range pressure",
+        "Useful defensive effects",
+        "Excellent against multiple enemies"
+      ],
+      "weaknesses": [
+        "Lower mobility than Rabbit",
+        "Requires close-range positioning",
+        "Less single-target burst than Human",
+        "Requires good timing"
+      ],
+      "best_for": [
+        "PvP",
+        "Raids",
+        "Multiple enemies",
+        "Anti-Instinct builds",
+        "Energy-focused builds"
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "Draco",
+      "display_name": "Draco",
+      "description": "Draco is a dragon-themed race with unique progression mechanics and powerful abilities designed for advanced combat. Unlike the original races, Draco has its own special requirements for obtaining and upgrading its versions. Its V4 abilities provide offensive, defensive and team-support utility, making it particularly valuable in endgame PvP and team fights.",
+      "specialty": "Dragon Power & Team Utility",
+      "rarity": "Unlockable",
+      "versions": {
+        "V1": {
+          "name": "Draco V1",
+          "description": "Draco V1 provides the basic dragon-themed race characteristics and its unique visual appearance."
+        },
+        "V2": {
+          "name": "Draco V2",
+          "description": "Draco V2 requires special race-specific progression. The upgrade provides additional Draco mechanics and visual changes."
+        },
+        "V3": {
+          "name": "Draco V3",
+          "description": "Draco V3 provides additional race-specific combat utility and requires dedicated Draco progression before the player can reach the V4 awakening."
+        },
+        "V4": {
+          "name": "Draco V4",
+          "description": "Draco V4 provides powerful Gear options focused on offensive pressure, defense and team support. Some abilities can create powerful effects against enemies while also benefiting nearby allies."
+        }
+      },
+      "strengths": [
+        "Powerful V4 abilities",
+        "Unique race mechanics",
+        "Strong offensive potential",
+        "Strong defensive potential",
+        "Can support nearby allies",
+        "Excellent team-fight utility",
+        "Very strong endgame race"
+      ],
+      "weaknesses": [
+        "More complicated progression",
+        "Requires significant endgame progression",
+        "Less straightforward for beginners",
+        "Strongest abilities require V4"
+      ],
+      "best_for": [
+        "Endgame PvP",
+        "Team fights",
+        "Advanced players",
+        "V4 gameplay",
+        "Unique builds"
+      ]
+    }
+  ]
+}
