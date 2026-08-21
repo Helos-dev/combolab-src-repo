@@ -1,0 +1,1234 @@
+{
+  "game": "Blox Fruits",
+  "last_updated": "2026-08-21",
+
+  "swords": [
+    {
+      "id": "cutlass",
+      "name": "Cutlass",
+      "description": "A basic sword for close-range combat.",
+      "obtain": "Buy it from the Sword Dealer for $1,000."
+    },
+    {
+      "id": "dual_katana",
+      "name": "Dual Katana",
+      "description": "A basic dual-wielded sword.",
+      "obtain": "Buy it from the Sword Dealer of the West for $12,000."
+    },
+    {
+      "id": "katana",
+      "name": "Katana",
+      "description": "A basic sword available early in the game.",
+      "obtain": "Buy it from the Sword Dealer for $1,000."
+    },
+    {
+      "id": "fishing_trophy",
+      "name": "Fishing Trophy",
+      "description": "A special sword awarded for high placement in the Fishing Tournament.",
+      "obtain": "Place in the top 1,000 of the 2025 Fishing Tournament."
+    },
+    {
+      "id": "iron_mace",
+      "name": "Iron Mace",
+      "description": "A basic mace-type sword.",
+      "obtain": "Buy it from the Sword Dealer of the West for $25,000."
+    },
+    {
+      "id": "shark_saw",
+      "name": "Shark Saw",
+      "description": "A saw-shaped sword obtained from a boss.",
+      "obtain": "Defeat The Saw."
+    },
+    {
+      "id": "triple_katana",
+      "name": "Triple Katana",
+      "description": "A sword wielding three blades.",
+      "obtain": "Buy it from the Sword Dealer of the East for $60,000."
+    },
+    {
+      "id": "twin_hooks",
+      "name": "Twin Hooks",
+      "description": "A pair of hooked weapons used for close-range combat.",
+      "obtain": "Defeat Captain Elephant."
+    },
+    {
+      "id": "dragon_trident",
+      "name": "Dragon Trident",
+      "description": "A powerful trident obtained in the Second Sea.",
+      "obtain": "Defeat Tide Keeper."
+    },
+    {
+      "id": "dual_headed_blade",
+      "name": "Dual-Headed Blade",
+      "description": "A large double-ended sword.",
+      "obtain": "Buy it from the Master Sword Dealer for $400,000."
+    },
+    {
+      "id": "flail",
+      "name": "Flail",
+      "description": "A heavy chained weapon.",
+      "obtain": "Defeat Smoke Admiral."
+    },
+    {
+      "id": "gravity_blade",
+      "name": "Gravity Blade",
+      "description": "A sword associated with gravity-based attacks.",
+      "obtain": "Defeat Orbitus."
+    },
+    {
+      "id": "longsword",
+      "name": "Longsword",
+      "description": "A large sword designed for powerful close-range attacks.",
+      "obtain": "Defeat Diamond."
+    },
+    {
+      "id": "pipe",
+      "name": "Pipe",
+      "description": "A blunt weapon used as a sword.",
+      "obtain": "Buy it from the Sword Dealer of the East for $100,000."
+    },
+    {
+      "id": "soul_cane",
+      "name": "Soul Cane",
+      "description": "A cane-like sword with supernatural abilities.",
+      "obtain": "Buy it from the Living Skeleton for $750,000."
+    },
+    {
+      "id": "trident",
+      "name": "Trident",
+      "description": "A three-pronged weapon.",
+      "obtain": "Defeat Fishman Lord."
+    },
+    {
+      "id": "wardens_sword",
+      "name": "Wardens Sword",
+      "description": "A sword used by the Chief Warden.",
+      "obtain": "Defeat Chief Warden."
+    },
+    {
+      "id": "bisento",
+      "name": "Bisento",
+      "description": "A large legendary polearm.",
+      "obtain": "Buy it from the Master Sword Dealer for $1,000,000."
+    },
+    {
+      "id": "buddy_sword",
+      "name": "Buddy Sword",
+      "description": "A powerful legendary sword obtained from Cake Queen.",
+      "obtain": "Defeat Cake Queen."
+    },
+    {
+      "id": "canvander",
+      "name": "Canvander",
+      "description": "A legendary sword dropped by Beautiful Pirate.",
+      "obtain": "Defeat Beautiful Pirate."
+    },
+    {
+      "id": "dark_dagger",
+      "name": "Dark Dagger",
+      "description": "A fast legendary dagger.",
+      "obtain": "Defeat rip_indra True Form."
+    },
+    {
+      "id": "dragonheart",
+      "name": "Dragonheart",
+      "description": "A legendary sword associated with Dragon Hunter.",
+      "obtain": "Obtain it from Dragon Hunter after meeting the required conditions."
+    },
+    {
+      "id": "fox_lamp",
+      "name": "Fox Lamp",
+      "description": "A legendary weapon associated with the Kitsune Shrine.",
+      "obtain": "Obtain it from the Kitsune Shrine."
+    },
+    {
+      "id": "koko",
+      "name": "Koko",
+      "description": "A legendary sword associated with Order.",
+      "obtain": "Defeat Order."
+    },
+    {
+      "id": "midnight_blade",
+      "name": "Midnight Blade",
+      "description": "A dark legendary sword.",
+      "obtain": "Buy it from El Admin for 100."
+    },
+    {
+      "id": "oroshi",
+      "name": "Oroshi",
+      "description": "A legendary sword sold by the Legendary Sword Dealer.",
+      "obtain": "Buy it from the Legendary Sword Dealer for $2,000,000."
+    },
+    {
+      "id": "pole_1",
+      "name": "Pole (1st Form)",
+      "description": "A legendary weapon with lightning-themed abilities.",
+      "obtain": "Defeat Thunder God."
+    },
+    {
+      "id": "pole_2",
+      "name": "Pole (2nd Form)",
+      "description": "The upgraded second form of Pole.",
+      "obtain": "Get struck by lightning in the Rough Sea while holding Pole."
+    },
+    {
+      "id": "rengoku",
+      "name": "Rengoku",
+      "description": "A legendary katana associated with fire.",
+      "obtain": "Use the Hidden Key to obtain it."
+    },
+    {
+      "id": "saber",
+      "name": "Saber",
+      "description": "A powerful legendary sword obtained through the Saber quest.",
+      "obtain": "Complete the Saber puzzle and defeat Saber Expert."
+    },
+    {
+      "id": "saishi",
+      "name": "Saishi",
+      "description": "A legendary sword sold by the Legendary Sword Dealer.",
+      "obtain": "Buy it from the Legendary Sword Dealer for $2,000,000."
+    },
+    {
+      "id": "shark_anchor",
+      "name": "Shark Anchor",
+      "description": "A powerful anchor-shaped legendary sword.",
+      "obtain": "Defeat Anchor Terrorshark."
+    },
+    {
+      "id": "shizu",
+      "name": "Shizu",
+      "description": "A legendary sword sold by the Legendary Sword Dealer.",
+      "obtain": "Buy it from the Legendary Sword Dealer for $2,000,000."
+    },
+    {
+      "id": "spikey_trident",
+      "name": "Spikey Trident",
+      "description": "A legendary spiked trident.",
+      "obtain": "Defeat Cake Prince or Dough King."
+    },
+    {
+      "id": "tushita",
+      "name": "Tushita",
+      "description": "A powerful legendary katana.",
+      "obtain": "Complete the required Tushita quest and defeat Longma."
+    },
+    {
+      "id": "yama",
+      "name": "Yama",
+      "description": "A legendary cursed katana.",
+      "obtain": "Complete approximately 20–30 Elite Hunter or Player Hunter quests."
+    },
+    {
+      "id": "cursed_dual_katana",
+      "name": "Cursed Dual Katana",
+      "description": "A mythical dual sword created through the Cursed Dual Katana trials.",
+      "obtain": "Complete the Scroll Trials after meeting the required conditions."
+    },
+    {
+      "id": "dark_blade",
+      "name": "Dark Blade",
+      "description": "A mythical sword available as a premium weapon.",
+      "obtain": "Purchase the Dark Blade Game Pass for 1,200 Robux, receive it as a gift, or obtain it through supported trading methods."
+    },
+    {
+      "id": "dog_blade",
+      "name": "Dog Blade",
+      "description": "A mythical sword associated with the Dog House event.",
+      "obtain": "Redeem the Love Letter from the Dog House Event."
+    },
+    {
+      "id": "hallow_scythe",
+      "name": "Hallow Scythe",
+      "description": "A mythical scythe obtained from Soul Reaper.",
+      "obtain": "Defeat Soul Reaper."
+    },
+    {
+      "id": "triple_dark_blade",
+      "name": "Triple Dark Blade",
+      "description": "A mythical sword based on three Dark Blades.",
+      "obtain": "Obtain it through its special acquisition method."
+    },
+    {
+      "id": "true_triple_katana",
+      "name": "True Triple Katana",
+      "description": "A mythical sword created from the three legendary katana weapons.",
+      "obtain": "Buy it from the Mysterious Man for $2,000,000 after meeting the requirements."
+    }
+  ],
+
+  "guns": [
+    {
+      "id": "slingshot",
+      "name": "Slingshot",
+      "description": "A basic ranged weapon.",
+      "obtain": "Buy it from the Weapon Dealer for $5,000."
+    },
+    {
+      "id": "flintlock",
+      "name": "Flintlock",
+      "description": "A basic firearm.",
+      "obtain": "Buy it from the Weapon Dealer for $10,500."
+    },
+    {
+      "id": "musket",
+      "name": "Musket",
+      "description": "A basic ranged firearm.",
+      "obtain": "Buy it from the Weapon Dealer for $8,000."
+    },
+    {
+      "id": "acidum_rifle",
+      "name": "Acidum Rifle",
+      "description": "A rifle that fires acidic projectiles.",
+      "obtain": "Obtain it by defeating the Factory Raid."
+    },
+    {
+      "id": "bizarre_revolver",
+      "name": "Bizarre Revolver",
+      "description": "A rare revolver-style gun.",
+      "obtain": "Buy it from El Rodolfo for 25."
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "description": "An explosive ranged weapon.",
+      "obtain": "Buy it from the Advanced Weapon Dealer for $100,000."
+    },
+    {
+      "id": "dual_flintlock",
+      "name": "Dual Flintlock",
+      "description": "Two flintlock pistols used together.",
+      "obtain": "Buy it from the Advanced Weapon Dealer for $65,000."
+    },
+    {
+      "id": "magma_blaster",
+      "name": "Magma Blaster",
+      "description": "A firearm with magma-themed attacks.",
+      "obtain": "Defeat Magma Admiral."
+    },
+    {
+      "id": "refined_slingshot",
+      "name": "Refined Slingshot",
+      "description": "An improved version of the Slingshot.",
+      "obtain": "Buy it from the Advanced Weapon Dealer for $30,000."
+    },
+    {
+      "id": "bazooka",
+      "name": "Bazooka",
+      "description": "A powerful explosive gun.",
+      "obtain": "Defeat Wysper."
+    },
+    {
+      "id": "dragonstorm",
+      "name": "Dragonstorm",
+      "description": "A legendary gun associated with Dragon Hunter.",
+      "obtain": "Obtain it from Dragon Hunter after meeting the required conditions."
+    },
+    {
+      "id": "kabucha",
+      "name": "Kabucha",
+      "description": "A powerful legendary slingshot-style gun.",
+      "obtain": "Buy it from The Strongest God for 1,500."
+    },
+    {
+      "id": "venom_bow",
+      "name": "Venom Bow",
+      "description": "A legendary bow that uses venom-themed attacks.",
+      "obtain": "Defeat Hydra Leader."
+    },
+    {
+      "id": "skull_guitar",
+      "name": "Skull Guitar",
+      "description": "A mythical musical weapon with powerful ranged attacks.",
+      "obtain": "Craft it using the required materials at the Weird Machine after completing its requirements."
+    }
+  ],
+
+  "accessories": [
+    {
+      "id": "headband_blue",
+      "name": "Headband (Blue)",
+      "description": "A common headband focused on movement and damage resistance.",
+      "obtain": "Obtain the Blue Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 30,
+        "melee_damage_resistance_percent": 8,
+        "sword_damage_resistance_percent": 8,
+        "gun_damage_resistance_percent": 8,
+        "fruit_damage_resistance_percent": 8
+      }
+    },
+    {
+      "id": "headband_green",
+      "name": "Headband (Green)",
+      "description": "A common headband that improves movement and defense.",
+      "obtain": "Obtain the Green Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 20,
+        "melee_damage_resistance_percent": 7,
+        "sword_damage_resistance_percent": 7,
+        "gun_damage_resistance_percent": 7,
+        "fruit_damage_resistance_percent": 7
+      }
+    },
+    {
+      "id": "headband_orange",
+      "name": "Headband (Orange)",
+      "description": "A common headband providing movement and resistance.",
+      "obtain": "Obtain the Orange Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 15,
+        "damage_resistance_percent": 5
+      }
+    },
+    {
+      "id": "headband_purple",
+      "name": "Headband (Purple)",
+      "description": "A common headband providing high movement speed and resistance.",
+      "obtain": "Obtain the Purple Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 40,
+        "damage_resistance_percent": 10
+      }
+    },
+    {
+      "id": "headband_red",
+      "name": "Headband (Red)",
+      "description": "A common headband with strong movement and resistance bonuses.",
+      "obtain": "Obtain the Red Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 60,
+        "damage_resistance_percent": 12,
+        "melee_damage_percent": 5
+      }
+    },
+    {
+      "id": "headband_white",
+      "name": "Headband (White)",
+      "description": "A common defensive headband.",
+      "obtain": "Obtain the White Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 10,
+        "damage_resistance_percent": 2
+      }
+    },
+    {
+      "id": "headband_yellow",
+      "name": "Headband (Yellow)",
+      "description": "A common headband providing movement and resistance.",
+      "obtain": "Obtain the Yellow Headband through its associated Dojo/Headband source.",
+      "buffs": {
+        "movement_speed_percent": 15,
+        "damage_resistance_percent": 4
+      }
+    },
+    {
+      "id": "dojobelts_blue",
+      "name": "Dojo Belt (Blue)",
+      "description": "An accessory focused on melee combat and mobility.",
+      "obtain": "Obtain it through the Dojo Belt progression.",
+      "buffs": {
+        "melee_damage_percent": 10,
+        "movement_speed_percent": 30
+      }
+    },
+    {
+      "id": "pink_coat",
+      "name": "Pink Coat",
+      "description": "A coat providing gun damage and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "gun_damage_percent": 10,
+        "health": 200
+      }
+    },
+    {
+      "id": "bandanna_black",
+      "name": "Bandanna (Black)",
+      "description": "A rare bandanna providing speed, damage and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "energy": 750
+      }
+    },
+    {
+      "id": "bandanna_green",
+      "name": "Bandanna (Green)",
+      "description": "A rare bandanna providing speed, damage and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "energy": 750
+      }
+    },
+    {
+      "id": "bandanna_red",
+      "name": "Bandanna (Red)",
+      "description": "A rare bandanna providing speed, damage and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "energy": 750
+      }
+    },
+    {
+      "id": "bear_ears",
+      "name": "Bear Ears",
+      "description": "Bear-shaped ears providing defense and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_resistance_percent": 10,
+        "energy": 500
+      }
+    },
+    {
+      "id": "black_cape",
+      "name": "Black Cape",
+      "description": "A basic cape providing damage, health and energy.",
+      "obtain": "Obtain it from its associated NPC/source.",
+      "buffs": {
+        "all_damage_percent": 5,
+        "energy": 100,
+        "health": 100
+      }
+    },
+    {
+      "id": "black_spikey_coat",
+      "name": "Black Spikey Coat",
+      "description": "A coat providing all-damage, health and energy bonuses.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 7.5,
+        "energy": 200,
+        "health": 200
+      }
+    },
+    {
+      "id": "blue_spikey_coat",
+      "name": "Blue Spikey Coat",
+      "description": "A coat providing all-damage, health and energy bonuses.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 7.5,
+        "energy": 250,
+        "health": 500
+      }
+    },
+    {
+      "id": "choppa",
+      "name": "Choppa",
+      "description": "An accessory associated with Chop and providing combat bonuses.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 3,
+        "fruit_damage_percent": -15,
+        "fruit_cooldown_percent": 10,
+        "fruit_damage_resistance_percent": 10
+      }
+    },
+    {
+      "id": "coat",
+      "name": "Coat",
+      "description": "A coat providing melee damage and energy.",
+      "obtain": "Obtain it from its associated boss/source.",
+      "buffs": {
+        "melee_damage_percent": 10,
+        "energy": 200
+      }
+    },
+    {
+      "id": "cool_shades",
+      "name": "Cool Shades",
+      "description": "A rare accessory providing movement, damage, health and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 7.5,
+        "movement_speed_percent": 17.5,
+        "energy": 100,
+        "health": 100
+      }
+    },
+    {
+      "id": "dojobelts_black",
+      "name": "Dojo Belt (Black)",
+      "description": "A powerful Dojo Belt focused on melee combat and mobility.",
+      "obtain": "Obtain it through Dojo progression.",
+      "buffs": {
+        "melee_damage_percent": 16,
+        "movement_speed_percent": 80,
+        "instinct_dodge_boost": 1
+      }
+    },
+    {
+      "id": "elf_hat",
+      "name": "Elf Hat",
+      "description": "A festive accessory providing movement and melee bonuses.",
+      "obtain": "Obtain it during its associated seasonal event.",
+      "buffs": {
+        "movement_speed_percent": 20,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": -5,
+        "melee_cooldown_percent": -5,
+        "sword_cooldown_percent": -5
+      }
+    },
+    {
+      "id": "ghoul_mask",
+      "name": "Ghoul Mask",
+      "description": "A mask focused on movement, energy and melee life leech.",
+      "obtain": "Obtain it from its associated NPC/source.",
+      "buffs": {
+        "movement_speed_percent": 35,
+        "energy": 500,
+        "melee_life_leech_pve_percent": 2.5,
+        "melee_life_leech_pvp_percent": 1
+      }
+    },
+    {
+      "id": "golden_sunhat",
+      "name": "Golden Sunhat",
+      "description": "A rare hat providing all-damage and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 10,
+        "health": 500
+      }
+    },
+    {
+      "id": "hunter_cape_black",
+      "name": "Hunter Cape (Black)",
+      "description": "A cape providing movement, combat damage and health.",
+      "obtain": "Obtain it through its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "health": 750
+      }
+    },
+    {
+      "id": "hunter_cape_green",
+      "name": "Hunter Cape (Green)",
+      "description": "A cape providing movement, combat damage and health.",
+      "obtain": "Obtain it through its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "health": 750
+      }
+    },
+    {
+      "id": "hunter_cape_red",
+      "name": "Hunter Cape (Red)",
+      "description": "A cape providing movement, combat damage and health.",
+      "obtain": "Obtain it through its associated source.",
+      "buffs": {
+        "movement_speed_percent": 80,
+        "melee_damage_percent": 10,
+        "sword_damage_percent": 10,
+        "gun_damage_percent": 10,
+        "health": 750
+      }
+    },
+    {
+      "id": "jaw_shield",
+      "name": "Jaw Shield",
+      "description": "A defensive accessory with melee and mobility bonuses.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 50,
+        "melee_damage_percent": 12.5,
+        "melee_damage_resistance_percent": 10,
+        "energy": 250,
+        "health": 250
+      }
+    },
+    {
+      "id": "lei",
+      "name": "Lei",
+      "description": "A rare accessory focused on health regeneration.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "health_regeneration_percent": 50
+      }
+    },
+    {
+      "id": "marine_cap",
+      "name": "Marine Cap",
+      "description": "A combat cap focused on sword damage and cooldown.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "sword_damage_percent": 7.5,
+        "gun_damage_percent": -10,
+        "sword_cooldown_percent": -10,
+        "gun_cooldown_percent": 10
+      }
+    },
+    {
+      "id": "pilot_helmet",
+      "name": "Pilot Helmet",
+      "description": "A rare helmet focused on mobility, regeneration and stats.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 130,
+        "health_regeneration": 250,
+        "energy": 250,
+        "health": 250
+      }
+    },
+    {
+      "id": "pretty_helmet",
+      "name": "Pretty Helmet",
+      "description": "A melee-focused helmet with mobility and defense.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 50,
+        "melee_damage_percent": 10,
+        "melee_damage_resistance_percent": 10,
+        "energy": 500,
+        "health": 500
+      }
+    },
+    {
+      "id": "red_spikey_coat",
+      "name": "Red Spikey Coat",
+      "description": "A coat providing all-damage, energy and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 7.5,
+        "energy": 250,
+        "health": 500
+      }
+    },
+    {
+      "id": "santa_hat",
+      "name": "Santa Hat",
+      "description": "A seasonal accessory providing movement, fruit damage, energy and health.",
+      "obtain": "Obtain it during the Christmas event.",
+      "buffs": {
+        "movement_speed_percent": 30,
+        "fruit_damage_percent": 12.5,
+        "energy": 400,
+        "health": 400
+      }
+    },
+    {
+      "id": "shark_tooth_necklace",
+      "name": "Shark Tooth Necklace",
+      "description": "A sea-focused accessory providing speed and dash distance.",
+      "obtain": "Obtain it through its associated source.",
+      "buffs": {
+        "movement_speed_percent": 50,
+        "dash_distance_percent": 10,
+        "sea_event_damage_percent": 25
+      }
+    },
+    {
+      "id": "swordsman_hat",
+      "name": "Swordsman Hat",
+      "description": "A hat focused on sword damage.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "sword_damage_percent": 10
+      }
+    },
+    {
+      "id": "t_rex_skull",
+      "name": "T-Rex Skull",
+      "description": "A prehistoric accessory providing defense and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "melee_damage_resistance_percent": 15,
+        "fruit_damage_resistance_percent": 15,
+        "health": 750
+      }
+    },
+    {
+      "id": "tomoe_ring",
+      "name": "Tomoe Ring",
+      "description": "A ring providing Blox Fruit damage.",
+      "obtain": "Purchase it after meeting its stat requirement.",
+      "buffs": {
+        "fruit_damage_percent": 10
+      }
+    },
+    {
+      "id": "top_hat",
+      "name": "Top Hat",
+      "description": "A hat providing melee damage and cooldown bonuses.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "melee_damage_percent": 3,
+        "all_cooldown_percent": -10,
+        "sword_damage_resistance_percent": 10
+      }
+    },
+    {
+      "id": "usopps_hat",
+      "name": "Usoap's Hat",
+      "description": "A ranged-combat focused accessory.",
+      "obtain": "Obtain it through its associated PvP requirement.",
+      "buffs": {
+        "gun_damage_percent": 7.5,
+        "gun_cooldown_percent": -15
+      }
+    },
+    {
+      "id": "warrior_helmet",
+      "name": "Warrior Helmet",
+      "description": "A combat helmet focused on melee and sword performance.",
+      "obtain": "Complete its associated quest.",
+      "buffs": {
+        "melee_damage_percent": 12.5,
+        "sword_damage_percent": 12.5,
+        "melee_cooldown_percent": -5,
+        "sword_cooldown_percent": -5
+      }
+    },
+    {
+      "id": "cupids_coat",
+      "name": "Cupid's Coat",
+      "description": "A legendary seasonal coat providing fruit, sword, defense, health and energy bonuses.",
+      "obtain": "Obtain it during its associated Valentine's event.",
+      "buffs": {
+        "fruit_damage_percent": 12.5,
+        "sword_damage_percent": 8,
+        "all_damage_resistance": 400,
+        "energy": 600,
+        "health": 600
+      }
+    },
+    {
+      "id": "ds_coat",
+      "name": "D.S. Coat",
+      "description": "A legendary coat with broad combat bonuses.",
+      "obtain": "Previously distributed to Diamond Syndicate members; currently not normally obtainable.",
+      "buffs": {
+        "all_damage_percent": 5,
+        "energy": 200,
+        "health": 200
+      }
+    },
+    {
+      "id": "dino_hood",
+      "name": "Dino Hood",
+      "description": "A prehistoric hood improving melee, fruit damage, mobility, health and energy.",
+      "obtain": "Craft it through its associated prehistoric crafting system.",
+      "buffs": {
+        "melee_damage_percent": 10,
+        "fruit_damage_percent": 10,
+        "movement_speed_percent": 15,
+        "dash_distance": 500,
+        "energy": 500,
+        "health": 500
+      }
+    },
+    {
+      "id": "dragon_mantle",
+      "name": "Dragon Mantle",
+      "description": "A legendary mantle improving sword and gun combat and air mobility.",
+      "obtain": "Currently listed as an Admin Exclusive accessory.",
+      "buffs": {
+        "sword_damage_percent": 15,
+        "gun_damage_percent": 10,
+        "air_dash_distance": 2,
+        "all_cooldown_percent": -10
+      }
+    },
+    {
+      "id": "feathered_visage",
+      "name": "Feathered Visage",
+      "description": "A legendary accessory improving movement and health regeneration.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "movement_speed_percent": 25,
+        "health_regeneration": 300
+      }
+    },
+    {
+      "id": "heart_shades",
+      "name": "Heart Shades",
+      "description": "A legendary accessory providing melee and gun damage, defense, health and energy.",
+      "obtain": "Obtain it during its associated event/source.",
+      "buffs": {
+        "melee_damage_percent": 12.5,
+        "gun_damage_percent": 5,
+        "all_damage_resistance": 600,
+        "energy": 400,
+        "health": 400
+      }
+    },
+    {
+      "id": "holy_crown",
+      "name": "Holy Crown",
+      "description": "A legendary crown providing general damage, resistance, regeneration, health and energy.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "all_damage_percent": 5,
+        "all_damage_resistance_percent": 5,
+        "energy_regeneration": 500,
+        "energy": 500,
+        "health": 500
+      }
+    },
+    {
+      "id": "kitsune_mask",
+      "name": "Kitsune Mask",
+      "description": "A legendary Kitsune-themed accessory with fruit, Instinct and event-related bonuses.",
+      "obtain": "Obtain it through its associated Kitsune/event source.",
+      "buffs": {
+        "fruit_damage_percent": 10,
+        "instinct_dodge_boost": 15,
+        "fruit_meter_boost_percent": 50,
+        "health": 750
+      }
+    },
+    {
+      "id": "kitsune_ribbon",
+      "name": "Kitsune Ribbon",
+      "description": "A legendary Kitsune accessory providing defense, regeneration and movement bonuses.",
+      "obtain": "Obtain it through its associated Kitsune/event source.",
+      "buffs": {
+        "fruit_damage_resistance_percent": 10,
+        "health_regeneration_percent": 15,
+        "movement_speed_percent": 30,
+        "energy": 2500
+      }
+    },
+    {
+      "id": "leviathan_crown",
+      "name": "Leviathan Crown",
+      "description": "A legendary sea-event accessory focused on melee damage, regeneration and sea rewards.",
+      "obtain": "Obtain it through its associated sea-event source.",
+      "buffs": {
+        "melee_damage_percent": 12,
+        "sea_event_damage_percent": 35,
+        "health_regeneration_percent": 40,
+        "sea_event_material_drop_rate": 1
+      }
+    },
+    {
+      "id": "musketeer_hat",
+      "name": "Musketeer Hat",
+      "description": "A legendary hat focused on sword damage and sword cooldown.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "sword_damage_percent": 12.5,
+        "gun_damage_percent": -12.5,
+        "sword_cooldown_percent": -12.5,
+        "gun_cooldown_percent": -12.5
+      }
+    },
+    {
+      "id": "pale_scarf",
+      "name": "Pale Scarf",
+      "description": "A legendary scarf improving fruit and sword combat and Instinct.",
+      "obtain": "Obtain it through its associated Third Sea source.",
+      "buffs": {
+        "fruit_damage_percent": 15,
+        "sword_damage_percent": 2,
+        "instinct_dodges": 10,
+        "instinct_vision_range": true
+      }
+    },
+    {
+      "id": "swan_glasses",
+      "name": "Swan Glasses",
+      "description": "A legendary accessory improving movement, damage, cooldown, defense, health and energy.",
+      "obtain": "Defeat Don Swan for a chance to obtain them.",
+      "buffs": {
+        "movement_speed_percent": 25,
+        "all_damage_percent": 8,
+        "all_cooldown_percent": -8,
+        "all_damage_resistance": 250,
+        "energy": 250,
+        "health": 250
+      }
+    },
+    {
+      "id": "terror_jaw",
+      "name": "Terror Jaw",
+      "description": "A legendary accessory designed for sea-event combat.",
+      "obtain": "Craft it through its associated crafting system.",
+      "buffs": {
+        "sword_damage_percent": 10,
+        "all_cooldown_percent": -20,
+        "sea_event_defense": 200,
+        "energy": 200,
+        "health": 200
+      }
+    },
+    {
+      "id": "valkyrie_helm",
+      "name": "Valkyrie Helm",
+      "description": "A legendary helmet providing sword damage, energy and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "sword_damage_percent": 15,
+        "energy": 600,
+        "health": 600
+      }
+    },
+    {
+      "id": "wyvern_helmet",
+      "name": "Wyvern Helmet",
+      "description": "A legendary helmet providing defense, regeneration, energy and health.",
+      "obtain": "Currently listed as an Admin Exclusive accessory.",
+      "buffs": {
+        "melee_damage_resistance_percent": 10,
+        "sword_damage_resistance_percent": 10,
+        "gun_damage_resistance_percent": 10,
+        "health_regeneration_percent": 5,
+        "energy_regeneration": 750,
+        "energy": 750,
+        "health": 750
+      }
+    },
+    {
+      "id": "zebra_cap",
+      "name": "Zebra Cap",
+      "description": "A legendary cap focused on sword damage and general stats.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "sword_damage_percent": 10,
+        "fruit_cooldown_percent": 15,
+        "energy": 100,
+        "health": 100
+      }
+    },
+    {
+      "id": "50b_party_hat",
+      "name": "50b Party Hat",
+      "description": "A mythical celebratory accessory providing XP, energy and health.",
+      "obtain": "Obtain it through its associated event.",
+      "buffs": {
+        "experience_boost_percent": 10,
+        "energy": 400,
+        "health": 400
+      }
+    },
+    {
+      "id": "celestial_helmet",
+      "name": "Celestial Helmet",
+      "description": "A mythical event accessory providing resistance, cooldown and Instinct bonuses.",
+      "obtain": "Obtain it through its associated event source.",
+      "buffs": {
+        "all_damage_resistance_percent": 10,
+        "all_cooldown_multiplier": 2,
+        "instinct_vision_range": true
+      }
+    },
+    {
+      "id": "coven_witch_hat",
+      "name": "Coven Witch Hat",
+      "description": "A mythical Halloween-themed accessory.",
+      "obtain": "Obtain it through its associated seasonal event.",
+      "buffs": {
+        "fruit_damage_resistance_percent": 10,
+        "fruit_damage_percent": 7,
+        "health": 250
+      }
+    },
+    {
+      "id": "cracked_egg_helmet",
+      "name": "Cracked Egg Helmet",
+      "description": "A mythical seasonal helmet providing general damage and resistance.",
+      "obtain": "Obtain it through its associated event.",
+      "buffs": {
+        "all_damage_resistance_percent": 10,
+        "all_damage_percent": 5,
+        "health": 500
+      }
+    },
+    {
+      "id": "cupids_top_hat",
+      "name": "Cupid's Top Hat",
+      "description": "A mythical Valentine's accessory focused on melee combat and movement.",
+      "obtain": "Obtain it during its associated Valentine's event.",
+      "buffs": {
+        "movement_speed_percent": 14,
+        "melee_damage_percent": 20,
+        "energy": 214,
+        "health": 214
+      }
+    },
+    {
+      "id": "dark_coat",
+      "name": "Dark Coat",
+      "description": "A mythical coat focused on fruit damage, energy and health.",
+      "obtain": "Obtain it from its associated source.",
+      "buffs": {
+        "fruit_damage_percent": 15,
+        "energy": 600,
+        "health": 600
+      }
+    },
+    {
+      "id": "divine_cloak",
+      "name": "Divine Cloak",
+      "description": "A mythical cloak providing movement, melee, fruit, energy and health bonuses.",
+      "obtain": "Obtain it through its associated event/source.",
+      "buffs": {
+        "movement_speed_percent": 30,
+        "melee_damage_percent": 7,
+        "fruit_damage_percent": 7,
+        "energy": 500,
+        "health": 500
+      }
+    },
+    {
+      "id": "easter_bunny_cape",
+      "name": "Easter Bunny Cape",
+      "description": "A mythical seasonal cape providing air jumps, movement and melee damage.",
+      "obtain": "Obtain it during its associated Easter event.",
+      "buffs": {
+        "air_jumps": 3,
+        "movement_speed_percent": 50,
+        "melee_damage_percent": 3
+      }
+    },
+    {
+      "id": "frosty_helmet",
+      "name": "Frosty Helmet",
+      "description": "A mythical seasonal helmet providing movement, gun damage and defense.",
+      "obtain": "Obtain it during its associated event.",
+      "buffs": {
+        "movement_speed_percent": 50,
+        "gun_damage_percent": 10,
+        "all_damage_resistance_percent": 5
+      }
+    },
+    {
+      "id": "holiday_cloak",
+      "name": "Holiday Cloak",
+      "description": "A mythical seasonal cloak improving melee and fruit combat and Instinct.",
+      "obtain": "Obtain it during its associated seasonal event.",
+      "buffs": {
+        "melee_damage_percent": 10,
+        "fruit_damage_percent": 10,
+        "instinct_dodges": 1
+      }
+    },
+    {
+      "id": "leviathan_shield",
+      "name": "Leviathan Shield",
+      "description": "A mythical defensive shield specialized for sea events.",
+      "obtain": "Obtain it through its associated sea-event source.",
+      "buffs": {
+        "sword_damage_resistance_percent": 15,
+        "melee_damage_resistance_percent": 15,
+        "gun_damage_resistance_percent": 15,
+        "sea_damage_reduction_percent": 30,
+        "sea_event_defense": 1000,
+        "health": 1000
+      }
+    },
+    {
+      "id": "oni_helmet",
+      "name": "Oni Helmet",
+      "description": "A mythical helmet providing cooldown, regeneration and movement benefits.",
+      "obtain": "Obtain it through its associated event/source.",
+      "buffs": {
+        "all_cooldown_percent": -30,
+        "health_regeneration_percent": 30,
+        "movement_speed_percent": 30
+      }
+    },
+    {
+      "id": "party_hat",
+      "name": "Party Hat",
+      "description": "A mythical accessory providing XP, health and energy.",
+      "obtain": "Obtain it through its associated event.",
+      "buffs": {
+        "experience_boost_percent": 10,
+        "energy": 400,
+        "health": 400
+      }
+    },
+    {
+      "id": "peppermint_helmet",
+      "name": "Peppermint Helmet",
+      "description": "A mythical seasonal helmet providing movement, defense and sword damage.",
+      "obtain": "Obtain it during its associated Christmas event.",
+      "buffs": {
+        "movement_speed_percent": 20,
+        "all_damage_resistance_percent": 5,
+        "sword_damage_percent": 20
+      }
+    },
+    {
+      "id": "pumpkin_mask",
+      "name": "Pumpkin Mask",
+      "description": "A mythical Halloween accessory providing movement, melee defense and fruit damage.",
+      "obtain": "Obtain it during its associated Halloween event.",
+      "buffs": {
+        "movement_speed_percent": 20,
+        "melee_damage_resistance_percent": 6,
+        "melee_damage_percent": 6,
+        "fruit_damage_percent": 6,
+        "health": 250
+      }
+    },
+    {
+      "id": "red_ribbon",
+      "name": "Red Ribbon",
+      "description": "A mythical seasonal ribbon providing movement and defense.",
+      "obtain": "Obtain it during its associated seasonal event.",
+      "buffs": {
+        "movement_speed_percent": 20,
+        "all_damage_resistance_percent": 5,
+        "fruit_damage_percent": 5,
+        "fruit_cooldown_percent": 5
+      }
+    },
+    {
+      "id": "romantic_bouquet",
+      "name": "Romantic Bouquet",
+      "description": "A mythical Valentine's accessory providing movement, melee resistance, energy and health.",
+      "obtain": "Obtain it during its associated Valentine's event.",
+      "buffs": {
+        "movement_speed_percent": 14,
+        "melee_damage_resistance_percent": 20,
+        "energy": 143,
+        "health": 143
+      }
+    },
+    {
+      "id": "sanguine_cloak",
+      "name": "Sanguine Cloak",
+      "description": "A mythical cloak providing melee, sword and defensive bonuses.",
+      "obtain": "Obtain it through its associated event/source.",
+      "buffs": {
+        "melee_damage_resistance_percent": 30,
+        "melee_damage_percent": 5,
+        "sword_damage_percent": 5,
+        "health": 500
+      }
+    },
+    {
+      "id": "uzoths_cloak",
+      "name": "Uzoth's Cloak",
+      "description": "A mythical cloak providing melee damage, defense, energy and health.",
+      "obtain": "Currently listed as an Admin Exclusive accessory.",
+      "buffs": {
+        "melee_damage_percent": 20,
+        "all_damage_resistance_percent": 5,
+        "energy": 750,
+        "health": 750
+      }
+    }
+  ]
+}
