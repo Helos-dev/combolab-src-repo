@@ -89,11 +89,11 @@
   },
   {
     "name": "Portal",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Portal_Fruit.png/revision/latest"
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Portal.png"
   },
   {
-    "name": "Rumble",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Rumble_Fruit.png/revision/latest"
+    "name": "Lightning",
+    "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/Lightning.png"
   },
   {
     "name": "Pain",
