@@ -74,6 +74,22 @@
       "value_permanent": "2.44B",
       "demand": "Very High",
       "trend": "Overpaid"
+    },
+    {
+      "name": "Kitsune",
+      "rarity": "Mythical",
+      "value_normal": "640M",
+      "value_permanent": "2.32B",
+      "demand": "Very High",
+      "trend": "Stable"
+    },
+    {
+      "name": "Pain",
+      "rarity": "Legendary",
+      "value_normal": "10M",
+      "value_permanent": "300M",
+      "demand": "Medium",
+      "trend": "Stable"
     }
   ]
 }
