@@ -12,13 +12,12 @@
       "trend": "Stable"
     },
     {
-      "name": "Rumble",
+      "name": "Lightning",
       "rarity": "Legendary",
-      "value_normal": null,
-      "value_permanent": null,
-      "demand": null,
-      "trend": null,
-      "note": "Non presente nella lista corrente della fonte consultata"
+      "value_normal": "50m",
+      "value_permanent": "3,43B:",
+      "demand": 6,
+      "trend": "Underpaid",
     },
     {
       "name": "Gas",
