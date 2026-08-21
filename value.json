@@ -1,0 +1,88 @@
+{
+  "source": "game.guide/blox-fruits-value-list",
+  "last_updated": "2026-08-16",
+  "currency_note": "Valori in unità di trading (non Beli/Robux). 'normal' = valore fisico, 'permanent' = valore permanente",
+  "fruits": [
+    {
+      "name": "Quake",
+      "rarity": "Legendary",
+      "value_normal": "1M",
+      "value_permanent": "1.56B",
+      "demand": "Very Low",
+      "trend": "Stable"
+    },
+    {
+      "name": "Rumble",
+      "rarity": "Legendary",
+      "value_normal": null,
+      "value_permanent": null,
+      "demand": null,
+      "trend": null,
+      "note": "Non presente nella lista corrente della fonte consultata"
+    },
+    {
+      "name": "Gas",
+      "rarity": "Mythical",
+      "value_normal": "60M",
+      "value_permanent": "3.96B",
+      "demand": "High",
+      "trend": "Stable"
+    },
+    {
+      "name": "Dough",
+      "rarity": "Mythical",
+      "value_normal": "30M",
+      "value_permanent": "3.58B",
+      "demand": "Very High",
+      "trend": "Overpaid"
+    },
+    {
+      "name": "T-Rex",
+      "rarity": "Mythical",
+      "value_normal": "20M",
+      "value_permanent": "3.46B",
+      "demand": "High",
+      "trend": "Stable"
+    },
+    {
+      "name": "Flame",
+      "rarity": "Uncommon",
+      "value_normal": "257.5K",
+      "value_permanent": "370M",
+      "demand": "Very Low",
+      "trend": "Stable"
+    },
+    {
+      "name": "Spider",
+      "rarity": "Legendary",
+      "value_normal": "1.50M",
+      "value_permanent": "1.94B",
+      "demand": "Very Low",
+      "trend": "Stable"
+    },
+    {
+      "name": "Dark",
+      "rarity": "Uncommon",
+      "value_normal": "425K",
+      "value_permanent": "802.50M",
+      "demand": "Very Low",
+      "trend": "Stable"
+    },
+    {
+      "name": "Lightning",
+      "rarity": "Legendary",
+      "value_normal": "55M",
+      "value_permanent": "2.94B",
+      "demand": "Medium",
+      "trend": "Underpaid"
+    },
+    {
+      "name": "Portal",
+      "rarity": "Legendary",
+      "value_normal": "10M",
+      "value_permanent": "2.44B",
+      "demand": "Very High",
+      "trend": "Overpaid"
+    }
+  ]
+}
