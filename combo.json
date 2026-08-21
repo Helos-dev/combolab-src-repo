@@ -85,15 +85,15 @@
     },
     {
       "id": 6,
-      "name": "SANGUINE RUMBLE ONE-SHOT",
+      "name": "SANGUINE LIGHTNING ONE-SHOT",
       "description": "SANGUINE RUMBLE ONE-SHOT abuses Rumble V2's heavy stuns and Sanguine Art's lifesteal to completely lock down meta players.",
-      "fruits": "RUMBLE V2",
+      "fruits": "Lightning",
       "sword": "GRAVITY BLADE",
       "gun": "SOUL GUITAR",
       "race": "CYBORG",
       "accessory": "PALE SCARF",
       "melee": "SANGUINE ART",
-      "sequence": "RUMBLE V2 F -> RUMBLE V2 X -> RUMBLE V2 C -> SOUL GUITAR Z -> SANGUINE ART C -> GRAVITY BLADE Z -> SANGUINE ART Z -> SANGUINE ART X",
+      "sequence": "Lightning F -> Lightning X -> Lightning C -> SOUL GUITAR Z -> SANGUINE ART C -> GRAVITY BLADE Z -> SANGUINE ART Z -> SANGUINE ART X",
       "rating": 5
     },
     {
