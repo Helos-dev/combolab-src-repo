@@ -1,0 +1,1171 @@
+{
+  "info": {
+    "game": "Blox Fruits",
+    "category": "Accessories",
+    "total": 83,
+    "last_updated": "2026-08-21",
+    "source": "Community Blox Fruits database"
+  },
+  "accessories": [
+    {
+      "id": "headband_blue",
+      "name": "Headband (Blue)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A training headband that provides movement speed and damage resistance.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+8%",
+        "sword_damage_resistance": "+8%",
+        "melee_damage_resistance": "+8%",
+        "gun_damage_resistance": "+8%",
+        "movement_speed": "+30%"
+      }
+    },
+    {
+      "id": "headband_green",
+      "name": "Headband (Green)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A training headband focused on movement and defense.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+7%",
+        "sword_damage_resistance": "+7%",
+        "melee_damage_resistance": "+7%",
+        "gun_damage_resistance": "+7%",
+        "movement_speed": "+20%"
+      }
+    },
+    {
+      "id": "headband_orange",
+      "name": "Headband (Orange)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A training headband providing basic movement and defensive bonuses.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+5%",
+        "sword_damage_resistance": "+5%",
+        "melee_damage_resistance": "+5%",
+        "gun_damage_resistance": "+5%",
+        "movement_speed": "+15%"
+      }
+    },
+    {
+      "id": "headband_purple",
+      "name": "Headband (Purple)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A training headband with strong movement and defensive bonuses.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+10%",
+        "sword_damage_resistance": "+10%",
+        "melee_damage_resistance": "+10%",
+        "gun_damage_resistance": "+10%",
+        "movement_speed": "+40%"
+      }
+    },
+    {
+      "id": "headband_red",
+      "name": "Headband (Red)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A powerful training headband focused on speed, defense and melee.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+12%",
+        "sword_damage_resistance": "+12%",
+        "melee_damage_resistance": "+12%",
+        "gun_damage_resistance": "+12%",
+        "movement_speed": "+60%",
+        "melee_damage": "+5%"
+      }
+    },
+    {
+      "id": "headband_white",
+      "name": "Headband (White)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A basic training headband providing movement speed and resistance.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+2%",
+        "sword_damage_resistance": "+2%",
+        "melee_damage_resistance": "+2%",
+        "gun_damage_resistance": "+2%",
+        "movement_speed": "+10%"
+      }
+    },
+    {
+      "id": "headband_yellow",
+      "name": "Headband (Yellow)",
+      "rarity": "Common",
+      "sea": "Third Sea",
+      "description": "A training headband with balanced movement and defensive bonuses.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "fruit_damage_resistance": "+4%",
+        "sword_damage_resistance": "+4%",
+        "melee_damage_resistance": "+4%",
+        "gun_damage_resistance": "+4%",
+        "movement_speed": "+15%"
+      }
+    },
+
+    {
+      "id": "dojo_belt_blue",
+      "name": "Dojo Belt (Blue)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A dojo belt focused on melee damage and mobility.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+10%",
+        "movement_speed": "+30%"
+      }
+    },
+    {
+      "id": "dojo_belt_green",
+      "name": "Dojo Belt (Green)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A dojo belt providing melee damage and movement speed.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+8%",
+        "movement_speed": "+20%"
+      }
+    },
+    {
+      "id": "dojo_belt_orange",
+      "name": "Dojo Belt (Orange)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A dojo belt providing moderate melee and movement bonuses.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+6%",
+        "movement_speed": "+15%"
+      }
+    },
+    {
+      "id": "dojo_belt_purple",
+      "name": "Dojo Belt (Purple)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A high-level dojo belt focused on melee and movement.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+14%",
+        "movement_speed": "+40%"
+      }
+    },
+    {
+      "id": "dojo_belt_red",
+      "name": "Dojo Belt (Red)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A powerful dojo belt providing excellent mobility and melee bonuses.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+12%",
+        "movement_speed": "+60%"
+      }
+    },
+    {
+      "id": "dojo_belt_white",
+      "name": "Dojo Belt (White)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "The basic dojo belt providing melee and movement bonuses.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+2%",
+        "movement_speed": "+10%"
+      }
+    },
+    {
+      "id": "dojo_belt_yellow",
+      "name": "Dojo Belt (Yellow)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A dojo belt providing balanced melee and mobility bonuses.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+4%",
+        "movement_speed": "+15%"
+      }
+    },
+    {
+      "id": "headband_black",
+      "name": "Headband (Black)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea",
+      "description": "A powerful headband providing speed, melee damage, resistance and Instinct benefits.",
+      "obtain": "Obtain from the Sharkman Master.",
+      "buffs": {
+        "movement_speed": "+20%",
+        "melee_damage": "+7%",
+        "sword_damage_resistance": "+16%",
+        "melee_damage_resistance": "+16%",
+        "fruit_damage_resistance": "+16%",
+        "gun_damage_resistance": "+16%",
+        "instinct_dodge_boost": "+1"
+      }
+    },
+    {
+      "id": "pink_coat",
+      "name": "Pink Coat",
+      "rarity": "Uncommon",
+      "sea": "First Sea",
+      "description": "A coat that improves gun damage and health.",
+      "obtain": "Dropped by Swan at Prison.",
+      "buffs": {
+        "gun_damage": "+10%",
+        "health": "+200"
+      }
+    },
+
+    {
+      "id": "bandanna_black",
+      "name": "Bandanna (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "An Elite Pirate accessory focused on mobility, energy and combat damage.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "energy": "+750"
+      }
+    },
+    {
+      "id": "bandanna_green",
+      "name": "Bandanna (Green)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "An Elite Pirate accessory focused on mobility, energy and combat damage.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "energy": "+750"
+      }
+    },
+    {
+      "id": "bandanna_red",
+      "name": "Bandanna (Red)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "An Elite Pirate accessory focused on mobility, energy and combat damage.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "energy": "+750"
+      }
+    },
+    {
+      "id": "bear_ears",
+      "name": "Bear Ears",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A defensive accessory that provides energy and resistance.",
+      "obtain": "Random Surprise from the Death King.",
+      "buffs": {
+        "all_damage_resistance": "+10%",
+        "energy": "+500"
+      }
+    },
+    {
+      "id": "black_cape",
+      "name": "Black Cape",
+      "rarity": "Rare",
+      "sea": "First Sea",
+      "description": "A basic combat cape providing damage, health and energy.",
+      "obtain": "Buy from Parlus at Marine Fortress.",
+      "buffs": {
+        "all_damage": "+5%",
+        "energy": "+100",
+        "health": "+100"
+      }
+    },
+    {
+      "id": "black_spikey_coat",
+      "name": "Black Spikey Coat",
+      "rarity": "Rare",
+      "sea": "Second Sea",
+      "description": "A coat providing general damage, health and energy.",
+      "obtain": "Dropped by Jeremy.",
+      "buffs": {
+        "all_damage": "+7.5%",
+        "energy": "+200",
+        "health": "+200"
+      }
+    },
+    {
+      "id": "blue_spikey_coat",
+      "name": "Blue Spikey Coat",
+      "rarity": "Rare",
+      "sea": "Second Sea",
+      "description": "A defensive combat coat with general damage bonuses.",
+      "obtain": "Dropped by Jeremy.",
+      "buffs": {
+        "all_damage": "+7.5%",
+        "energy": "+500",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "choppa",
+      "name": "Choppa",
+      "rarity": "Rare",
+      "sea": "Second Sea / Third Sea",
+      "description": "An accessory focused on Blox Fruit damage, cooldown and resistance.",
+      "obtain": "Obtain through its corresponding in-game source.",
+      "buffs": {
+        "fruit_damage": "+3%",
+        "fruit_cooldown": "-15%",
+        "fruit_damage_resistance": "+10%"
+      }
+    },
+    {
+      "id": "coat",
+      "name": "Coat",
+      "rarity": "Rare",
+      "sea": "First Sea",
+      "description": "A combat coat that improves melee damage and energy.",
+      "obtain": "Dropped by Vice Admiral.",
+      "buffs": {
+        "melee_damage": "+10%",
+        "energy": "+200"
+      }
+    },
+    {
+      "id": "cool_shades",
+      "name": "Cool Shades",
+      "rarity": "Rare",
+      "sea": "First Sea",
+      "description": "A versatile accessory providing damage, mobility, health and energy.",
+      "obtain": "Dropped by Cyborg at Fountain City.",
+      "buffs": {
+        "all_damage": "+7.5%",
+        "movement_speed": "+17.5%",
+        "energy": "+100",
+        "health": "+100"
+      }
+    },
+    {
+      "id": "dojo_belt_black",
+      "name": "Dojo Belt (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A powerful dojo belt focused on melee damage, mobility and Instinct.",
+      "obtain": "Obtain from the Dojo Trainer at Hydra Island.",
+      "buffs": {
+        "melee_damage": "+16%",
+        "movement_speed": "+80%",
+        "instinct_dodge_boost": "+1"
+      }
+    },
+    {
+      "id": "elf_hat",
+      "name": "Elf Hat",
+      "rarity": "Rare",
+      "sea": "Events",
+      "description": "A festive accessory providing melee and sword bonuses with reduced cooldowns.",
+      "obtain": "Christmas event.",
+      "buffs": {
+        "movement_speed": "+20%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "melee_cooldown": "-5%",
+        "sword_cooldown": "-5%"
+      }
+    },
+    {
+      "id": "ghoul_mask",
+      "name": "Ghoul Mask",
+      "rarity": "Rare",
+      "sea": "Second Sea",
+      "description": "A mobility and life-leech accessory designed for melee builds.",
+      "obtain": "Buy from El Perro on the Cursed Ship for Ectoplasm.",
+      "buffs": {
+        "movement_speed": "+35%",
+        "energy": "+500",
+        "melee_pve_life_leech": "+10%",
+        "melee_pvp_life_leech": "+2.5%"
+      }
+    },
+    {
+      "id": "golden_sunhat",
+      "name": "Golden Sunhat",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A general-purpose accessory providing damage and health.",
+      "obtain": "Random Surprise from the Death King.",
+      "buffs": {
+        "all_damage": "+10%",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "hunter_cape_black",
+      "name": "Hunter Cape (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A combat cape providing speed, damage and health.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "hunter_cape_green",
+      "name": "Hunter Cape (Green)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A combat cape providing speed, damage and health.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "hunter_cape_red",
+      "name": "Hunter Cape (Red)",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A combat cape providing speed, damage and health.",
+      "obtain": "Dropped by an Elite Pirate.",
+      "buffs": {
+        "movement_speed": "+80%",
+        "melee_damage": "+10%",
+        "sword_damage": "+10%",
+        "gun_damage": "+10%",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "jaw_shield",
+      "name": "Jaw Shield",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A fast melee-oriented accessory with energy and health bonuses.",
+      "obtain": "Complete 5 Player Hunter quests for Tacomura.",
+      "buffs": {
+        "movement_speed": "+50%",
+        "melee_damage": "+12.5%",
+        "melee_damage_resistance": "+10%",
+        "energy": "+500",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "lei",
+      "name": "Lei",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "An accessory focused on health regeneration.",
+      "obtain": "Dropped by Kilo Admiral.",
+      "buffs": {
+        "health_regeneration": "+50%"
+      }
+    },
+    {
+      "id": "marine_cap",
+      "name": "Marine Cap",
+      "rarity": "Rare",
+      "sea": "All Seas",
+      "description": "A weapon-focused cap that reduces sword and gun cooldowns.",
+      "obtain": "Obtain from its in-game source.",
+      "buffs": {
+        "sword_damage": "+7.5%",
+        "gun_damage": "+7.5%",
+        "sword_cooldown": "-10%",
+        "gun_cooldown": "-10%"
+      }
+    },
+    {
+      "id": "pilot_helmet",
+      "name": "Pilot Helmet",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "One of the fastest accessories, providing extreme movement speed and sustain.",
+      "obtain": "Dropped by Stone at Port Town.",
+      "buffs": {
+        "movement_speed": "+130%",
+        "health_regeneration": "+10%",
+        "energy": "+250",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "pretty_helmet",
+      "name": "Pretty Helmet",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A fast melee-oriented helmet with defensive and health bonuses.",
+      "obtain": "Complete 5 Elite Pirate quests for Lunoven.",
+      "buffs": {
+        "movement_speed": "+50%",
+        "melee_damage": "+10%",
+        "melee_damage_resistance": "+12.5%",
+        "energy": "+250",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "red_spikey_coat",
+      "name": "Red Spikey Coat",
+      "rarity": "Rare",
+      "sea": "Second Sea",
+      "description": "A general damage coat with health and energy bonuses.",
+      "obtain": "Dropped by Jeremy.",
+      "buffs": {
+        "all_damage": "+7.5%",
+        "energy": "+250",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "santa_hat",
+      "name": "Santa Hat",
+      "rarity": "Rare",
+      "sea": "Events",
+      "description": "A festive accessory providing speed, fruit and sword damage, health and energy.",
+      "obtain": "Christmas event.",
+      "buffs": {
+        "movement_speed": "+30%",
+        "fruit_damage": "+12.5%",
+        "sword_damage": "+12.5%",
+        "energy": "+400",
+        "health": "+400"
+      }
+    },
+    {
+      "id": "shark_tooth_necklace",
+      "name": "Shark Tooth Necklace",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A sea-event accessory focused on movement and sea-event damage.",
+      "obtain": "Craft at the Shark Hunter.",
+      "buffs": {
+        "movement_speed": "+50%",
+        "dash_distance": "+10%",
+        "sea_event_damage": "+25%"
+      }
+    },
+    {
+      "id": "swordsman_hat",
+      "name": "Swordsman Hat",
+      "rarity": "Rare",
+      "sea": "First Sea",
+      "description": "A sword-focused accessory.",
+      "obtain": "Obtain from its in-game source.",
+      "buffs": {
+        "sword_damage": "+10%"
+      }
+    },
+    {
+      "id": "t_rex_skull",
+      "name": "T-Rex Skull",
+      "rarity": "Rare",
+      "sea": "Third Sea",
+      "description": "A defensive fossil accessory providing health and resistance.",
+      "obtain": "Craft at the Fossil Expert on Prehistoric Island.",
+      "buffs": {
+        "melee_damage_resistance": "+15%",
+        "fruit_damage_resistance": "+15%",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "tomoe_ring",
+      "name": "Tomoe Ring",
+      "rarity": "Rare",
+      "sea": "First Sea",
+      "description": "A fruit-focused accessory.",
+      "obtain": "Obtain from its in-game source.",
+      "buffs": {
+        "fruit_damage": "+10%"
+      }
+    },
+    {
+      "id": "top_hat",
+      "name": "Top Hat",
+      "rarity": "Rare",
+      "sea": "Second Sea / Third Sea",
+      "description": "A cooldown-oriented melee accessory with sword resistance.",
+      "obtain": "Obtain from its in-game source.",
+      "buffs": {
+        "melee_damage": "+3%",
+        "all_cooldown": "-10%",
+        "sword_damage_resistance": "+10%"
+      }
+    },
+    {
+      "id": "usoaps_hat",
+      "name": "Usoap's Hat",
+      "rarity": "Rare",
+      "sea": "All Seas",
+      "description": "A gun-focused accessory that increases gun damage and reduces cooldown.",
+      "obtain": "Obtain through the Usoap quest.",
+      "buffs": {
+        "gun_damage": "+7.5%",
+        "gun_cooldown": "-15%"
+      }
+    },
+    {
+      "id": "warrior_helmet",
+      "name": "Warrior Helmet",
+      "rarity": "Rare",
+      "sea": "Second Sea",
+      "description": "A melee and sword accessory with reduced attack cooldowns.",
+      "obtain": "Complete the Colosseum Quest.",
+      "buffs": {
+        "melee_damage": "+12.5%",
+        "sword_damage": "+12.5%",
+        "melee_cooldown": "-5%",
+        "sword_cooldown": "-5%"
+      }
+    },
+
+    {
+      "id": "cupids_coat",
+      "name": "Cupid's Coat",
+      "rarity": "Legendary",
+      "sea": "Events",
+      "description": "A festive accessory focused on fruit, sword and survivability.",
+      "obtain": "Valentine's event.",
+      "buffs": {
+        "fruit_damage": "+12.5%",
+        "sword_damage": "+12.5%",
+        "all_damage_resistance": "+8%",
+        "energy": "+400",
+        "health": "+600"
+      }
+    },
+    {
+      "id": "d_s_coat",
+      "name": "D.S. Coat",
+      "rarity": "Legendary",
+      "sea": "Admins",
+      "description": "An administrator accessory with general combat bonuses.",
+      "obtain": "Admin-exclusive.",
+      "buffs": {
+        "all_damage": "+5%",
+        "energy": "+200",
+        "health": "+200"
+      }
+    },
+    {
+      "id": "dino_hood",
+      "name": "Dino Hood",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A mobility and melee/fruit accessory with strong basic stats.",
+      "obtain": "Obtain through its in-game source.",
+      "buffs": {
+        "melee_damage": "+10%",
+        "fruit_damage": "+10%",
+        "movement_speed": "+50%",
+        "dash_distance": "+15",
+        "energy": "+500",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "dragon_mantle",
+      "name": "Dragon Mantle",
+      "rarity": "Legendary",
+      "sea": "Admins",
+      "description": "An administrator accessory focused on sword, gun and mobility.",
+      "obtain": "Admin-exclusive.",
+      "buffs": {
+        "sword_damage": "+15%",
+        "gun_damage": "+15%",
+        "air_dash_distance": "+10",
+        "air_jumps": "+2",
+        "all_cooldown": "-10%"
+      }
+    },
+    {
+      "id": "feathered_visage",
+      "name": "Feathered Visage",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A mobility and regeneration accessory.",
+      "obtain": "Dropped by the Tyrant of the Skies.",
+      "buffs": {
+        "movement_speed": "+25%",
+        "health_regeneration": "+25%",
+        "health": "+300"
+      }
+    },
+    {
+      "id": "heart_shades",
+      "name": "Heart Shades",
+      "rarity": "Legendary",
+      "sea": "Events",
+      "description": "A festive combat accessory with melee, gun and defensive bonuses.",
+      "obtain": "Valentine's event.",
+      "buffs": {
+        "melee_damage": "+12.5%",
+        "gun_damage": "+12.5%",
+        "all_damage_resistance": "+5%",
+        "energy": "+600",
+        "health": "+400"
+      }
+    },
+    {
+      "id": "holy_crown",
+      "name": "Holy Crown",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A balanced accessory providing damage, defense, regeneration, health and energy.",
+      "obtain": "Dropped by Soul Reaper.",
+      "buffs": {
+        "all_damage": "+5%",
+        "all_damage_resistance": "+5%",
+        "energy_regeneration": "+5%",
+        "energy": "+500",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "kitsune_mask",
+      "name": "Kitsune Mask",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A fruit and Instinct focused accessory.",
+      "obtain": "Kitsune event source.",
+      "buffs": {
+        "fruit_damage": "+10%",
+        "instinct_dodge_boost": "+2",
+        "fruit_meter_boost": "+15%",
+        "terror_level_vision": "+50%",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "kitsune_ribbon",
+      "name": "Kitsune Ribbon",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A high-mobility accessory with regeneration, energy and Flash Step bonuses.",
+      "obtain": "Kitsune event source.",
+      "buffs": {
+        "fruit_damage_resistance": "+10%",
+        "health_regeneration": "+15%",
+        "movement_speed": "+30%",
+        "dashing_speed": "+7",
+        "flashstep_cooldown": "-25%",
+        "energy": "+2500"
+      }
+    },
+    {
+      "id": "leviathan_crown",
+      "name": "Leviathan Crown",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A sea-event accessory focused on melee, regeneration and material farming.",
+      "obtain": "Obtain through its sea-event source.",
+      "buffs": {
+        "melee_damage": "+12%",
+        "sea_event_damage": "+35%",
+        "health_regeneration": "+25%",
+        "sea_event_material_drop_rate": "+40%",
+        "instinct_dodge_boost": "+1"
+      }
+    },
+    {
+      "id": "musketeer_hat",
+      "name": "Musketeer Hat",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A sword and gun accessory with reduced skill cooldowns.",
+      "obtain": "Complete the Citizen Quest.",
+      "buffs": {
+        "sword_damage": "+12.5%",
+        "gun_damage": "+12.5%",
+        "sword_cooldown": "-12.5%",
+        "gun_cooldown": "-12.5%"
+      }
+    },
+    {
+      "id": "pale_scarf",
+      "name": "Pale Scarf",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A fruit and sword accessory with powerful Instinct bonuses.",
+      "obtain": "Dropped by Cake Prince or Dough King.",
+      "buffs": {
+        "fruit_damage": "+15%",
+        "sword_damage": "+15%",
+        "instinct_dodge_boost": "+2",
+        "instinct_vision_range": "10x"
+      }
+    },
+    {
+      "id": "swan_glasses",
+      "name": "Swan Glasses",
+      "rarity": "Legendary",
+      "sea": "Second Sea",
+      "description": "A highly versatile accessory providing speed, damage, cooldown, defense, health and energy.",
+      "obtain": "Dropped by Don Swan.",
+      "buffs": {
+        "movement_speed": "+25%",
+        "all_damage": "+8%",
+        "all_cooldown": "-8%",
+        "all_damage_resistance": "+8%",
+        "energy": "+250",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "terror_jaw",
+      "name": "Terror Jaw",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A sword and sea-event accessory with cooldown reduction.",
+      "obtain": "Obtain through its sea-event source.",
+      "buffs": {
+        "sword_damage": "+10%",
+        "all_cooldown": "-10%",
+        "sea_event_defense": "+20%",
+        "energy": "+200",
+        "health": "+200"
+      }
+    },
+    {
+      "id": "valkyrie_helm",
+      "name": "Valkyrie Helm",
+      "rarity": "Legendary",
+      "sea": "Third Sea",
+      "description": "A sword-focused accessory with high health and energy.",
+      "obtain": "Dropped by rip_indra True Form.",
+      "buffs": {
+        "sword_damage": "+15%",
+        "energy": "+600",
+        "health": "+600"
+      }
+    },
+    {
+      "id": "wyvern_helmet",
+      "name": "Wyvern Helmet",
+      "rarity": "Legendary",
+      "sea": "Admins",
+      "description": "An administrator accessory focused on resistance and regeneration.",
+      "obtain": "Admin-exclusive.",
+      "buffs": {
+        "melee_damage_resistance": "+10%",
+        "sword_damage_resistance": "+10%",
+        "gun_damage_resistance": "+10%",
+        "health_regeneration": "+25%",
+        "energy_regeneration": "+5%",
+        "energy": "+750",
+        "health": "+750"
+      }
+    },
+    {
+      "id": "zebra_cap",
+      "name": "Zebra Cap",
+      "rarity": "Legendary",
+      "sea": "Second Sea",
+      "description": "A sword-focused accessory with fruit cooldown reduction.",
+      "obtain": "Guaranteed drop from Order.",
+      "buffs": {
+        "sword_damage": "+10%",
+        "fruit_cooldown": "-15%",
+        "energy": "+500",
+        "health": "+100"
+      }
+    },
+
+    {
+      "id": "50b_party_hat",
+      "name": "50b Party Hat",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A celebration accessory providing experience, energy and health.",
+      "obtain": "Party Gacha in the Party Realm.",
+      "buffs": {
+        "experience_boost": "+10%",
+        "energy": "+400",
+        "health": "+400"
+      }
+    },
+    {
+      "id": "celestial_helmet",
+      "name": "Celestial Helmet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An event accessory providing token gains, defense, cooldown and Instinct vision.",
+      "obtain": "Celestial Gacha in the Celestial Domain.",
+      "buffs": {
+        "summer_token_multiplier": "+30%",
+        "all_damage_resistance": "+10%",
+        "all_cooldown": "-5%",
+        "instinct_vision_range": "2x"
+      }
+    },
+    {
+      "id": "coven_witch_hat",
+      "name": "Coven Witch Hat",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A Halloween accessory focused on fruit damage and resistance.",
+      "obtain": "Halloween Gacha.",
+      "buffs": {
+        "fruit_damage_resistance": "+10%",
+        "fruit_damage": "+7%",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "cracked_egg_helmet",
+      "name": "Cracked Egg Helmet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An Easter accessory providing general damage, defense and health.",
+      "obtain": "Easter Shop.",
+      "buffs": {
+        "all_damage_resistance": "+10%",
+        "all_damage": "+5%",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "cupids_top_hat",
+      "name": "Cupid's Top Hat",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A Valentine's accessory with movement, melee, Hearts, health and energy bonuses.",
+      "obtain": "Valentine's Gacha.",
+      "buffs": {
+        "movement_speed": "+14%",
+        "melee_damage": "+2%",
+        "hearts_multiplier": "+20%",
+        "energy": "+214",
+        "health": "+214"
+      }
+    },
+    {
+      "id": "dark_coat",
+      "name": "Dark Coat",
+      "rarity": "Mythical",
+      "sea": "Second Sea",
+      "description": "A fruit-focused mythical coat with high energy and health.",
+      "obtain": "Dropped by Darkbeard.",
+      "buffs": {
+        "fruit_damage": "+15%",
+        "energy": "+600",
+        "health": "+600"
+      }
+    },
+    {
+      "id": "divine_cloak",
+      "name": "Divine Cloak",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An event cloak focused on movement, melee, fruit damage and seasonal rewards.",
+      "obtain": "Celestial Gacha / Party Gacha.",
+      "buffs": {
+        "summer_token_multiplier": "+30%",
+        "movement_speed": "+30%",
+        "melee_damage": "+7%",
+        "fruit_damage": "+7%",
+        "energy": "+500",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "easter_bunny_cape",
+      "name": "Easter Bunny Cape",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An Easter accessory focused on mobility and melee.",
+      "obtain": "Dropped from the Indra Egg.",
+      "buffs": {
+        "air_jumps": "+3",
+        "movement_speed": "+50%",
+        "melee_damage": "+10%"
+      }
+    },
+    {
+      "id": "frosty_helmet",
+      "name": "Frosty Helmet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A winter accessory providing speed, gun damage, defense and Candy rewards.",
+      "obtain": "Winter Gacha.",
+      "buffs": {
+        "movement_speed": "+50%",
+        "gun_damage": "+10%",
+        "all_damage_resistance": "+5%",
+        "candy_multiplier": "+20%"
+      }
+    },
+    {
+      "id": "holiday_cloak",
+      "name": "Holiday Cloak",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A festive cloak providing melee, fruit and Instinct bonuses.",
+      "obtain": "Open a Present at the North Pole.",
+      "buffs": {
+        "melee_damage": "+10%",
+        "fruit_damage": "+10%",
+        "instinct_dodge_boost": "+1"
+      }
+    },
+    {
+      "id": "leviathan_shield",
+      "name": "Leviathan Shield",
+      "rarity": "Mythical",
+      "sea": "Third Sea",
+      "description": "A powerful sea-event defensive accessory.",
+      "obtain": "Craft at the Beast Hunter using the required Leviathan materials.",
+      "buffs": {
+        "sword_damage_resistance": "+15%",
+        "melee_damage_resistance": "+15%",
+        "gun_damage_resistance": "+15%",
+        "sea_damage_reduction": "+90%",
+        "sea_event_defense": "+30%",
+        "health": "+1000"
+      }
+    },
+    {
+      "id": "oni_helmet",
+      "name": "Oni Helmet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An event helmet providing seasonal rewards, cooldown reduction, regeneration and speed.",
+      "obtain": "Red Gacha in the Oni Realm / Party Gacha.",
+      "buffs": {
+        "summer_token_multiplier": "+30%",
+        "all_cooldown": "-10%",
+        "health_regeneration": "+30%",
+        "movement_speed": "+30%"
+      }
+    },
+    {
+      "id": "party_hat",
+      "name": "Party Hat",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A celebration accessory providing experience, energy and health.",
+      "obtain": "Bought from the Party Shop.",
+      "buffs": {
+        "experience_boost": "+10%",
+        "energy": "+400",
+        "health": "+400"
+      }
+    },
+    {
+      "id": "peppermint_helmet",
+      "name": "Peppermint Helmet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A winter accessory providing movement, sword damage, resistance and Candy rewards.",
+      "obtain": "Winter Gacha.",
+      "buffs": {
+        "movement_speed": "+20%",
+        "all_damage_resistance": "+5%",
+        "sword_damage": "+10%",
+        "candy_multiplier": "+20%"
+      }
+    },
+    {
+      "id": "pumpkin_mask",
+      "name": "Pumpkin Mask",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A Halloween accessory providing movement, melee, fruit, defense and health bonuses.",
+      "obtain": "Halloween Gacha.",
+      "buffs": {
+        "movement_speed": "+20%",
+        "melee_damage_resistance": "+5%",
+        "melee_damage": "+6%",
+        "fruit_damage": "+6%",
+        "health": "+250"
+      }
+    },
+    {
+      "id": "red_ribbon",
+      "name": "Red Ribbon",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A winter accessory focused on movement, fruit damage, resistance and Candy rewards.",
+      "obtain": "Winter Gacha.",
+      "buffs": {
+        "movement_speed": "+20%",
+        "candy_multiplier": "+20%",
+        "all_damage_resistance": "+7%",
+        "fruit_damage": "+5%",
+        "fruit_cooldown": "-5%"
+      }
+    },
+    {
+      "id": "romantic_bouquet",
+      "name": "Romantic Bouquet",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "A Valentine's accessory providing movement, melee defense, Friendship, health and energy.",
+      "obtain": "Valentine's Gacha.",
+      "buffs": {
+        "movement_speed": "+14%",
+        "melee_damage_resistance": "+3%",
+        "friendship_multiplier": "+20%",
+        "energy": "+143",
+        "health": "+143"
+      }
+    },
+    {
+      "id": "sanguine_cloak",
+      "name": "Sanguine Cloak",
+      "rarity": "Mythical",
+      "sea": "Events",
+      "description": "An event cloak focused on melee and sword combat and seasonal rewards.",
+      "obtain": "Red Gacha in the Oni Realm / Party Gacha.",
+      "buffs": {
+        "summer_token_multiplier": "+30%",
+        "melee_damage_resistance": "+5%",
+        "melee_damage": "+5%",
+        "sword_damage": "+5%",
+        "health": "+500"
+      }
+    },
+    {
+      "id": "uzoths_cloak",
+      "name": "Uzoth's Cloak",
+      "rarity": "Mythical",
+      "sea": "Admins",
+      "description": "An administrator-exclusive melee accessory with strong survivability.",
+      "obtain": "Admin-exclusive.",
+      "buffs": {
+        "melee_damage": "+20%",
+        "all_damage_resistance": "+5%",
+        "energy": "+750",
+        "health": "+750"
+      }
+    }
+  ]
+}
