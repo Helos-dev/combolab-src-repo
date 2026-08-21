@@ -7,7 +7,7 @@
   "combos": [
     {
       "id": 0,
-      "name": "ICE NO ESCAPE COMBO",
+      "name": "GLACIAL DESTRUCTION",
       "description": "ICE NO ESCAPE COMBO is a powerful freeze combo that chains ICE V2, Gravity Cane, Cyborg, and Godhuman for constant pressure and devastating damage.",
       "fruits": "ICEV2",
       "sword": "GRAVITYCANE",
@@ -20,7 +20,7 @@
     },
     {
       "id": 1,
-      "name": "GAS OP COMBO",
+      "name": "GAS DOMINATION",
       "description": "GAS OP COMBO is a relentless combo that chains Gas, Cursed Dual Katana, Cyborg, and Godhuman for massive damage and nonstop pressure.",
       "fruits": "GAS",
       "sword": "CURSED DUAL KATANA",
@@ -33,7 +33,7 @@
     },
     {
       "id": 2,
-      "name": "DOUGH BASIC COMBO",
+      "name": "DOUGH WRATH",
       "description": "DOUGH BASIC COMBO is a deadly combo that chains Dough V2, Cursed Dual Katana, Cyborg, and Godhuman for huge damage and relentless pressure",
       "fruits": "DOUGH V2",
       "sword": "CURSED DUAL KATANA",
@@ -46,7 +46,7 @@
     },
     {
       "id": 3,
-      "name": "TREX COMBO",
+      "name": "REX APOCALYPSE",
       "description": "TREX COMBO is a powerful combo that chains T-Rex, Cursed Dual Katana, Cyborg, and Godhuman for heavy damage and strong pressure.",
       "fruits": "TREX",
       "sword": "CURSED DUAL KATANA",
@@ -72,7 +72,7 @@
     },
     {
       "id": 5,
-      "name": "PORTAL META ONE-TAP",
+      "name": "PORTAL MAYHEM",
       "description": "PORTAL META ONE-TAP is a top-tier PvP meta combo featuring Portal and Soul Guitar to trap opponents and deliver unavoidable burst damage.",
       "fruits": "PORTAL",
       "sword": "CURSED DUAL KATANA",
@@ -85,7 +85,7 @@
     },
     {
       "id": 6,
-      "name": "SANGUINE LIGHTNING ONE-SHOT",
+      "name": "VOLTAGE CHAOS",
       "description": "SANGUINE RUMBLE ONE-SHOT abuses Rumble V2's heavy stuns and Sanguine Art's lifesteal to completely lock down meta players.",
       "fruits": "Lightning",
       "sword": "GRAVITY BLADE",
