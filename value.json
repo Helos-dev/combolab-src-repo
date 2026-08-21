@@ -2,7 +2,7 @@
   "source": "game.guide/blox-fruits-value-list",
   "last_updated": "2026-08-16",
   "currency_note": "Valori in unità di trading (non Beli/Robux). 'normal' = valore fisico, 'permanent' = valore permanente",
-  "fruits": [
+  "Valuefruits": [
     {
       "name": "Quake",
       "rarity": "Legendary",
