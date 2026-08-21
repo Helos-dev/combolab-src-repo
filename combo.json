@@ -76,7 +76,7 @@
       "description": "PORTAL META ONE-TAP is a top-tier PvP meta combo featuring Portal and Soul Guitar to trap opponents and deliver unavoidable burst damage.",
       "fruits": "PORTAL",
       "sword": "CURSED DUAL KATANA",
-      "gun": "SOUL GUITAR",
+      "gun": "SKULL GUITAR",
       "race": "CYBORG",
       "accessory": "PALE SCARF",
       "melee": "GODHUMAN",
@@ -89,7 +89,7 @@
       "description": "SANGUINE RUMBLE ONE-SHOT abuses Rumble V2's heavy stuns and Sanguine Art's lifesteal to completely lock down meta players.",
       "fruits": "Lightning",
       "sword": "GRAVITY BLADE",
-      "gun": "SOUL GUITAR",
+      "gun": "SKULL GUITAR",
       "race": "CYBORG",
       "accessory": "PALE SCARF",
       "melee": "SANGUINE ART",
@@ -134,6 +134,19 @@
       "melee": "DEATH STEP",
       "sequence": "SPIDER V2 X -> SPIDER V2 Z -> SPIDER V2 V -> SPIKEY TRIDENT X -> VENOM BOW X -> DEATH STEP C -> DEATH STEP Z -> DEATH STEP X",
       "rating": 5
+    },
+      {
+      "id": 10,
+      "name": "KITSUNE RAMPAGE",
+      "description": "A fast and unpredictable combo combining Kitsune’s mobility, Yama’s control, Soul Guitar’s pressure, and God Human’s power.",
+      "fruits": "Kitsune",
+      "sword": "YAMA",
+      "gun": "SKULL GUITAR",
+      "race": "GHOUL",
+      "accessory": "HUNTER CAPE",
+      "melee": "GOD HUMAN",
+      "sequence": "GOD HUMAN C -> KITSUNE F -> YAMA X -> KITSUNE X -> KITSUNE V -> GOD HUMAN X -> GOD HUMAN Z",
+      "rating": 4.5
     }
   ]
 }
