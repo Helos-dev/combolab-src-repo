@@ -120,6 +120,19 @@
       "accessory": "PILOT HELMET",
       "melee": "GOD HUMAN",
       "sequence": "QUAKE V2 V -> SPIKEY TRIDENT X -> VENOM BOW X -> GOD HUMAN X -> GOD HUMAN Z -> GOD HUMAN C -> QUAKE V2 Z",
+      "rating": 4.5
+    },
+     {
+      "id": 9,
+      "name": "SPIDER EXECUTION",
+      "description": "A deadly combo that traps the enemy with Spider, overwhelms them with Death Step, poisons them with Venom, and uses Spikey Trident to control and keep them trapped in the combo.",
+      "fruits": "Spider V2",
+      "sword": "SPIKEY TRIDENT",
+      "gun": "VENOM BOW",
+      "race": "HUMAN",
+      "accessory": "HUNTER CAPE",
+      "melee": "DEATH STEP",
+      "sequence": "SPIDER V2 X -> SPIDER V2 Z -> SPIDER V2 V -> SPIKEY TRIDENT X -> VENOM BOW X -> DEATH STEP C -> DEATH STEP Z -> DEATH STEP X",
       "rating": 5
     }
   ]
