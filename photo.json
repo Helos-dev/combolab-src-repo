@@ -5,35 +5,35 @@
   },
   {
     "name": "Spin",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Spin_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/SNBm8RV-zjNHSjyMx1-J9Qp6OldXCYigg-4SC5Cq2eU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvU3Bpbi1GcnVp/dC1CbG94LUZydWl0/cy53ZWJw"
   },
   {
     "name": "Chop",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/f/f0/Chop_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/36rqW_AoDHrQ07ZUTGXyMo8vTe-Fk4r3r1Uc5Ibyp64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvQ2hvcC1GcnVp/dC1CbG94LUZydWl0/cy53ZWJw"
   },
   {
     "name": "Spring",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/d/d4/Spring_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/Mf9JGPAYEavM51Br4CNYmG_6Zkhb-_pQ3-_XLH7H6-s/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvU3ByaW5nLUZy/dWl0LUJsb3gtRnJ1/aXRzLndlYnA"
   },
   {
     "name": "Bomb",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/9b/Bomb_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/6pK9Or5_dU4U5MM19mZw7SzHZCsJKA-Qss2wDNQhxqI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvQm9tYi1GcnVp/dC1CbG94LUZydWl0/cy53ZWJw"
   },
   {
     "name": "Smoke",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/4/42/Smoke_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/gtbuxQpfuO-49_u7ckNmesSLGLQClfgYKYexSzUyO2A/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvU21va2UtRnJ1/aXQtQmxveC1GcnVp/dHMud2VicA"
   },
   {
     "name": "Spike",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/33/Spike_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/cSbCH5eerkHgxwGtWqJ4IRna1AKCfCfj_hVrn2Q6-cA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9j/L2NlL1NwaWtlX0Zy/dWl0LnBuZy9yZXZp/c2lvbi9sYXRlc3Q_/Y2I9MjAyMzEwMjcx/MjAyNTE"
   },
   {
     "name": "Flame",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Flame_Cristian.png"
   },
   {
-    "name": "Falcon",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/e/e6/Falcon_Fruit.png/revision/latest"
+    "name": "Eagle",
+    "image": "https://imgs.search.brave.com/865EkLds5JAyCXuIBqPelkxc42iwwrmZ4H0vkrwSvUk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy81/LzUzL0VhZ2xlX0Zy/dWl0LnBuZy9yZXZp/c2lvbi9sYXRlc3Q_/Y2I9MjAyNTA0MTgw/MzA5MzE"
   },
   {
     "name": "Ice",
@@ -49,23 +49,23 @@
   },
   {
     "name": "Diamond",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/93/Diamond_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/4oJQasyw5V2VKQ2ED7b8n8Sf-QEjjaNDNRIZWTT5aVU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy84/Lzg4L0RpYW1vbmRf/RnJ1aXQucG5nL3Jl/dmlzaW9uL2xhdGVz/dD9jYj0yMDI2MDgw/NjIzNTY1NA"
   },
   {
     "name": "Light",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Light_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/5nSPcNW1HAX0UStc3b-shxi6v3EnT4zL0yQ_BC_9bg8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/ZnJ1aXRzd2lraS5v/cmcvd2lraS9fYXNz/ZXRzL2ltZy9iN2Vj/OThjMzVmNDE3ZGM3/NjQ3ZTkwMTYyZmM3/OTA3OS53ZWJw"
   },
   {
     "name": "Rubber",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Rubber_Fruit.png/revision/latest"
-  },
-  {
-    "name": "Barrier",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Barrier_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/o89-KLrheCEPbkkUPYRoh9P6ViuG6my4OTmMsD2Mjyo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/ZnJ1aXRzd2lraS5v/cmcvd2lraS9fYXNz/ZXRzL2ltZy9lYTc4/Y2YxZWE2ZDZiZjg4/N2UyY2QwMzg3MGNl/ZDY1Ny53ZWJw"
   },
   {
     "name": "Magma",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Magma_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/1PC0XvNxBhgjdiHZyp8hSLBw2kDjafMNvO-YcQ7JZRc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy8y/LzI3L01hZ21hX0Zy/dWl0LnBuZy9yZXZp/c2lvbi9sYXRlc3Q_/Y2I9MjAyMzEwMjcx/MTU2NDA"
+  },
+  {
+    "name": "Ghost",
+    "image": "https://imgs.search.brave.com/QpKh0_w5tLLJzgj7Z4IG04JGKK9FymWxV2h3Y1TnrMU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/ZnJ1aXRzd2lraS5v/cmcvd2lraS9fYXNz/ZXRzL2ltZy8wNWYx/NGMzZmI3MmU2ZmI2/NDU4M2ZkZGJmNjA5/NGQ5Yi53ZWJw"
   },
   {
     "name": "Quake",
@@ -73,11 +73,15 @@
   },
   {
     "name": "Buddha",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Buddha_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/hz3oBYSACWx8GxwrY2jEZpDnke1bFa0sw4CQllz6eaY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9k/L2RmL0J1ZGRoYV9G/cnVpdC5wbmcvcmV2/aXNpb24vbGF0ZXN0/P2NiPTIwMjMxMDI3/MTE1MzI1"
   },
   {
     "name": "Love",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/2/23/Love_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/_lHAUOivrZE1V_YZv6dZDvNJI7jDmZtOvJI534mUWzM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9i/L2IzL0xvdmVfRnJ1/aXQucG5nL3Jldmlz/aW9uL2xhdGVzdD9j/Yj0yMDIzMTAyNzEx/NTYzMA"
+  },
+  {
+    "name": "Creation",
+    "image": "https://imgs.search.brave.com/G9qoy3lGyDcG1N-NRRLLh5XNMDBgQJJW0ExwgrMXi8U/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcnVp/dHlibG94LXN0b3Jh/Z2UuYi1jZG4ubmV0/L2NyZWF0aW9uLndl/YnA"
   },
   {
     "name": "Spider",
@@ -85,7 +89,7 @@
   },
   {
     "name": "Phoenix",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Phoenix_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/LWD7smviOt6UgPA_ggIATj9ZBdv3Ev9XWsf1MPVT86Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9m/L2ZjL1Bob2VuaXhf/RnJ1aXQucG5nL3Jl/dmlzaW9uL2xhdGVz/dD9jYj0yMDI2MDgw/NzAwMDEwMA"
   },
   {
     "name": "Portal",
@@ -101,15 +105,15 @@
   },
   {
     "name": "Blizzard",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Blizzard_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/XHKHjHW4HF8KWJ-n0-eXu4AiFttsKxjVb5IgBDH_edk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/ZnJ1aXRzd2lraS5v/cmcvd2lraS9fYXNz/ZXRzL2ltZy8wOTZm/NDhiODJiZDkwNDky/MjM0NjljY2MyMjYy/MzU3MC53ZWJw"
   },
   {
     "name": "Gravity",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/Gravity_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/BS2qCqobJQYiKyolMIPt5QzDySqF66ytSM6-E7yxTjg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcnVp/dHlibG94LXN0b3Jh/Z2UuYi1jZG4ubmV0/L2dyYXZpdHkud2Vi/cA"
   },
   {
     "name": "Mammoth",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Mammoth_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/ZKwvzpctxLSAcf4z9A9K8onbX6kCQZDIwZ75aiT7r1c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/ZnJ1aXRzd2lraS5v/cmcvd2lraS9fYXNz/ZXRzL2ltZy8xNGFj/ZDhiNjljZWRjNTNk/MDQ3ZjEyNTc5ZDk2/NzRjOS53ZWJw"
   },
   {
     "name": "Dough",
@@ -121,31 +125,35 @@
   },
   {
     "name": "Shadow",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/8/88/Shadow_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/EUBt79rGwF1gAVVin9B6Vh5fi_EbQlOj354mmNjKhuc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy81/LzU4L1NoYWRvd19G/cnVpdC5wbmcvcmV2/aXNpb24vbGF0ZXN0/P2NiPTIwMjQxMjI5/MDMzMDUz"
   },
   {
     "name": "Venom",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/9/91/Venom_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/m4YoNDViOqU5IfXj6rK0dwSF984c-UssS_Dq0NFGuJY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9k/L2QyL1Zlbm9tX0Zy/dWl0LnBuZy9yZXZp/c2lvbi9sYXRlc3Q_/Y2I9MjAyMzEwMjcx/MjA0MjU"
   },
   {
     "name": "Control",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/5/50/Control_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/PCpGG7l1d_vTePYBLRFChuSVY7fMqC0lEq4jbzxfxi4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy8x/LzE5L0NvbnRyb2xf/RnJ1aXQucG5nL3Jl/dmlzaW9uL2xhdGVz/dD9jYj0yMDI1MTIy/MzE2NTkyNA"
   },
   {
     "name": "Spirit",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/6/60/Spirit_Fruit.png/revision/latest"
+    "image": "https://imgs.search.brave.com/oerhHaArOX_r7qh6WD1tmRd02ZJJE30wqOYUUUUAI8E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy82/LzY2L1NwaXJpdF9G/cnVpdC5wbmcvcmV2/aXNpb24vbGF0ZXN0/P2NiPTIwMjQwMzA0/MTkwNTU5"
   },
   {
     "name": "Gas",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Gas_Cristian.png"
   },
   {
-    "name": "Dragon",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/0/02/Dragon_Fruit.png/revision/latest"
+    "name": "Dragon East",
+    "image": "https://imgs.search.brave.com/csgaKjkIK9W0bePMSLmCu7XMPwxsAuYcs0iyI5j5vk8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy80/LzRiL0RyYWdvbl8o/RWFzdClfRnJ1aXQu/cG5nL3JldmlzaW9u/L2xhdGVzdC9zY2Fs/ZS10by13aWR0aC1k/b3duLzI2OD9jYj0y/MDI0MTIyMjE1NTIx/NA"
+  },
+   {
+    "name": "Dragon West",
+    "image": "https://imgs.search.brave.com/SYWWVDUHx0BtX5XYM7A8mCMMcC5HguzDO-6fxLD0Fx4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBv/c3RpbWcuY2MvN0xm/Qnh4czgvV2VzdC1E/cmFnb24ucG5n"
   },
   {
-    "name": "Leopard",
-    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/c/cb/Leopard_Fruit.png/revision/latest"
+    "name": "Tiger",
+    "image": "https://imgs.search.brave.com/R_3YmAaoYq9phzpq2v7GUx5qCQJi2lXkkxdXrXeuQ4I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZHJvaWRnYW1lcnMu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDI1LzEwL2Jsb3gt/ZnJ1aXRzLXRpZ2Vy/LWJvZHktaW1hZ2Ut/MTAyNHg1NzYuanBn"
   },
   {
     "name": "Kitsune",
