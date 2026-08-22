@@ -160,6 +160,19 @@
       "melee": "GOD HUMAN",
       "sequence": "GOD HUMAN C -> PAIN X -> YAMA X -> PAIN V -> PAIN C -> GOD HUMAN X -> GOD HUMAN Z",
       "rating": 4
+    },
+    {
+      "id": 12,
+      "name": "DUNE DEVASTATION",
+      "description": "A fast and devastating combo combining Yama’s control, Kabucha’s pressure, God Human’s power, and Sand’s unpredictable attacks.",
+      "fruits": "Sand V2",
+      "sword": "YAMA",
+      "gun": "KABUCHA",
+      "race": "GHOUL",
+      "accessory": "HAUNTER CAPE",
+      "melee": "GOD HUMAN",
+      "sequence": "SAND V2 X -> YAMA Z (looking up) -> KABUCHA X -> GODHUMAN X -> GOD HUMAN C-> YAMA X -> SAND V2 V -> SAND V2 C -> SAND V2 Z",
+      "rating": 4.5
     }
   ]
 }
