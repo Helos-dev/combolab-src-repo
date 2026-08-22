@@ -8,7 +8,7 @@
     "image": "https://imgs.search.brave.com/SNBm8RV-zjNHSjyMx1-J9Qp6OldXCYigg-4SC5Cq2eU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvU3Bpbi1GcnVp/dC1CbG94LUZydWl0/cy53ZWJw"
   },
   {
-    "name": "Chop",
+    "name": "Blade",
     "image": "https://imgs.search.brave.com/36rqW_AoDHrQ07ZUTGXyMo8vTe-Fk4r3r1Uc5Ibyp64/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvQ2hvcC1GcnVp/dC1CbG94LUZydWl0/cy53ZWJw"
   },
   {
@@ -87,6 +87,10 @@
     "name": "Spider",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/spider.png"
   },
+   {
+    "name": "Sound",
+    "image": "https://imgs.search.brave.com/Kpo2_GOBznKjkeAC7sXFnvbjZ5dnk8Ed5h8Z8JJbdWY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9ibG94/LWZydWl0cy5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvU291bmQtRnJ1/aXQtQmxveC1GcnVp/dHMud2VicA"
+  },
   {
     "name": "Phoenix",
     "image": "https://imgs.search.brave.com/LWD7smviOt6UgPA_ggIATj9ZBdv3Ev9XWsf1MPVT86Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy9m/L2ZjL1Bob2VuaXhf/RnJ1aXQucG5nL3Jl/dmlzaW9uL2xhdGVz/dD9jYj0yMDI2MDgw/NzAwMDEwMA"
@@ -142,18 +146,22 @@
   {
     "name": "Gas",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Gas_Cristian.png"
+  }, 
+  {  
+  "name": "Yeti",
+    "image": "https://imgs.search.brave.com/9-jaYhD9csfWIf39nU6tSIfLQU3z0sxtPQDkgTSsIPk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9mcnVp/dHlibG94LXN0b3Jh/Z2UuYi1jZG4ubmV0/L3lldGkud2VicA"
   },
   {
-    "name": "Dragon East",
+    "name": "East Dragon",
     "image": "https://imgs.search.brave.com/csgaKjkIK9W0bePMSLmCu7XMPwxsAuYcs0iyI5j5vk8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2lraWEubm9j/b29raWUubmV0L3Jv/YmxveC1ibG94LXBp/ZWNlL2ltYWdlcy80/LzRiL0RyYWdvbl8o/RWFzdClfRnJ1aXQu/cG5nL3JldmlzaW9u/L2xhdGVzdC9zY2Fs/ZS10by13aWR0aC1k/b3duLzI2OD9jYj0y/MDI0MTIyMjE1NTIx/NA"
   },
    {
-    "name": "Dragon West",
+    "name": "West Dragon",
     "image": "https://imgs.search.brave.com/SYWWVDUHx0BtX5XYM7A8mCMMcC5HguzDO-6fxLD0Fx4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBv/c3RpbWcuY2MvN0xm/Qnh4czgvV2VzdC1E/cmFnb24ucG5n"
   },
   {
     "name": "Tiger",
-    "image": "https://imgs.search.brave.com/R_3YmAaoYq9phzpq2v7GUx5qCQJi2lXkkxdXrXeuQ4I/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/ZHJvaWRnYW1lcnMu/Y29tL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDI1LzEwL2Jsb3gt/ZnJ1aXRzLXRpZ2Vy/LWJvZHktaW1hZ2Ut/MTAyNHg1NzYuanBn"
+    "image": "https://imgs.search.brave.com/4TkuH_akEnx-1QuXuHnbTQZpDazLHH8QCbNGBh9aLjY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBv/c3RpbWcuY2MvdkJE/UzNLTnAvZG93bmxv/YWQucG5n"
   },
   {
     "name": "Kitsune",
