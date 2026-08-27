@@ -2,21 +2,17 @@ name: Update Blox Fruits Values
 
 on:
   schedule:
-    # 10:00 UTC = 12:00 in Italia durante l'ora legale
     - cron: "0 10 * * *"
-
   workflow_dispatch:
 
 jobs:
   update-values:
-
     runs-on: ubuntu-latest
 
     permissions:
       contents: write
 
     steps:
-
       - name: Checkout repository
         uses: actions/checkout@v4
 
