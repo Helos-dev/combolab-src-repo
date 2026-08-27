@@ -87,7 +87,7 @@
     "name": "Spider",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/spider.png"
   },
-   {
+  {
     "name": "Sound",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Sound.png"
   },
@@ -146,16 +146,16 @@
   {
     "name": "Gas",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Gas_Cristian.png"
-  }, 
-  {  
-  "name": "Yeti",
+  },
+  {
+    "name": "Yeti",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Yeti_Cristian.png"
   },
   {
     "name": "East Dragon",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Dragon_East_Cristian.png"
   },
-   {
+  {
     "name": "West Dragon",
     "image": "https://raw.githubusercontent.com/Helos-dev/combolab-src-repo/refs/heads/main/foto/Dragon_west_Cristian.png"
   },
@@ -706,5 +706,160 @@
     "name": "Headband (Yellow)",
     "image": "https://bloxfruitsdatabase.com/item-images/headband-yellow.webp",
     "type": "accessory"
+  },
+  {
+    "name": "Galaxy Empyrean Kitsune",
+    "image": "https://bloxfruitsdatabase.com/item-images/galaxy-empyrean-kitsune.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Crimson Kitsune",
+    "image": "https://bloxfruitsdatabase.com/item-images/crimson-kitsune.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Ember West Dragon",
+    "image": "https://bloxfruitsdatabase.com/item-images/ember-west-dragon.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Doghouse Frame Break",
+    "image": "https://bloxfruitsdatabase.com/item-images/doghouse-frame-break.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Rabid Dog Blade",
+    "image": "https://bloxfruitsdatabase.com/item-images/rabid-dog-blade.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Purple Lightning",
+    "image": "https://bloxfruitsdatabase.com/item-images/purple-lightning.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Meme-Meme",
+    "image": "https://bloxfruitsdatabase.com/item-images/meme-meme.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Red Lightning",
+    "image": "https://bloxfruitsdatabase.com/item-images/red-lightning.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Divine Portal",
+    "image": "https://bloxfruitsdatabase.com/item-images/divine-portal.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Yellow Lightning",
+    "image": "https://bloxfruitsdatabase.com/item-images/yellow-lightning.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Celestial Pain",
+    "image": "https://bloxfruitsdatabase.com/item-images/celestial-pain.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Frustration Pain",
+    "image": "https://bloxfruitsdatabase.com/item-images/frustration-pain.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Dog Blade",
+    "image": "https://bloxfruitsdatabase.com/item-images/dog-blade.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Thermite Bomb",
+    "image": "https://bloxfruitsdatabase.com/item-images/thermite-bomb.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Nuclear Bomb",
+    "image": "https://bloxfruitsdatabase.com/item-images/nuclear-bomb.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Green Lightning",
+    "image": "https://bloxfruitsdatabase.com/item-images/green-lightning.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Rose Quartz Diamond",
+    "image": "https://bloxfruitsdatabase.com/item-images/rose-quartz-diamond.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Eagle Glacier",
+    "image": "https://bloxfruitsdatabase.com/item-images/eagle-glacier.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Werewolf",
+    "image": "https://bloxfruitsdatabase.com/item-images/werewolf.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Fiend Yeti",
+    "image": "https://bloxfruitsdatabase.com/item-images/fiend-yeti.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Torment Pain",
+    "image": "https://bloxfruitsdatabase.com/item-images/torment-pain.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Ruby Diamond",
+    "image": "https://bloxfruitsdatabase.com/item-images/ruby-diamond.webp",
+    "type": "limited"
+  },
+  {
+    "name": "Fruit Notifier",
+    "image": "https://bloxfruitsdatabase.com/item-images/fruit-notifier.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "Dark Blade",
+    "image": "https://bloxfruitsdatabase.com/item-images/dark-blade.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "Mythical Scrolls",
+    "image": "https://bloxfruitsdatabase.com/item-images/mythical-scrolls.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "Legendary Scrolls",
+    "image": "https://bloxfruitsdatabase.com/item-images/legendary-scrolls.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "+1 Fruit Storage",
+    "image": "https://bloxfruitsdatabase.com/item-images/1-fruit-storage.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "2x Mastery",
+    "image": "https://bloxfruitsdatabase.com/item-images/2x-mastery.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "2x Money",
+    "image": "https://bloxfruitsdatabase.com/item-images/2x-money.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "2x Boss Drops",
+    "image": "https://bloxfruitsdatabase.com/item-images/2x-boss-drops.webp",
+    "type": "gamepass"
+  },
+  {
+    "name": "Fast Boats",
+    "image": "https://bloxfruitsdatabase.com/item-images/fast-boats.webp",
+    "type": "gamepass"
   }
 ]
