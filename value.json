@@ -1,45 +1,45 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-27",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
       "name": "West Dragon",
       "rarity": "Mythical",
-      "value_normal": "3.91B",
-      "value_permanent": "7.1B",
+      "value_normal": "3.33B",
+      "value_permanent": "6.69B",
       "demand": "7/10",
-      "trend": "Overpaid"
+      "trend": "Stable"
     },
     {
       "name": "East Dragon",
       "rarity": "Mythical",
-      "value_normal": "3.36B",
-      "value_permanent": "7.1B",
+      "value_normal": "2.91B",
+      "value_permanent": "6.69B",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Kitsune",
       "rarity": "Mythical",
-      "value_normal": "640M",
-      "value_permanent": "6.24B",
+      "value_normal": "600M",
+      "value_permanent": "5.49B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Control",
       "rarity": "Mythical",
-      "value_normal": "160M",
-      "value_permanent": "6.24B",
-      "demand": "9/10",
+      "value_normal": "150M",
+      "value_permanent": "5.49B",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Yeti",
       "rarity": "Mythical",
-      "value_normal": "120M",
-      "value_permanent": "5.34B",
+      "value_normal": "110M",
+      "value_permanent": "4.29B",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -47,39 +47,39 @@
       "name": "Gas",
       "rarity": "Mythical",
       "value_normal": "60M",
-      "value_permanent": "4.55B",
+      "value_permanent": "3.69B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Tiger",
       "rarity": "Mythical",
-      "value_normal": "130M",
-      "value_permanent": "5.34B",
+      "value_normal": "120M",
+      "value_permanent": "4.29B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Lightning",
       "rarity": "Legendary",
-      "value_normal": "50M",
-      "value_permanent": "3.43B",
-      "demand": "5/10",
-      "trend": "Underpaid"
+      "value_normal": "40M",
+      "value_permanent": "2.85B",
+      "demand": "6/10",
+      "trend": "Stable"
     },
     {
       "name": "Venom",
       "rarity": "Mythical",
       "value_normal": "20M",
-      "value_permanent": "4.39B",
-      "demand": "8/10",
+      "value_permanent": "3.57B",
+      "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Dough",
       "rarity": "Mythical",
       "value_normal": "30M",
-      "value_permanent": "4.23B",
+      "value_permanent": "3.45B",
       "demand": "9/10",
       "trend": "Overpaid"
     },
@@ -87,7 +87,7 @@
       "name": "Shadow",
       "rarity": "Mythical",
       "value_normal": "6.5M",
-      "value_permanent": "4.31B",
+      "value_permanent": "3.51B",
       "demand": "5/10",
       "trend": "Stable"
     },
@@ -95,7 +95,7 @@
       "name": "Portal",
       "rarity": "Legendary",
       "value_normal": "10M",
-      "value_permanent": "2.95B",
+      "value_permanent": "2.49B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
@@ -103,7 +103,7 @@
       "name": "Buddha",
       "rarity": "Legendary",
       "value_normal": "10M",
-      "value_permanent": "1.91B",
+      "value_permanent": "1.71B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
@@ -111,7 +111,7 @@
       "name": "Blizzard",
       "rarity": "Legendary",
       "value_normal": "5M",
-      "value_permanent": "3.75B",
+      "value_permanent": "3.09B",
       "demand": "5/10",
       "trend": "Stable"
     },
@@ -119,7 +119,7 @@
       "name": "Creation",
       "rarity": "Legendary",
       "value_normal": "2.5M",
-      "value_permanent": "2.15B",
+      "value_permanent": "1.89B",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -127,7 +127,7 @@
       "name": "Phoenix",
       "rarity": "Legendary",
       "value_normal": "2.75M",
-      "value_permanent": "2.95B",
+      "value_permanent": "2.49B",
       "demand": "3/10",
       "trend": "Stable"
     },
@@ -135,7 +135,7 @@
       "name": "Sound",
       "rarity": "Legendary",
       "value_normal": "2.5M",
-      "value_permanent": "2.63B",
+      "value_permanent": "2.25B",
       "demand": "4/10",
       "trend": "Stable"
     },
@@ -143,7 +143,7 @@
       "name": "Spider",
       "rarity": "Legendary",
       "value_normal": "1.5M",
-      "value_permanent": "2.31B",
+      "value_permanent": "2.01B",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -151,7 +151,7 @@
       "name": "Love",
       "rarity": "Legendary",
       "value_normal": "1.5M",
-      "value_permanent": "1.99B",
+      "value_permanent": "1.77B",
       "demand": "3/10",
       "trend": "Stable"
     },
@@ -159,7 +159,7 @@
       "name": "Magma",
       "rarity": "Rare",
       "value_normal": "1.15M",
-      "value_permanent": "1.26B",
+      "value_permanent": "1.17B",
       "demand": "5/10",
       "trend": "Overpaid"
     },
@@ -167,7 +167,7 @@
       "name": "Quake",
       "rarity": "Legendary",
       "value_normal": "1M",
-      "value_permanent": "1.59B",
+      "value_permanent": "1.44B",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -175,7 +175,7 @@
       "name": "Diamond",
       "rarity": "Uncommon",
       "value_normal": "1M",
-      "value_permanent": "840M",
+      "value_permanent": "750M",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -183,7 +183,7 @@
       "name": "Light",
       "rarity": "Rare",
       "value_normal": "800K",
-      "value_permanent": "960M",
+      "value_permanent": "930M",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -191,7 +191,7 @@
       "name": "Ghost",
       "rarity": "Rare",
       "value_normal": "800K",
-      "value_permanent": "1.14B",
+      "value_permanent": "1.08B",
       "demand": "1/10",
       "trend": "Underpaid"
     },
@@ -199,7 +199,7 @@
       "name": "Eagle",
       "rarity": "Uncommon",
       "value_normal": "800K",
-      "value_permanent": "820M",
+      "value_permanent": "735M",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -207,7 +207,7 @@
       "name": "Rubber",
       "rarity": "Rare",
       "value_normal": "700K",
-      "value_permanent": "1.02B",
+      "value_permanent": "990M",
       "demand": "1/10",
       "trend": "Stable"
     },
@@ -215,7 +215,7 @@
       "name": "Ice",
       "rarity": "Uncommon",
       "value_normal": "550K",
-      "value_permanent": "640M",
+      "value_permanent": "600M",
       "demand": "2/10",
       "trend": "Stable"
     },
@@ -223,7 +223,7 @@
       "name": "Sand",
       "rarity": "Uncommon",
       "value_normal": "420K",
-      "value_permanent": "720M",
+      "value_permanent": "660M",
       "demand": "1/10",
       "trend": "Stable"
     },
@@ -231,7 +231,7 @@
       "name": "Dark",
       "rarity": "Uncommon",
       "value_normal": "400K",
-      "value_permanent": "800M",
+      "value_permanent": "720M",
       "demand": "1/10",
       "trend": "Stable"
     },
@@ -309,67 +309,67 @@
     },
     {
       "name": "Doghouse (Frame Break)",
-      "value": "6.97B",
+      "value": "6.63B",
       "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Rabid Dog Blade",
-      "value": "6.24B",
+      "value": "7.98B",
       "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Dog Blade",
-      "value": "580M",
-      "demand": "8/10",
+      "value": "750M",
+      "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Fiend Yeti",
-      "value": "960M",
+      "value": "990M",
       "demand": "9/10",
       "trend": "Overpaid"
     },
     {
       "name": "Galaxy Empyrean Kitsune",
-      "value": "11.96B",
+      "value": "9.96B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Ember West Dragon",
-      "value": "7.1B",
-      "demand": "10/10",
-      "trend": "Overpaid"
+      "value": "6.24B",
+      "demand": "9/10",
+      "trend": "Stable"
     },
     {
       "name": "Crimson Kitsune",
-      "value": "8.7B",
+      "value": "7.59B",
       "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Meme-Meme",
-      "value": "4.61B",
+      "value": "4.29B",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Divine Portal",
-      "value": "1.67B",
+      "value": "1.56B",
       "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Werewolf",
-      "value": "1.06B",
+      "value": "1.11B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Rose Quartz Diamond",
-      "value": "350M",
+      "value": "300M",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -381,13 +381,13 @@
     },
     {
       "name": "Topaz Diamond",
-      "value": "220M",
+      "value": "210M",
       "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Ruby Diamond",
-      "value": "160M",
+      "value": "150M",
       "demand": "5/10",
       "trend": "Stable"
     },
@@ -405,67 +405,67 @@
     },
     {
       "name": "Super Spirit Pain",
-      "value": "3.3B",
-      "demand": "10/10",
-      "trend": "Overpaid"
+      "value": "2.91B",
+      "demand": "8/10",
+      "trend": "Stable"
     },
     {
       "name": "Torment Pain",
-      "value": "160M",
+      "value": "150M",
       "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Sadness Pain",
-      "value": "860M",
-      "demand": "7/10",
+      "value": "780M",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Frustration Pain",
-      "value": "900M",
-      "demand": "8/10",
+      "value": "810M",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Celestial Pain",
-      "value": "1.02B",
-      "demand": "8/10",
+      "value": "930M",
+      "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Requiem",
-      "value": "160M",
+      "value": "150M",
       "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Glacier",
       "value": "20M",
-      "demand": "2/10",
+      "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Matrix",
-      "value": "250M",
+      "value": "240M",
       "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Celebration Bomb",
       "value": "10M",
-      "demand": "2/10",
+      "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Azura Bomb",
-      "value": "640M",
+      "value": "600M",
       "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Thermite Bomb",
-      "value": "580M",
+      "value": "540M",
       "demand": "6/10",
       "trend": "Stable"
     },
@@ -485,43 +485,43 @@
   "Gamepass": [
     {
       "name": "Fruit Notifier",
-      "value": "4.79B",
+      "value": "3.87B",
       "demand": "9/10",
       "trend": "Stable"
     },
     {
       "name": "Dark Blade",
-      "value": "1.02B",
+      "value": "990M",
       "demand": "9/10",
       "trend": "Stable"
     },
     {
       "name": "Mythical Scrolls",
-      "value": "1.59B",
+      "value": "1.44B",
       "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Legendary Scrolls",
-      "value": "680M",
+      "value": "630M",
       "demand": "3/10",
       "trend": "Stable"
     },
     {
       "name": "+1 Fruit Storage",
-      "value": "450M",
+      "value": "420M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "2x Mastery",
-      "value": "450M",
+      "value": "420M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "2x Money",
-      "value": "450M",
+      "value": "420M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
