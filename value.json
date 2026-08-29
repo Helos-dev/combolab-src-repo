@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-08-28",
+  "last_updated": "2026-08-29",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -343,7 +343,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "0",
+      "value": "1B",
       "demand": "6/10",
       "trend": "Overpaid"
     },
