@@ -1,4 +1,4 @@
-```yaml
+
 name: Update Blox Fruits Values
 
 on:
@@ -50,4 +50,3 @@ jobs:
           name: scraper-debug-dumps
           path: debug_dumps/
           if-no-files-found: ignore
-```
