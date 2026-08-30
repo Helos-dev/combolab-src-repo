@@ -1,3 +1,4 @@
+```python
 import json
 import os
 import re
@@ -27,18 +28,18 @@ GITHUB_BRANCH = "main"
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
-DEBUG_DUMP_ON_MISMATCH = True
-DEBUG_DIR = "debug_dumps"
-
 PAGE_TIMEOUT = 60000
-PAGE_WAIT = 3000
+PAGE_WAIT = 2500
 
 MAX_PAGE_RETRIES = 3
-MAX_SCRAPE_RETRIES = 2
+MAX_ITEM_RETRIES = 3
+
+DEBUG_DUMP_ON_ERROR = True
+DEBUG_DIR = "debug_dumps"
 
 
 # =========================================================
-# TOKEN
+# GITHUB TOKEN
 # =========================================================
 
 if not GITHUB_TOKEN:
@@ -87,14 +88,7 @@ def normalize_name(name):
     )
 
     name = re.sub(
-        r"\s+Blox Fruits Values.*$",
-        "",
-        name,
-        flags=re.IGNORECASE
-    )
-
-    name = re.sub(
-        r"\s*[-|]\s*Bloxfruits.*$",
+        r"\s+Bloxfruits.*$",
         "",
         name,
         flags=re.IGNORECASE
@@ -105,131 +99,52 @@ def normalize_name(name):
 
 def normalize_value(value):
 
-    if not value:
+    if value is None:
         return "0"
 
     value = clean(value)
+
+    if not value:
+        return "0"
+
     value = value.replace(",", "")
     value = value.replace(" ", "")
 
+    # N/A, -, ecc.
+    if value.lower() in (
+        "n/a",
+        "na",
+        "-",
+        "none"
+    ):
+        return "0"
+
     match = re.search(
-        r"([0-9]+(?:\.[0-9]+)?)([KMBT]?)",
-        value
+        r"([0-9]+(?:\.[0-9]+)?)([KMBT])?",
+        value,
+        re.IGNORECASE
     )
 
     if not match:
         return "0"
 
-    return (
-        match.group(1)
-        + match.group(2).upper()
+    number = match.group(1)
+    suffix = (
+        match.group(2).upper()
+        if match.group(2)
+        else ""
     )
 
-
-# =========================================================
-# VALUE EXTRACTION
-# =========================================================
-
-def extract_values(text):
-
-    if not text:
-        return []
-
-    results = []
-
-    matches = re.findall(
-        r"\b[0-9]+(?:\.[0-9]+)?\s*[KMBT]\b",
-        text,
-        re.IGNORECASE
-    )
-
-    for match in matches:
-
-        value = normalize_value(match)
-
-        if value not in results:
-            results.append(value)
-
-    return results
+    return number + suffix
 
 
 # =========================================================
-# DEMAND
-# =========================================================
-
-def get_demand(text):
-
-    match = re.search(
-        r"Demand\s*[:\-]?\s*"
-        r"([0-9]+(?:\.[0-9]+)?\s*/\s*10)",
-        text,
-        re.IGNORECASE
-    )
-
-    if match:
-        return clean(match.group(1))
-
-    return "N/A"
-
-
-# =========================================================
-# TREND
-# =========================================================
-
-def get_trend(text):
-
-    trends = [
-        "Overpaid",
-        "Underpaid",
-        "Stable",
-        "Increasing",
-        "Decreasing"
-    ]
-
-    for trend in trends:
-
-        if re.search(
-            rf"\b{trend}\b",
-            text,
-            re.IGNORECASE
-        ):
-            return trend
-
-    return "Stable"
-
-
-# =========================================================
-# RARITY
-# =========================================================
-
-def get_rarity(text):
-
-    rarities = [
-        "Mythical",
-        "Legendary",
-        "Rare",
-        "Uncommon",
-        "Common"
-    ]
-
-    for rarity in rarities:
-
-        if re.search(
-            rf"\b{rarity}\b",
-            text,
-            re.IGNORECASE
-        ):
-            return rarity
-
-    return "Unknown"
-
-
-# =========================================================
-# OPEN PAGE
+# PAGE OPEN
 # =========================================================
 
 def open_page(page, url):
 
+    print()
     print(f"      GET {url}")
 
     last_error = None
@@ -259,7 +174,7 @@ def open_page(page, url):
 
             print(
                 f"      Timeout "
-                f"(tentativo {attempt}/{MAX_PAGE_RETRIES})"
+                f"{attempt}/{MAX_PAGE_RETRIES}"
             )
 
         except Exception as error:
@@ -267,33 +182,31 @@ def open_page(page, url):
             last_error = error
 
             print(
-                f"      Errore pagina "
-                f"(tentativo {attempt}/{MAX_PAGE_RETRIES}): "
+                f"      Errore "
+                f"{attempt}/{MAX_PAGE_RETRIES}: "
                 f"{error}"
             )
 
         time.sleep(2)
 
     print(
-        f"      IMPOSSIBILE APRIRE: {url}"
+        f"      IMPOSSIBILE APRIRE LA PAGINA"
     )
 
     print(
-        f"      Ultimo errore: {last_error}"
+        f"      {last_error}"
     )
 
     return False
 
 
 # =========================================================
-# REAL NAME
+# GET REAL NAME
 # =========================================================
 
-def get_real_name(
-    page,
-    fallback
-):
+def get_real_name(page, fallback):
 
+    # H1
     try:
 
         h1 = page.locator(
@@ -312,38 +225,38 @@ def get_real_name(
     except:
         pass
 
+    # OG TITLE
     try:
 
-        element = page.locator(
+        meta = page.locator(
             'meta[property="og:title"]'
-        )
+        ).first
 
-        if element.count():
+        if meta.count():
 
-            content = element.get_attribute(
+            content = meta.get_attribute(
                 "content"
             )
 
-            if content:
+            name = normalize_name(
+                content
+            )
 
-                name = normalize_name(
-                    content
-                )
-
-                if name:
-                    return name
+            if name:
+                return name
 
     except:
         pass
 
+    # TITLE
     try:
 
-        title = normalize_name(
+        name = normalize_name(
             page.title()
         )
 
-        if title:
-            return title
+        if name:
+            return name
 
     except:
         pass
@@ -354,822 +267,181 @@ def get_real_name(
 
 
 # =========================================================
-# FIND TABS
+# EXTRACT TEXT AFTER LABEL
 # =========================================================
 
-def find_tab_candidates(
-    page,
-    name
+def extract_after_label(
+    text,
+    label
 ):
 
-    wanted = name.lower()
-
-    selectors = [
-        "button",
-        '[role="button"]',
-        '[role="tab"]',
-        "a",
-        "[onclick]"
-    ]
-
-    candidates = []
-
-    for selector in selectors:
-
-        try:
-
-            elements = page.locator(
-                selector
-            )
-
-            count = elements.count()
-
-            for i in range(count):
-
-                element = elements.nth(i)
-
-                try:
-
-                    if not element.is_visible():
-                        continue
-
-                    text = clean(
-                        element.inner_text()
-                    ).lower()
-
-                    if text == wanted:
-                        candidates.append(element)
-
-                except:
-                    continue
-
-        except:
-            continue
-
-    return candidates
-
-
-def find_tab(
-    page,
-    name
-):
-
-    candidates = find_tab_candidates(
-        page,
-        name
-    )
-
-    if candidates:
-        return candidates[0]
-
-    return None
-
-
-# =========================================================
-# READ VALUE
-# =========================================================
-
-def read_value_stat(page):
-
-    try:
-
-        value = page.evaluate(
-            """
-            () => {
-
-                const clean = (s) =>
-                    (s || "")
-                    .replace(/\\s+/g, " ")
-                    .trim();
-
-                const regex =
-                    /\\b[0-9]+(?:\\.[0-9]+)?\\s*[KMBT]\\b/i;
-
-                const isVisible = (el) => {
-
-                    const style =
-                        window.getComputedStyle(el);
-
-                    if (style.display === "none")
-                        return false;
-
-                    if (style.visibility === "hidden")
-                        return false;
-
-                    if (parseFloat(style.opacity) === 0)
-                        return false;
-
-                    return true;
-                };
-
-                const all = [
-                    ...document.querySelectorAll("*")
-                ];
-
-                for (const el of all) {
-
-                    if (el.children.length > 2)
-                        continue;
-
-                    if (!isVisible(el))
-                        continue;
-
-                    const text = clean(
-                        el.textContent
-                    );
-
-                    if (
-                        text.toLowerCase()
-                        !== "value"
-                    )
-                        continue;
-
-                    let sib =
-                        el.nextElementSibling;
-
-                    while (sib) {
-
-                        if (isVisible(sib)) {
-
-                            const sibText =
-                                clean(
-                                    sib.textContent
-                                );
-
-                            const match =
-                                sibText.match(regex);
-
-                            if (match)
-                                return match[0];
-                        }
-
-                        sib =
-                            sib.nextElementSibling;
-                    }
-
-                    const parent =
-                        el.parentElement;
-
-                    if (
-                        parent &&
-                        isVisible(parent)
-                    ) {
-
-                        const parentText =
-                            clean(
-                                parent.textContent
-                            );
-
-                        const stripped =
-                            parentText.replace(
-                                /value/i,
-                                ""
-                            );
-
-                        const match =
-                            stripped.match(regex);
-
-                        if (match)
-                            return match[0];
-                    }
-                }
-
-                for (const el of all) {
-
-                    if (el.children.length > 0)
-                        continue;
-
-                    if (!isVisible(el))
-                        continue;
-
-                    const text =
-                        clean(el.textContent);
-
-                    const match =
-                        text.match(
-                            /^Value\\s*([0-9]+(?:\\.[0-9]+)?\\s*[KMBT])$/i
-                        );
-
-                    if (match)
-                        return match[1];
-                }
-
-                return null;
-            }
-            """
-        )
-
-        return value
-
-    except Exception as error:
-
-        print(
-            f"      Errore lettura Value: {error}"
-        )
-
+    if not text:
         return None
 
+    pattern = (
+        rf"{re.escape(label)}"
+        rf"\s*[:\-]?\s*"
+        rf"([^\n]+)"
+    )
+
+    match = re.search(
+        pattern,
+        text,
+        re.IGNORECASE
+    )
+
+    if not match:
+        return None
+
+    return clean(
+        match.group(1)
+    )
+
 
 # =========================================================
-# CLICK TAB
+# VALUE EXTRACTION
 # =========================================================
 
-def _try_click_variants(
-    page,
-    tab,
-    tab_name,
-    attempt_index
+def extract_first_value(text):
+
+    if not text:
+        return "0"
+
+    # Prima prova: valore con K/M/B/T
+    matches = re.findall(
+        r"\b[0-9]+(?:\.[0-9]+)?\s*[KMBT]\b",
+        text,
+        re.IGNORECASE
+    )
+
+    if matches:
+        return normalize_value(
+            matches[0]
+        )
+
+    return "0"
+
+
+def extract_value_from_line(
+    text,
+    label
 ):
 
-    variants = [
-        "playwright_click",
-        "playwright_force_click",
-        "manual_mouse_sequence",
-        "keyboard_enter",
-        "js_dispatch_mouse_event"
+    if not text:
+        return "0"
+
+    pattern = (
+        rf"{re.escape(label)}"
+        rf"\s*[:\-]?\s*"
+        rf"([0-9]+(?:\.[0-9]+)?\s*[KMBT])"
+    )
+
+    match = re.search(
+        pattern,
+        text,
+        re.IGNORECASE
+    )
+
+    if match:
+
+        return normalize_value(
+            match.group(1)
+        )
+
+    return "0"
+
+
+# =========================================================
+# DEMAND
+# =========================================================
+
+def get_demand(text):
+
+    if not text:
+        return "N/A"
+
+    match = re.search(
+        r"\bDemand\b"
+        r"\s*[:\-]?\s*"
+        r"([0-9]+(?:\.[0-9]+)?\s*/\s*10)",
+        text,
+        re.IGNORECASE
+    )
+
+    if match:
+
+        return clean(
+            match.group(1)
+        )
+
+    return "N/A"
+
+
+# =========================================================
+# TREND
+# =========================================================
+
+def get_trend(text):
+
+    if not text:
+        return "Stable"
+
+    # Nuovo sito può avere anche SOON
+    trends = [
+        "Overpaid",
+        "Underpaid",
+        "Stable",
+        "Increasing",
+        "Decreasing",
+        "SOON"
     ]
 
-    variant = variants[
-        attempt_index % len(variants)
-    ]
-
-    try:
-
-        if variant == "playwright_click":
-
-            tab.scroll_into_view_if_needed(
-                timeout=3000
-            )
-
-            tab.click(
-                timeout=5000
-            )
-
-        elif variant == "playwright_force_click":
-
-            tab.scroll_into_view_if_needed(
-                timeout=3000
-            )
-
-            tab.click(
-                force=True,
-                timeout=5000
-            )
-
-        elif variant == "manual_mouse_sequence":
-
-            box = tab.bounding_box()
-
-            if not box:
-                return False
-
-            x = (
-                box["x"]
-                + box["width"] / 2
-            )
-
-            y = (
-                box["y"]
-                + box["height"] / 2
-            )
-
-            page.mouse.move(
-                x,
-                y
-            )
-
-            page.wait_for_timeout(
-                80
-            )
-
-            page.mouse.down()
-
-            page.wait_for_timeout(
-                80
-            )
-
-            page.mouse.up()
-
-        elif variant == "keyboard_enter":
-
-            tab.scroll_into_view_if_needed(
-                timeout=3000
-            )
-
-            tab.focus()
-
-            page.keyboard.press(
-                "Enter"
-            )
-
-            page.wait_for_timeout(
-                100
-            )
-
-            page.keyboard.press(
-                "Space"
-            )
-
-        elif variant == "js_dispatch_mouse_event":
-
-            tab.evaluate(
-                """
-                (el) => {
-
-                    const rect =
-                        el.getBoundingClientRect();
-
-                    const opts = {
-                        bubbles: true,
-                        cancelable: true,
-                        view: window,
-                        clientX:
-                            rect.x
-                            + rect.width / 2,
-                        clientY:
-                            rect.y
-                            + rect.height / 2
-                    };
-
-                    el.dispatchEvent(
-                        new MouseEvent(
-                            "pointerdown",
-                            opts
-                        )
-                    );
-
-                    el.dispatchEvent(
-                        new MouseEvent(
-                            "mousedown",
-                            opts
-                        )
-                    );
-
-                    el.dispatchEvent(
-                        new MouseEvent(
-                            "pointerup",
-                            opts
-                        )
-                    );
-
-                    el.dispatchEvent(
-                        new MouseEvent(
-                            "mouseup",
-                            opts
-                        )
-                    );
-
-                    el.dispatchEvent(
-                        new MouseEvent(
-                            "click",
-                            opts
-                        )
-                    );
-                }
-                """
-            )
-
-        print(
-            f"      {tab_name}: "
-            f"click '{variant}'"
-        )
-
-        return True
-
-    except Exception as error:
-
-        print(
-            f"      {tab_name}: "
-            f"'{variant}' fallito: {error}"
-        )
-
-        return False
-
-
-def click_tab_and_wait(
-    page,
-    tab,
-    tab_name,
-    baseline_value
-):
-
-    max_attempts = 5
-
-    for attempt in range(
-        max_attempts
-    ):
-
-        ok = _try_click_variants(
-            page,
-            tab,
-            tab_name,
-            attempt
-        )
-
-        if not ok:
-            continue
-
-        deadline = (
-            time.time()
-            + 3
-        )
-
-        current = None
-
-        while time.time() < deadline:
-
-            current = read_value_stat(
-                page
-            )
-
-            if current:
-
-                if baseline_value is None:
-                    return current
-
-                if (
-                    normalize_value(current)
-                    != normalize_value(
-                        baseline_value
-                    )
-                ):
-                    return current
-
-            page.wait_for_timeout(
-                150
-            )
-
-        print(
-            f"      {tab_name}: "
-            f"nessun cambiamento "
-            f"({attempt + 1}/{max_attempts})"
-        )
-
-    return read_value_stat(page)
-
-
-# =========================================================
-# DEBUG DUMP
-# =========================================================
-
-def debug_dump(
-    page,
-    fruit_slug,
-    reason
-):
-
-    if not DEBUG_DUMP_ON_MISMATCH:
-        return
-
-    try:
-
-        os.makedirs(
-            DEBUG_DIR,
-            exist_ok=True
-        )
-
-        html_path = os.path.join(
-            DEBUG_DIR,
-            f"{fruit_slug}.html"
-        )
-
-        png_path = os.path.join(
-            DEBUG_DIR,
-            f"{fruit_slug}.png"
-        )
-
-        with open(
-            html_path,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            f.write(
-                page.content()
-            )
-
-        page.screenshot(
-            path=png_path,
-            full_page=True
-        )
-
-        info_path = os.path.join(
-            DEBUG_DIR,
-            f"{fruit_slug}_tabs.json"
-        )
-
-        dump = {}
-
-        for name in (
-            "Regular",
-            "Permanent"
+    for trend in trends:
+
+        if re.search(
+            rf"\b{re.escape(trend)}\b",
+            text,
+            re.IGNORECASE
         ):
+            return trend
 
-            candidates = find_tab_candidates(
-                page,
-                name
-            )
-
-            entries = []
-
-            for candidate in candidates:
-
-                try:
-
-                    attrs = candidate.evaluate(
-                        """
-                        (el) => {
-
-                            const out = {};
-
-                            for (
-                                const a
-                                of el.attributes
-                            ) {
-                                out[a.name] =
-                                    a.value;
-                            }
-
-                            return {
-                                tag:
-                                    el.tagName,
-
-                                attrs:
-                                    out,
-
-                                outerHTML:
-                                    el.outerHTML
-                                    .slice(0, 400)
-                            };
-                        }
-                        """
-                    )
-
-                    entries.append(
-                        attrs
-                    )
-
-                except:
-                    continue
-
-            dump[name] = entries
-
-        with open(
-            info_path,
-            "w",
-            encoding="utf-8"
-        ) as f:
-
-            json.dump(
-                dump,
-                f,
-                indent=2,
-                ensure_ascii=False
-            )
-
-        print(
-            f"      [DEBUG] "
-            f"Dump salvato per {fruit_slug}"
-        )
-
-    except Exception as error:
-
-        print(
-            f"      [DEBUG] "
-            f"dump fallito: {error}"
-        )
+    return "Stable"
 
 
 # =========================================================
-# SCRAPE FRUIT
+# RARITY
 # =========================================================
 
-def scrape_fruit(
-    page,
-    url,
-    fallback_name
-):
+def get_rarity(text):
 
-    if not open_page(
-        page,
-        url
-    ):
-        raise RuntimeError(
-            "Pagina non caricata"
-        )
+    if not text:
+        return "Unknown"
 
-    name = get_real_name(
-        page,
-        fallback_name
-    )
+    rarities = [
+        "Mythical",
+        "Legendary",
+        "Rare",
+        "Uncommon",
+        "Common"
+    ]
 
-    text = page.locator(
-        "body"
-    ).inner_text()
+    for rarity in rarities:
 
-    rarity = get_rarity(text)
-    demand = get_demand(text)
-    trend = get_trend(text)
+        if re.search(
+            rf"\b{rarity}\b",
+            text,
+            re.IGNORECASE
+        ):
+            return rarity
 
-    slug = (
-        urlparse(url)
-        .path
-        .rstrip("/")
-        .split("/")[-1]
-    )
-
-    regular_tab = find_tab(
-        page,
-        "Regular"
-    )
-
-    permanent_tab = find_tab(
-        page,
-        "Permanent"
-    )
-
-    if (
-        regular_tab is None
-        or permanent_tab is None
-    ):
-
-        print(
-            "      Tab Regular/Permanent "
-            "non trovati"
-        )
-
-        current = read_value_stat(
-            page
-        )
-
-        current = (
-            normalize_value(current)
-            if current
-            else "0"
-        )
-
-        return {
-            "name": name,
-            "rarity": rarity,
-            "value_normal": current,
-            "value_permanent": current,
-            "demand": demand,
-            "trend": trend
-        }
-
-    print(
-        "      Lettura Regular..."
-    )
-
-    baseline = read_value_stat(
-        page
-    )
-
-    normal = click_tab_and_wait(
-        page,
-        regular_tab,
-        "Regular",
-        None
-    )
-
-    normal = (
-        normalize_value(normal)
-        if normal
-        else normalize_value(baseline)
-    )
-
-    print(
-        f"      Regular: {normal}"
-    )
-
-    print(
-        "      Lettura Permanent..."
-    )
-
-    permanent = click_tab_and_wait(
-        page,
-        permanent_tab,
-        "Permanent",
-        normal
-    )
-
-    permanent = (
-        normalize_value(permanent)
-        if permanent
-        else normal
-    )
-
-    print(
-        f"      Permanent: {permanent}"
-    )
-
-    if permanent == normal:
-
-        print(
-            "      ATTENZIONE: "
-            "Regular == Permanent"
-        )
-
-        click_tab_and_wait(
-            page,
-            regular_tab,
-            "Regular",
-            None
-        )
-
-        page.wait_for_timeout(
-            500
-        )
-
-        retry = click_tab_and_wait(
-            page,
-            permanent_tab,
-            "Permanent",
-            normal
-        )
-
-        retry = (
-            normalize_value(retry)
-            if retry
-            else permanent
-        )
-
-        if retry != normal:
-
-            permanent = retry
-
-        else:
-
-            print(
-                "      Valore ancora identico."
-            )
-
-            debug_dump(
-                page,
-                slug,
-                "Regular == Permanent"
-            )
-
-    return {
-        "name": name,
-        "rarity": rarity,
-        "value_normal": normal,
-        "value_permanent": permanent,
-        "demand": demand,
-        "trend": trend
-    }
+    return "Unknown"
 
 
 # =========================================================
-# SCRAPE GAMEPASS / LIMITED
+# FIND LINKS
 # =========================================================
 
-def scrape_item(
-    page,
-    url,
-    fallback_name
-):
-
-    if not open_page(
-        page,
-        url
-    ):
-        raise RuntimeError(
-            "Pagina non caricata"
-        )
-
-    name = get_real_name(
-        page,
-        fallback_name
-    )
-
-    text = page.locator(
-        "body"
-    ).inner_text()
-
-    values = extract_values(
-        text
-    )
-
-    value = (
-        values[0]
-        if values
-        else "0"
-    )
-
-    return {
-        "name": name,
-        "value": value,
-        "demand": get_demand(text),
-        "trend": get_trend(text)
-    }
-
-
-# =========================================================
-# LOAD ALL LINKS
-# =========================================================
-
-def load_all_items(
+def collect_item_links(
     page,
     category
 ):
@@ -1181,7 +453,10 @@ def load_all_items(
     print()
     print("=" * 70)
     print(
-        f"OPEN: {url}"
+        f"CARICAMENTO {category.upper()}"
+    )
+    print(
+        url
     )
     print("=" * 70)
 
@@ -1190,13 +465,17 @@ def load_all_items(
         url
     ):
         raise RuntimeError(
-            f"Impossibile aprire {url}"
+            f"Impossibile caricare {url}"
         )
 
-    old_height = 0
-    stable = 0
+    # -----------------------------------------------------
+    # Scroll per caricare eventuali elementi dinamici
+    # -----------------------------------------------------
 
-    for _ in range(100):
+    last_height = 0
+    stable_count = 0
+
+    for _ in range(80):
 
         try:
 
@@ -1213,7 +492,7 @@ def load_all_items(
             pass
 
         page.wait_for_timeout(
-            1000
+            800
         )
 
         try:
@@ -1224,20 +503,24 @@ def load_all_items(
 
         except:
 
-            height = old_height
+            height = last_height
 
-        if height == old_height:
+        if height == last_height:
 
-            stable += 1
+            stable_count += 1
 
         else:
 
-            stable = 0
+            stable_count = 0
 
-        old_height = height
+        last_height = height
 
-        if stable >= 5:
+        if stable_count >= 5:
             break
+
+    # -----------------------------------------------------
+    # Trova tutti i link
+    # -----------------------------------------------------
 
     elements = page.locator(
         "a[href]"
@@ -1246,7 +529,7 @@ def load_all_items(
     total = elements.count()
 
     print(
-        f"Link totali pagina: {total}"
+        f"Link trovati: {total}"
     )
 
     prefix = (
@@ -1273,9 +556,12 @@ def load_all_items(
                 href
             )
 
+            parsed = urlparse(
+                full_url
+            )
+
             path = (
-                urlparse(full_url)
-                .path
+                parsed.path
                 .rstrip("/")
             )
 
@@ -1294,29 +580,31 @@ def load_all_items(
             if "/" in slug:
                 continue
 
+            # Evita duplicati
+            if full_url in found:
+                continue
+
             name = clean(
                 element.inner_text()
             )
 
-            if (
-                not name
-                or len(name) > 80
-                or "Blox Fruits Values"
-                in name
-                or "Value List"
-                in name
-            ):
+            if not name:
 
-                name = slug.replace(
-                    "-",
-                    " "
-                ).title()
+                name = (
+                    slug
+                    .replace("-", " ")
+                    .title()
+                )
 
             name = normalize_name(
                 name
             )
 
             if not name:
+                continue
+
+            # Evita testi palesemente non-item
+            if len(name) > 100:
                 continue
 
             found[
@@ -1327,11 +615,614 @@ def load_all_items(
             continue
 
     print(
-        f"{category}: "
-        f"{len(found)} link trovati"
+        f"{category.upper()}: "
+        f"{len(found)} item trovati"
     )
 
     return found
+
+
+# =========================================================
+# FRUIT VALUE
+# =========================================================
+
+def read_fruit_regular_value(
+    page,
+    body_text
+):
+
+    # Metodo 1: cerca direttamente
+    # "Regular value 600M"
+    value = extract_value_from_line(
+        body_text,
+        "Regular value"
+    )
+
+    if value != "0":
+        return value
+
+    # Metodo 2: DOM
+    try:
+
+        value = page.evaluate(
+            """
+            () => {
+
+                const clean = (s) =>
+                    (s || "")
+                    .replace(/\\s+/g, " ")
+                    .trim();
+
+                const regex =
+                    /([0-9]+(?:\\.[0-9]+)?\\s*[KMBT])/i;
+
+                const elements =
+                    [...document.querySelectorAll("*")];
+
+                for (const el of elements) {
+
+                    const text =
+                        clean(el.textContent);
+
+                    if (
+                        !text ||
+                        el.children.length > 3
+                    )
+                        continue;
+
+                    const lower =
+                        text.toLowerCase();
+
+                    const index =
+                        lower.indexOf(
+                            "regular value"
+                        );
+
+                    if (index === -1)
+                        continue;
+
+                    const after =
+                        text.substring(
+                            index
+                            + "regular value".length
+                        );
+
+                    const match =
+                        after.match(regex);
+
+                    if (match)
+                        return match[1];
+                }
+
+                return null;
+            }
+            """
+        )
+
+        if value:
+
+            return normalize_value(
+                value
+            )
+
+    except Exception as error:
+
+        print(
+            f"      DOM Value errore: {error}"
+        )
+
+    return "0"
+
+
+# =========================================================
+# FIND PERMANENT BUTTON
+# =========================================================
+
+def find_permanent_button(page):
+
+    selectors = [
+        "button",
+        '[role="button"]',
+        '[role="tab"]',
+        "a"
+    ]
+
+    for selector in selectors:
+
+        try:
+
+            elements = page.locator(
+                selector
+            )
+
+            count = elements.count()
+
+            for i in range(count):
+
+                element = elements.nth(i)
+
+                try:
+
+                    if not element.is_visible():
+                        continue
+
+                    text = clean(
+                        element.inner_text()
+                    )
+
+                    if text.lower() == "permanent":
+                        return element
+
+                except:
+                    continue
+
+        except:
+            continue
+
+    return None
+
+
+# =========================================================
+# READ CURRENT FRUIT VALUE
+# =========================================================
+
+def read_current_fruit_value(page):
+
+    body_text = clean(
+        page.locator(
+            "body"
+        ).inner_text()
+    )
+
+    # Cerca "Regular value"
+    value = read_fruit_regular_value(
+        page,
+        body_text
+    )
+
+    if value != "0":
+        return value
+
+    # Fallback: cerca elementi "value"
+    try:
+
+        value = page.evaluate(
+            """
+            () => {
+
+                const regex =
+                    /([0-9]+(?:\\.[0-9]+)?\\s*[KMBT])/i;
+
+                const clean = (s) =>
+                    (s || "")
+                    .replace(/\\s+/g, " ")
+                    .trim();
+
+                const elements =
+                    [...document.querySelectorAll("*")];
+
+                for (const el of elements) {
+
+                    if (el.children.length > 2)
+                        continue;
+
+                    const text =
+                        clean(el.textContent);
+
+                    if (
+                        text.toLowerCase()
+                        !== "value"
+                    )
+                        continue;
+
+                    let sibling =
+                        el.nextElementSibling;
+
+                    while (sibling) {
+
+                        const siblingText =
+                            clean(
+                                sibling.textContent
+                            );
+
+                        const match =
+                            siblingText.match(
+                                regex
+                            );
+
+                        if (match)
+                            return match[1];
+
+                        sibling =
+                            sibling.nextElementSibling;
+                    }
+                }
+
+                return null;
+            }
+            """
+        )
+
+        if value:
+
+            return normalize_value(
+                value
+            )
+
+    except:
+        pass
+
+    return "0"
+
+
+# =========================================================
+# CLICK PERMANENT
+# =========================================================
+
+def click_permanent(
+    page,
+    button
+):
+
+    if button is None:
+        return False
+
+    try:
+
+        button.scroll_into_view_if_needed(
+            timeout=5000
+        )
+
+        button.click(
+            timeout=5000
+        )
+
+        page.wait_for_timeout(
+            1200
+        )
+
+        return True
+
+    except:
+
+        pass
+
+    # Force click
+    try:
+
+        button.click(
+            force=True,
+            timeout=5000
+        )
+
+        page.wait_for_timeout(
+            1200
+        )
+
+        return True
+
+    except:
+
+        pass
+
+    # JS click
+    try:
+
+        button.evaluate(
+            "(el) => el.click()"
+        )
+
+        page.wait_for_timeout(
+            1200
+        )
+
+        return True
+
+    except:
+
+        return False
+
+
+# =========================================================
+# SCRAPE FRUIT
+# =========================================================
+
+def scrape_fruit(
+    page,
+    url,
+    fallback_name
+):
+
+    if not open_page(
+        page,
+        url
+    ):
+        raise RuntimeError(
+            "Pagina non caricata"
+        )
+
+    name = get_real_name(
+        page,
+        fallback_name
+    )
+
+    body_text = clean(
+        page.locator(
+            "body"
+        ).inner_text()
+    )
+
+    rarity = get_rarity(
+        body_text
+    )
+
+    demand = get_demand(
+        body_text
+    )
+
+    trend = get_trend(
+        body_text
+    )
+
+    # -----------------------------------------------------
+    # REGULAR
+    # -----------------------------------------------------
+
+    print(
+        "      Lettura Regular..."
+    )
+
+    normal = read_fruit_regular_value(
+        page,
+        body_text
+    )
+
+    if normal == "0":
+
+        normal = read_current_fruit_value(
+            page
+        )
+
+    print(
+        f"      Regular: {normal}"
+    )
+
+    # -----------------------------------------------------
+    # PERMANENT
+    # -----------------------------------------------------
+
+    permanent = normal
+
+    permanent_button = find_permanent_button(
+        page
+    )
+
+    if permanent_button:
+
+        print(
+            "      Lettura Permanent..."
+        )
+
+        success = click_permanent(
+            page,
+            permanent_button
+        )
+
+        if success:
+
+            permanent_text = clean(
+                page.locator(
+                    "body"
+                ).inner_text()
+            )
+
+            # Dopo il click il nuovo sito
+            # dovrebbe aggiornare il valore.
+            permanent = read_fruit_regular_value(
+                page,
+                permanent_text
+            )
+
+            if permanent == "0":
+
+                permanent = read_current_fruit_value(
+                    page
+                )
+
+            print(
+                f"      Permanent: {permanent}"
+            )
+
+        else:
+
+            print(
+                "      Click Permanent fallito"
+            )
+
+    else:
+
+        print(
+            "      Pulsante Permanent non trovato"
+        )
+
+    # -----------------------------------------------------
+    # Se il Permanent resta 0, non lo lasciamo a 0
+    # -----------------------------------------------------
+
+    if permanent == "0":
+
+        permanent = normal
+
+    return {
+
+        "name":
+            name,
+
+        "rarity":
+            rarity,
+
+        "value_normal":
+            normal,
+
+        "value_permanent":
+            permanent,
+
+        "demand":
+            demand,
+
+        "trend":
+            trend
+    }
+
+
+# =========================================================
+# SCRAPE LIMITED / GAMEPASS
+# =========================================================
+
+def scrape_item(
+    page,
+    url,
+    fallback_name
+):
+
+    if not open_page(
+        page,
+        url
+    ):
+        raise RuntimeError(
+            "Pagina non caricata"
+        )
+
+    name = get_real_name(
+        page,
+        fallback_name
+    )
+
+    text = clean(
+        page.locator(
+            "body"
+        ).inner_text()
+    )
+
+    # Nuovo sito:
+    # "Value 6.97B"
+    value = extract_value_from_line(
+        text,
+        "Value"
+    )
+
+    if value == "0":
+
+        value = extract_first_value(
+            text
+        )
+
+    demand = get_demand(
+        text
+    )
+
+    trend = get_trend(
+        text
+    )
+
+    return {
+
+        "name":
+            name,
+
+        "value":
+            value,
+
+        "demand":
+            demand,
+
+        "trend":
+            trend
+    }
+
+
+# =========================================================
+# DEBUG
+# =========================================================
+
+def save_debug(
+    page,
+    name,
+    url,
+    error
+):
+
+    if not DEBUG_DUMP_ON_ERROR:
+        return
+
+    try:
+
+        os.makedirs(
+            DEBUG_DIR,
+            exist_ok=True
+        )
+
+        safe_name = re.sub(
+            r"[^a-zA-Z0-9_-]+",
+            "_",
+            name
+        )
+
+        html_path = os.path.join(
+            DEBUG_DIR,
+            f"{safe_name}.html"
+        )
+
+        png_path = os.path.join(
+            DEBUG_DIR,
+            f"{safe_name}.png"
+        )
+
+        txt_path = os.path.join(
+            DEBUG_DIR,
+            f"{safe_name}.txt"
+        )
+
+        with open(
+            html_path,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            f.write(
+                page.content()
+            )
+
+        page.screenshot(
+            path=png_path,
+            full_page=True
+        )
+
+        with open(
+            txt_path,
+            "w",
+            encoding="utf-8"
+        ) as f:
+
+            f.write(
+                f"URL: {url}\n"
+            )
+
+            f.write(
+                f"ERROR: {error}\n"
+            )
+
+        print(
+            f"      [DEBUG] "
+            f"Salvati dump per {name}"
+        )
+
+    except Exception as debug_error:
+
+        print(
+            f"      [DEBUG] "
+            f"Errore dump: {debug_error}"
+        )
 
 
 # =========================================================
@@ -1343,25 +1234,30 @@ def scrape_category(
     category
 ):
 
-    links = load_all_items(
+    links = collect_item_links(
         page,
         category
     )
 
-    results = []
-
-    total = len(links)
-
-    print()
-    print(
-        f"{category.upper()}: {total}"
+    total = len(
+        links
     )
+
+    results = []
 
     failed = []
 
+    print()
+    print("=" * 70)
+    print(
+        f"SCRAPING {category.upper()}: "
+        f"{total}"
+    )
+    print("=" * 70)
+
     for index, (
         url,
-        name
+        fallback_name
     ) in enumerate(
         links.items(),
         start=1
@@ -1369,14 +1265,16 @@ def scrape_category(
 
         print()
         print(
-            f"[{index}/{total}] {name}"
+            f"[{index}/{total}] "
+            f"{fallback_name}"
         )
 
         success = False
+        last_error = None
 
         for attempt in range(
             1,
-            MAX_PAGE_RETRIES + 1
+            MAX_ITEM_RETRIES + 1
         ):
 
             try:
@@ -1386,7 +1284,7 @@ def scrape_category(
                     item = scrape_fruit(
                         page,
                         url,
-                        name
+                        fallback_name
                     )
 
                     print(
@@ -1404,7 +1302,7 @@ def scrape_category(
                     item = scrape_item(
                         page,
                         url,
-                        name
+                        fallback_name
                     )
 
                     print(
@@ -1432,11 +1330,11 @@ def scrape_category(
 
             except Exception as error:
 
+                last_error = error
+
                 print(
                     f"      ERRORE "
-                    f"(tentativo "
-                    f"{attempt}/"
-                    f"{MAX_PAGE_RETRIES}): "
+                    f"{attempt}/{MAX_ITEM_RETRIES}: "
                     f"{error}"
                 )
 
@@ -1445,43 +1343,111 @@ def scrape_category(
         if not success:
 
             print(
-                f"      FALLITO: {name}"
+                f"      FALLITO: "
+                f"{fallback_name}"
             )
 
             failed.append({
-                "name": name,
-                "url": url
+                "name":
+                    fallback_name,
+
+                "url":
+                    url,
+
+                "error":
+                    str(last_error)
             })
 
+            save_debug(
+                page,
+                fallback_name,
+                url,
+                last_error
+            )
+
         time.sleep(
-            0.2
+            0.15
         )
 
     print()
     print(
-        f"{category}: "
-        f"{len(results)} riusciti"
+        f"{category.upper()} COMPLETATO"
     )
 
     print(
-        f"{category}: "
-        f"{len(failed)} falliti"
+        f"Riusciti: {len(results)}"
     )
 
-    if failed:
+    print(
+        f"Falliti: {len(failed)}"
+    )
 
-        print()
+    return results, failed
+
+
+# =========================================================
+# VALIDATION
+# =========================================================
+
+def validate_results(
+    fruits,
+    limited,
+    gamepasses
+):
+
+    print()
+    print("=" * 70)
+    print(
+        "VALIDAZIONE"
+    )
+    print("=" * 70)
+
+    print(
+        f"Fruits:    {len(fruits)}"
+    )
+
+    print(
+        f"Limited:   {len(limited)}"
+    )
+
+    print(
+        f"Gamepass:  {len(gamepasses)}"
+    )
+
+    # Il sito attualmente mostra 42 fruits,
+    # 9 gamepasses e 35 limiteds nella lista.
+    #
+    # Non imponiamo numeri esatti perché il sito
+    # potrebbe aggiungere/rimuovere item.
+    #
+    # Ma se una categoria dovrebbe avere elementi
+    # e restituisce ZERO, blocchiamo l'upload.
+
+    if len(fruits) == 0:
+
         print(
-            "ELEMENTI FALLITI:"
+            "ERRORE: nessun fruit trovato"
         )
 
-        for item in failed:
+        return False
 
-            print(
-                f" - {item['name']}"
-            )
+    if len(gamepasses) == 0:
 
-    return results
+        print(
+            "ERRORE: nessun gamepass trovato"
+        )
+
+        return False
+
+    if len(limited) == 0:
+
+        print(
+            "ERRORE: nessun limited trovato"
+        )
+
+        return False
+
+    return True
 
 
 # =========================================================
@@ -1491,6 +1457,7 @@ def scrape_category(
 def github_headers():
 
     return {
+
         "Accept":
             "application/vnd.github+json",
 
@@ -1513,7 +1480,7 @@ def get_github_file():
     if response.status_code != 200:
 
         print(
-            "ERRORE LETTURA GITHUB:"
+            "ERRORE LETTURA GITHUB"
         )
 
         print(
@@ -1529,9 +1496,7 @@ def get_github_file():
     return response.json()
 
 
-def upload_to_github(
-    data
-):
+def upload_to_github(data):
 
     print()
     print("=" * 70)
@@ -1553,8 +1518,12 @@ def upload_to_github(
     )
 
     encoded = base64.b64encode(
-        content.encode("utf-8")
-    ).decode("utf-8")
+        content.encode(
+            "utf-8"
+        )
+    ).decode(
+        "utf-8"
+    )
 
     payload = {
 
@@ -1600,8 +1569,6 @@ def upload_to_github(
             f"{commit.get('sha', 'N/A')}"
         )
 
-        print()
-
         return True
 
     print()
@@ -1621,55 +1588,7 @@ def upload_to_github(
 
 
 # =========================================================
-# VALIDAZIONE
-# =========================================================
-
-def validate_scraped_data(
-    fruits,
-    limited,
-    gamepasses
-):
-
-    print()
-    print("=" * 70)
-    print(
-        "VALIDAZIONE DATI"
-    )
-    print("=" * 70)
-
-    print(
-        f"Fruits:    {len(fruits)}"
-    )
-
-    print(
-        f"Limited:   {len(limited)}"
-    )
-
-    print(
-        f"Gamepass:  {len(gamepasses)}"
-    )
-
-    if len(fruits) == 0:
-        print(
-            "ERRORE: 0 fruits trovati"
-        )
-        return False
-
-    if len(limited) == 0:
-        print(
-            "ATTENZIONE: 0 limited trovati"
-        )
-
-    if len(gamepasses) == 0:
-        print(
-            "ATTENZIONE: 0 gamepasses trovati"
-        )
-
-    return True
-
-
-# =========================================================
-# MAIN SCRAPE
+# RUN SCRAPER
 # =========================================================
 
 def run_scraper():
@@ -1677,7 +1596,9 @@ def run_scraper():
     with sync_playwright() as p:
 
         browser = p.chromium.launch(
+
             headless=True,
+
             args=[
                 "--no-sandbox",
                 "--disable-setuid-sandbox",
@@ -1709,34 +1630,31 @@ def run_scraper():
 
         page = context.new_page()
 
-        fruits = scrape_category(
+        # -------------------------------------------------
+        # FRUITS
+        # -------------------------------------------------
+
+        fruits, fruit_failed = scrape_category(
             page,
             "fruits"
         )
 
-        print()
-        print(
-            f"FRUITS: {len(fruits)}"
-        )
+        # -------------------------------------------------
+        # GAMEPASSES
+        # -------------------------------------------------
 
-        gamepasses = scrape_category(
+        gamepasses, gamepass_failed = scrape_category(
             page,
             "gamepasses"
         )
 
-        print()
-        print(
-            f"GAMEPASSES: {len(gamepasses)}"
-        )
+        # -------------------------------------------------
+        # LIMITEDS
+        # -------------------------------------------------
 
-        limited = scrape_category(
+        limited, limited_failed = scrape_category(
             page,
             "limiteds"
-        )
-
-        print()
-        print(
-            f"LIMITED: {len(limited)}"
         )
 
         browser.close()
@@ -1744,7 +1662,10 @@ def run_scraper():
     return (
         fruits,
         limited,
-        gamepasses
+        gamepasses,
+        fruit_failed,
+        limited_failed,
+        gamepass_failed
     )
 
 
@@ -1757,92 +1678,79 @@ def main():
     print()
     print("=" * 70)
     print(
-        " BLOXFRUITVALUES JSON UPDATER"
+        " BLOXFRUITS VALUES UPDATER"
+    )
+    print(
+        " NEW COSMIC VALUES SCRAPER"
     )
     print("=" * 70)
 
-    fruits = []
-    limited = []
-    gamepasses = []
+    try:
 
-    completed = False
+        (
+            fruits,
+            limited,
+            gamepasses,
+            fruit_failed,
+            limited_failed,
+            gamepass_failed
+        ) = run_scraper()
 
-    for attempt in range(
-        1,
-        MAX_SCRAPE_RETRIES + 1
-    ):
-
-        print()
-        print(
-            "=" * 70
-        )
-
-        print(
-            f"SCRAPING GENERALE "
-            f"TENTATIVO "
-            f"{attempt}/{MAX_SCRAPE_RETRIES}"
-        )
-
-        print(
-            "=" * 70
-        )
-
-        try:
-
-            (
-                fruits,
-                limited,
-                gamepasses
-            ) = run_scraper()
-
-            if validate_scraped_data(
-                fruits,
-                limited,
-                gamepasses
-            ):
-
-                completed = True
-                break
-
-        except Exception as error:
-
-            print()
-            print(
-                "ERRORE SCRAPING GENERALE:"
-            )
-
-            print(
-                error
-            )
-
-        if attempt < MAX_SCRAPE_RETRIES:
-
-            print()
-            print(
-                "Riprovo tra 10 secondi..."
-            )
-
-            time.sleep(10)
-
-    if not completed:
+    except Exception as error:
 
         print()
         print("=" * 70)
         print(
-            "SCRAPING FALLITO"
+            "SCRAPING FALLITO COMPLETAMENTE"
         )
         print("=" * 70)
 
         print(
-            "Il value.json NON verra' "
-            "sovrascritto."
+            error
         )
 
         raise SystemExit(1)
 
-    # =====================================================
+    # -----------------------------------------------------
+    # VALIDATION
+    # -----------------------------------------------------
+
+    if not validate_results(
+        fruits,
+        limited,
+        gamepasses
+    ):
+
+        print()
+        print(
+            "I DATI NON SONO STATI CARICATI SU GITHUB."
+        )
+
+        raise SystemExit(1)
+
+    # -----------------------------------------------------
+    # WARNING FALLITI
+    # -----------------------------------------------------
+
+    total_failed = (
+        len(fruit_failed)
+        + len(limited_failed)
+        + len(gamepass_failed)
+    )
+
+    if total_failed:
+
+        print()
+        print("=" * 70)
+        print(
+            f"ATTENZIONE: "
+            f"{total_failed} ITEM NON LETTI"
+        )
+        print("=" * 70)
+
+    # -----------------------------------------------------
     # JSON
-    # =====================================================
+    # -----------------------------------------------------
 
     data = {
 
@@ -1867,9 +1775,9 @@ def main():
             gamepasses
     }
 
-    # =====================================================
+    # -----------------------------------------------------
     # LOCAL SAVE
-    # =====================================================
+    # -----------------------------------------------------
 
     with open(
         "value.json",
@@ -1887,7 +1795,7 @@ def main():
     print()
     print("=" * 70)
     print(
-        "VALUE.JSON LOCALE SALVATO"
+        "VALUE.JSON SALVATO"
     )
     print("=" * 70)
 
@@ -1903,32 +1811,25 @@ def main():
         f"Gamepass:  {len(gamepasses)}"
     )
 
-    # =====================================================
+    # -----------------------------------------------------
     # GITHUB
-    # =====================================================
+    # -----------------------------------------------------
 
-    success = upload_to_github(
+    if not upload_to_github(
         data
-    )
-
-    print()
-    print("=" * 70)
-
-    if success:
+    ):
 
         print(
-            " OPERAZIONE COMPLETATA"
-        )
-
-    else:
-
-        print(
-            " SCRAPING OK - "
-            "GITHUB NON AGGIORNATO"
+            "GitHub NON aggiornato."
         )
 
         raise SystemExit(1)
 
+    print()
+    print("=" * 70)
+    print(
+        " OPERAZIONE COMPLETATA"
+    )
     print("=" * 70)
 
 
@@ -1938,3 +1839,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
