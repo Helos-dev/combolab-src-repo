@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -363,7 +363,7 @@
       "name": "Dog Blade",
       "value": "750M",
       "demand": "10/10",
-      "trend": "SOON"
+      "trend": "Increasing"
     },
     {
       "name": "Fiend Yeti",
