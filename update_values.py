@@ -627,14 +627,15 @@ def collect_item_links(
 
 def read_fruit_regular_value(
     page,
-    body_text
+    body_text,
+    label="Regular value"
 ):
 
     # Metodo 1: cerca direttamente
-    # "Regular value 600M"
+    # "Regular value 600M" oppure "Permanent value 600M"
     value = extract_value_from_line(
         body_text,
-        "Regular value"
+        label
     )
 
     if value != "0":
@@ -674,7 +675,7 @@ def read_fruit_regular_value(
 
                     const index =
                         lower.indexOf(
-                            "regular value"
+                            LABEL.toLowerCase()
                         );
 
                     if (index === -1)
@@ -683,7 +684,7 @@ def read_fruit_regular_value(
                     const after =
                         text.substring(
                             index
-                            + "regular value".length
+                            + LABEL.length
                         );
 
                     const match =
@@ -696,6 +697,7 @@ def read_fruit_regular_value(
                 return null;
             }
             """
+            .replace("LABEL", json.dumps(label))
         )
 
         if value:
@@ -765,7 +767,10 @@ def find_permanent_button(page):
 # READ CURRENT FRUIT VALUE
 # =========================================================
 
-def read_current_fruit_value(page):
+def read_current_fruit_value(
+    page,
+    label="Regular value"
+):
 
     body_text = clean(
         page.locator(
@@ -773,10 +778,11 @@ def read_current_fruit_value(page):
         ).inner_text()
     )
 
-    # Cerca "Regular value"
+    # Cerca il valore della modalità richiesta
     value = read_fruit_regular_value(
         page,
-        body_text
+        body_text,
+        label
     )
 
     if value != "0":
@@ -922,6 +928,39 @@ def click_permanent(
         return False
 
 
+def wait_for_fruit_mode(
+    page,
+    label,
+    timeout=5000
+):
+
+    deadline = time.time() + (timeout / 1000)
+
+    while time.time() < deadline:
+
+        try:
+
+            text = clean(
+                page.locator(
+                    "body"
+                ).inner_text()
+            )
+
+            if re.search(
+                rf"\b{re.escape(label)}\b",
+                text,
+                re.IGNORECASE
+            ):
+                return True
+
+        except:
+            pass
+
+        page.wait_for_timeout(150)
+
+    return False
+
+
 # =========================================================
 # SCRAPE FRUIT
 # =========================================================
@@ -1009,23 +1048,48 @@ def scrape_fruit(
 
         if success:
 
+            # Sul nuovo sito il click deve cambiare anche
+            # l'etichetta mostrata da "Regular value" a
+            # "Permanent value". Aspettiamo questo cambio
+            # prima di leggere il numero, altrimenti il parser
+            # rilegge il valore Regular.
+            mode_changed = wait_for_fruit_mode(
+                page,
+                "Permanent value",
+                timeout=5000
+            )
+
             permanent_text = clean(
                 page.locator(
                     "body"
                 ).inner_text()
             )
 
-            # Dopo il click il nuovo sito
-            # dovrebbe aggiornare il valore.
-            permanent = read_fruit_regular_value(
-                page,
-                permanent_text
-            )
+            if mode_changed:
+
+                permanent = read_fruit_regular_value(
+                    page,
+                    permanent_text,
+                    "Permanent value"
+                )
+
+            else:
+
+                print(
+                    "      Permanent value non comparso, "
+                    "provo la lettura DOM..."
+                )
+
+                permanent = read_current_fruit_value(
+                    page,
+                    "Permanent value"
+                )
 
             if permanent == "0":
 
                 permanent = read_current_fruit_value(
-                    page
+                    page,
+                    "Permanent value"
                 )
 
             print(
