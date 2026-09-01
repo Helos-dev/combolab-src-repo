@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-08-31",
+  "last_updated": "2026-09-01",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -357,7 +357,7 @@
       "name": "Rabid Dog Blade",
       "value": "7.98B",
       "demand": "10/10",
-      "trend": "Overpaid"
+      "trend": "SOON"
     },
     {
       "name": "Dog Blade",
@@ -541,7 +541,7 @@
     },
     {
       "name": "Nuclear Bomb",
-      "value": "610M",
+      "value": "570M",
       "demand": "6/10",
       "trend": "Stable"
     },
