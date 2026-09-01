@@ -5,175 +5,853 @@
     "note": "In-game damage scales with level and stats, so fixed damage numbers are not included. Always check in-game for updated details on the current patch."
   },
   "swords": [
-    { "name": "Katana", "rarity": "Common", "how_to_get": "Purchasable for 1,000 Beli from the Sword Dealer (First Sea)" },
-    { "name": "Cutlass", "rarity": "Common", "how_to_get": "Purchasable for 1,000 Beli from the Sword Dealer (First Sea)" },
-    { "name": "Iron Mace", "rarity": "Uncommon", "how_to_get": "Purchasable for 25,000 Beli from the Sword Dealer of the West (First Sea)" },
-    { "name": "Triple Katana", "rarity": "Uncommon", "how_to_get": "Purchasable for 60,000 Beli from the Sword Dealer of the East at Frozen Village (First Sea)" },
-    { "name": "Soul Cane", "rarity": "Rare", "how_to_get": "Purchasable for 750,000 Beli from the Living Skeleton at Magma Village (First Sea)" },
-    { "name": "Bisento", "rarity": "Legendary", "how_to_get": "Purchasable for 1,000,000 Beli from the Master Sword Dealer (First Sea)" },
-    { "name": "Saber", "rarity": "Legendary", "how_to_get": "Guaranteed drop from Saber Expert after completing the Saber Puzzle (First Sea)" },
-    { "name": "Pole (1st Form)", "rarity": "Legendary", "how_to_get": "Drop from the Thunder God boss (First Sea)" },
-    { "name": "Rengoku", "rarity": "Legendary", "how_to_get": "Unlocked with the Hidden Key in the chest under the stairs at Ice Castle (Second Sea)" },
-    { "name": "Shizu", "rarity": "Legendary", "how_to_get": "Purchasable for 2,000,000 Beli from the Legendary Sword Dealer (Second Sea, rare spawn)" },
-    { "name": "Tushita", "rarity": "Legendary", "how_to_get": "Reward from the Tushita puzzle at Floating Turtle (Third Sea)" },
-    { "name": "Yama", "rarity": "Legendary", "how_to_get": "Reward from the Yama puzzle at Secret Temple, Hydra Island (Third Sea)" },
-    { "name": "Fox Lamp", "rarity": "Legendary", "how_to_get": "Random reward from the Kitsune Shrine by offering 15+ Azure Embers during a Blue Moon" },
-    { "name": "True Triple Katana", "rarity": "Mythical", "how_to_get": "Purchasable for 2,000,000 Beli from the Mysterious Man after reaching 300 mastery on Saishi, Shizu, and Oroshi (Second Sea)" },
-    { "name": "Dark Blade", "rarity": "Mythical", "how_to_get": "Gamepass for 1,200 Robux in the Shop" },
-    { "name": "Cursed Dual Katana", "rarity": "Mythical", "how_to_get": "Puzzle requiring Lv. 2200+ and 350 mastery on Yama and Tushita (Third Sea)" }
+    {
+      "name": "Katana",
+      "rarity": "Common",
+      "how_to_get": "Purchasable for 1,000 Beli from the Sword Dealer (First Sea)"
+    },
+    {
+      "name": "Cutlass",
+      "rarity": "Common",
+      "how_to_get": "Purchasable for 1,000 Beli from the Sword Dealer (First Sea)"
+    },
+    {
+      "name": "Dual Katana",
+      "rarity": "Common",
+      "how_to_get": "Purchasable for 12,000 Beli from the Sword Dealer of the West (First Sea)"
+    },
+    {
+      "name": "Iron Mace",
+      "rarity": "Uncommon",
+      "how_to_get": "Purchasable for 25,000 Beli from the Sword Dealer of the West (First Sea)"
+    },
+    {
+      "name": "Shark Saw",
+      "rarity": "Uncommon",
+      "how_to_get": "Drop from The Saw boss (First Sea)"
+    },
+    {
+      "name": "Triple Katana",
+      "rarity": "Uncommon",
+      "how_to_get": "Purchasable for 60,000 Beli from the Sword Dealer of the East at Frozen Village (First Sea)"
+    },
+    {
+      "name": "Fishing Trophy",
+      "rarity": "Uncommon",
+      "how_to_get": "Reward for placing in the top 1,000 of the Fishing Tournament"
+    },
+    {
+      "name": "Twin Hooks",
+      "rarity": "Uncommon",
+      "how_to_get": "Drop from Captain Elephant (Third Sea)"
+    },
+    {
+      "name": "Soul Cane",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 750,000 Beli from the Living Skeleton at Magma Village (First Sea)"
+    },
+    {
+      "name": "Dragon Trident",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Tide Keeper (Second Sea)"
+    },
+    {
+      "name": "Dual-Headed Blade",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 400,000 Beli from the Master Sword Dealer"
+    },
+    {
+      "name": "Flail",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Smoke Admiral (Second Sea)"
+    },
+    {
+      "name": "Gravity Blade",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Orbitus (Second Sea)"
+    },
+    {
+      "name": "Longsword",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Diamond (Second Sea)"
+    },
+    {
+      "name": "Pipe",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 100,000 Beli from the Sword Dealer of the East"
+    },
+    {
+      "name": "Trident",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Fishman Lord (First Sea)"
+    },
+    {
+      "name": "Wardens Sword",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Chief Warden (First Sea)"
+    },
+    {
+      "name": "Bisento",
+      "rarity": "Legendary",
+      "how_to_get": "Purchasable for 1,000,000 Beli from the Master Sword Dealer (First Sea)"
+    },
+    {
+      "name": "Saber",
+      "rarity": "Legendary",
+      "how_to_get": "Guaranteed drop from Saber Expert after completing the Saber Puzzle (First Sea)"
+    },
+    {
+      "name": "Pole (1st Form)",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from the Thunder God boss (First Sea)"
+    },
+    {
+      "name": "Rengoku",
+      "rarity": "Legendary",
+      "how_to_get": "Unlocked with the Hidden Key in the chest under the stairs at Ice Castle (Second Sea)"
+    },
+    {
+      "name": "Shizu",
+      "rarity": "Legendary",
+      "how_to_get": "Purchasable for 2,000,000 Beli from the Legendary Sword Dealer (Second Sea, rare spawn)"
+    },
+    {
+      "name": "Tushita",
+      "rarity": "Legendary",
+      "how_to_get": "Reward from the Tushita puzzle at Floating Turtle (Third Sea)"
+    },
+    {
+      "name": "Yama",
+      "rarity": "Legendary",
+      "how_to_get": "Reward from the Yama puzzle at Secret Temple, Hydra Island (Third Sea)"
+    },
+    {
+      "name": "Fox Lamp",
+      "rarity": "Legendary",
+      "how_to_get": "Random reward from the Kitsune Shrine by offering 15+ Azure Embers during a Blue Moon"
+    },
+    {
+      "name": "Buddy Sword",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from Cake Queen (Third Sea)"
+    },
+    {
+      "name": "Canvander",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from Beautiful Pirate (Third Sea)"
+    },
+    {
+      "name": "Dark Dagger",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from rip_indra True Form (Third Sea)"
+    },
+    {
+      "name": "Dragonheart",
+      "rarity": "Legendary",
+      "how_to_get": "Obtained from the Dragon Hunter (Third Sea)"
+    },
+    {
+      "name": "Koko",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from Order (Second Sea)"
+    },
+    {
+      "name": "Midnight Blade",
+      "rarity": "Legendary",
+      "how_to_get": "Purchasable for 100 Ectoplasm from El Admin (Second Sea)"
+    },
+    {
+      "name": "Oroshi",
+      "rarity": "Legendary",
+      "how_to_get": "Purchasable for 2,000,000 Beli from the Legendary Sword Dealer (Second Sea, rare spawn)"
+    },
+    {
+      "name": "Pole (2nd Form)",
+      "rarity": "Legendary",
+      "how_to_get": "Obtained by being struck by lightning in Rough Sea while holding Pole (1st Form)"
+    },
+    {
+      "name": "Saishi",
+      "rarity": "Legendary",
+      "how_to_get": "Purchasable for 2,000,000 Beli from the Legendary Sword Dealer (Second Sea, rare spawn)"
+    },
+    {
+      "name": "Shark Anchor",
+      "rarity": "Legendary",
+      "how_to_get": "Use the Monster Magnet and defeat the Anchor Terrorshark (Third Sea)"
+    },
+    {
+      "name": "Spikey Trident",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from Cake Prince or Dough King (Third Sea)"
+    },
+    {
+      "name": "True Triple Katana",
+      "rarity": "Mythical",
+      "how_to_get": "Purchasable for 2,000,000 Beli from the Mysterious Man after reaching 300 mastery on Saishi, Shizu, and Oroshi (Second Sea)"
+    },
+    {
+      "name": "Dark Blade",
+      "rarity": "Mythical",
+      "how_to_get": "Gamepass for 1,200 Robux in the Shop"
+    },
+    {
+      "name": "Cursed Dual Katana",
+      "rarity": "Mythical",
+      "how_to_get": "Puzzle requiring Lv. 2200+ and 350 mastery on Yama and Tushita (Third Sea)"
+    },
+    {
+      "name": "Hallow Scythe",
+      "rarity": "Mythical",
+      "how_to_get": "Drop from Soul Reaper (Third Sea)"
+    },
+    {
+      "name": "Triple Dark Blade",
+      "rarity": "Mythical",
+      "how_to_get": "Admin-only sword"
+    },
+    {
+      "name": "Dog Blade",
+      "rarity": "Mythical",
+      "how_to_get": "Redeem a Love Letter from the Dog House Event"
+    }
   ],
   "guns": [
-    { "name": "Slingshot", "rarity": "Common", "how_to_get": "Purchasable for 5,000 Beli from the Weapon Dealer (First Sea)" },
-    { "name": "Musket", "rarity": "Uncommon", "how_to_get": "Purchasable for 8,000 Beli from the Weapon Dealer (First Sea)" },
-    { "name": "Flintlock", "rarity": "Uncommon", "how_to_get": "Purchasable for 10,500 Beli from the Weapon Dealer (First Sea)" },
-    { "name": "Cannon", "rarity": "Rare", "how_to_get": "Purchasable for 100,000 Beli from the Advanced Weapon Dealer (First Sea)" },
-    { "name": "Bazooka", "rarity": "Legendary", "how_to_get": "Drop from the Wysper boss at Skylands (First Sea)" },
-    { "name": "Kabucha", "rarity": "Legendary", "how_to_get": "Exchanged for 1,500 Fragments from The Strongest God on Remote Island (Second Sea)" },
-    { "name": "Venom Bow", "rarity": "Legendary", "how_to_get": "Drop from the Hydra Leader (Third Sea)" },
-    { "name": "Dragonstorm", "rarity": "Legendary", "how_to_get": "Craftable by the Dragon Hunter on Hydra Island with specific materials (Third Sea)" },
-    { "name": "Skull Guitar", "rarity": "Mythical", "how_to_get": "Full Moon puzzle (Lv. 2300+) and crafting at the Weird Machine, Haunted Castle (Third Sea)" }
+    {
+      "name": "Slingshot",
+      "rarity": "Common",
+      "how_to_get": "Purchasable for 5,000 Beli from the Weapon Dealer (First Sea)"
+    },
+    {
+      "name": "Musket",
+      "rarity": "Uncommon",
+      "how_to_get": "Purchasable for 8,000 Beli from the Weapon Dealer (First Sea)"
+    },
+    {
+      "name": "Flintlock",
+      "rarity": "Uncommon",
+      "how_to_get": "Purchasable for 10,500 Beli from the Weapon Dealer (First Sea)"
+    },
+    {
+      "name": "Cannon",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 100,000 Beli from the Advanced Weapon Dealer (First Sea)"
+    },
+    {
+      "name": "Bazooka",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from the Wysper boss at Skylands (First Sea)"
+    },
+    {
+      "name": "Kabucha",
+      "rarity": "Legendary",
+      "how_to_get": "Exchanged for 1,500 Fragments from The Strongest God on Remote Island (Second Sea)"
+    },
+    {
+      "name": "Venom Bow",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from the Hydra Leader (Third Sea)"
+    },
+    {
+      "name": "Dragonstorm",
+      "rarity": "Legendary",
+      "how_to_get": "Craftable by the Dragon Hunter on Hydra Island with specific materials (Third Sea)"
+    },
+    {
+      "name": "Skull Guitar",
+      "rarity": "Mythical",
+      "how_to_get": "Full Moon puzzle (Lv. 2300+) and crafting at the Weird Machine, Haunted Castle (Third Sea)"
+    },
+    {
+      "name": "Acidum Rifle",
+      "rarity": "Rare",
+      "how_to_get": "Drop from the Factory Raid (Second Sea)"
+    },
+    {
+      "name": "Bizarre Revolver",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable with 25 Ectoplasm from El Rodolfo (Second Sea)"
+    },
+    {
+      "name": "Bizarre Rifle",
+      "rarity": "Rare",
+      "how_to_get": "Quest reward in the Second Sea"
+    },
+    {
+      "name": "Dual Flintlock",
+      "rarity": "Uncommon",
+      "how_to_get": "Purchasable for 65,000 Beli from the Advanced Weapon Dealer"
+    },
+    {
+      "name": "Magma Blaster",
+      "rarity": "Legendary",
+      "how_to_get": "Drop from Magma Admiral"
+    },
+    {
+      "name": "Refined Flintlock",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 65,000 Beli from the Advanced Weapon Dealer"
+    },
+    {
+      "name": "Refined Musket",
+      "rarity": "Rare",
+      "how_to_get": "Drop from Magma Admiral"
+    },
+    {
+      "name": "Refined Slingshot",
+      "rarity": "Rare",
+      "how_to_get": "Purchasable for 30,000 Beli from the Advanced Weapon Dealer"
+    },
+    {
+      "name": "Shotgun",
+      "rarity": "Rare",
+      "how_to_get": "Unobtainable/admin weapon"
+    }
   ],
   "fighting_styles": [
-    { "name": "Combat", "note": "Free starting style, cannot be re-obtained once replaced" },
-    { "name": "Dark Step", "note": "Budget-friendly, available at Pirate Village for 150,000 Beli" },
-    { "name": "Electric", "note": "Good early option for combos and mobility" },
-    { "name": "Water Kung Fu", "note": "Recommended for grinding in the First Sea" },
-    { "name": "Dragon Breath", "note": "Only style priced exclusively in Fragments" },
-    { "name": "Death Step", "note": "Upgraded version of Dark Step, requires a Library Key" },
-    { "name": "Sharkman Karate", "note": "Requires a Water Key" },
-    { "name": "Superhuman", "note": "Requires mastery across multiple basic styles" },
-    { "name": "Electric Claw", "note": "Available in Third Sea, fast M1s" },
-    { "name": "Dragon Talon", "note": "High AoE damage, available in Third Sea" },
-    { "name": "Godhuman", "note": "Requires 400 mastery on Superhuman, Death Step, Electric Claw, Sharkman Karate, and Dragon Talon, plus Beli, Fragments, and materials" },
-    { "name": "Sanguine Art", "note": "Most powerful, requires Leviathan Heart, Demonic Wisps, Vampire Fangs, Dark Fragments, Beli, and Fragments" }
+    {
+      "name": "Combat",
+      "note": "Free starting style, cannot be re-obtained once replaced"
+    },
+    {
+      "name": "Dark Step",
+      "note": "Budget-friendly, available at Pirate Village for 150,000 Beli"
+    },
+    {
+      "name": "Electric",
+      "note": "Good early option for combos and mobility"
+    },
+    {
+      "name": "Water Kung Fu",
+      "note": "Recommended for grinding in the First Sea"
+    },
+    {
+      "name": "Dragon Breath",
+      "note": "Only style priced exclusively in Fragments"
+    },
+    {
+      "name": "Death Step",
+      "note": "Upgraded version of Dark Step, requires a Library Key"
+    },
+    {
+      "name": "Sharkman Karate",
+      "note": "Requires a Water Key"
+    },
+    {
+      "name": "Superhuman",
+      "note": "Requires mastery across multiple basic styles"
+    },
+    {
+      "name": "Electric Claw",
+      "note": "Available in Third Sea, fast M1s"
+    },
+    {
+      "name": "Dragon Talon",
+      "note": "High AoE damage, available in Third Sea"
+    },
+    {
+      "name": "Godhuman",
+      "note": "Requires 400 mastery on Superhuman, Death Step, Electric Claw, Sharkman Karate, and Dragon Talon, plus Beli, Fragments, and materials"
+    },
+    {
+      "name": "Sanguine Art",
+      "note": "Most powerful, requires Leviathan Heart, Demonic Wisps, Vampire Fangs, Dark Fragments, Beli, and Fragments"
+    }
   ],
   "races": [
     {
       "name": "Human",
       "category": "Starting",
       "how_to_get": "Randomly assigned upon first join (62.5% chance) or via reroll",
-      "versions": ["V1: No passive", "V2: Combat bonuses", "V3: Last Resort (damage increases at low HP)", "V4: Berserker (Psycho + Limit Break)"]
+      "versions": [
+        "V1: No passive",
+        "V2: Combat bonuses",
+        "V3: Last Resort (damage increases at low HP)",
+        "V4: Berserker (Psycho + Limit Break)"
+      ]
     },
     {
       "name": "Rabbit",
       "category": "Starting",
       "how_to_get": "Randomly assigned upon first join (12.5% chance) or via reroll",
-      "versions": ["V1: Faster movement", "V2: Improved speed + Dash", "V3: Agility", "V4: Whirlwind + Lightning Cloak"]
+      "versions": [
+        "V1: Faster movement",
+        "V2: Improved speed + Dash",
+        "V3: Agility",
+        "V4: Whirlwind + Lightning Cloak"
+      ]
     },
     {
       "name": "Shark",
       "category": "Starting",
       "how_to_get": "Randomly assigned upon first join (12.5% chance) or via reroll",
-      "versions": ["V1: Water affinity", "V2: Enhanced water affinity", "V3: Aquatic combat power", "V4: Leviathan's Armor + Whirlpool"]
+      "versions": [
+        "V1: Water affinity",
+        "V2: Enhanced water affinity",
+        "V3: Aquatic combat power",
+        "V4: Leviathan's Armor + Whirlpool"
+      ]
     },
     {
       "name": "Angel",
       "category": "Starting",
       "how_to_get": "Randomly assigned upon first join (12.5% chance) or via reroll",
-      "versions": ["V1: Natural air jump", "V2: Extra air jump", "V3: Heavenly Blood", "V4: Divine abilities (varies by update)"]
+      "versions": [
+        "V1: Natural air jump",
+        "V2: Extra air jump",
+        "V3: Heavenly Blood",
+        "V4: Divine abilities (varies by update)"
+      ]
     },
     {
       "name": "Cyborg",
       "category": "Unlockable",
       "how_to_get": "By completing the Cyborg puzzle in the Second Sea (Fist of Darkness chain + lab on Core Island)",
-      "versions": ["V1: No passive", "V2: Combat utility", "V3: Lightning AoE + Instinct break", "V4: Energy-based Awakening"]
+      "versions": [
+        "V1: No passive",
+        "V2: Combat utility",
+        "V3: Lightning AoE + Instinct break",
+        "V4: Energy-based Awakening"
+      ]
     },
     {
       "name": "Ghoul",
       "category": "Unlockable",
       "how_to_get": "Purchasable from the Experimic NPC for 100 Ectoplasm + a Hellfire Torch",
-      "versions": ["V1: Life Leech + night bonus", "V2: Enhanced night form", "V3: Improved sustain and cooldowns", "V4: Awakened Ghoul abilities"]
+      "versions": [
+        "V1: Life Leech + night bonus",
+        "V2: Enhanced night form",
+        "V3: Improved sustain and cooldowns",
+        "V4: Awakened Ghoul abilities"
+      ]
     },
     {
       "name": "Draco",
       "category": "Unlockable",
       "how_to_get": "By completing the Dragon Wizard quest (costs up to 4,000,000 Beli up to V3, most expensive)",
-      "versions": ["V1: Base draconic form", "V2: Extended kit", "V3: Damage + debuffs", "V4: Awakened Draco"]
+      "versions": [
+        "V1: Base draconic form",
+        "V2: Extended kit",
+        "V3: Damage + debuffs",
+        "V4: Awakened Draco"
+      ]
     }
   ],
   "accessories": [
-    { "name": "Dojo Belt (Blue)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (Green)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (Orange)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (Purple)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (Red)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (White)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Dojo Belt (Yellow)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Headband (Black)", "rarity": "Uncommon", "sea": "Third Sea" },
-    { "name": "Pink Coat", "rarity": "Uncommon", "sea": "First Sea" },
-    { "name": "Bandanna (Black)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Bandanna (Green)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Bandanna (Red)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Bear Ears", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Black Cape", "rarity": "Rare", "sea": "First Sea" },
-    { "name": "Black Spikey Coat", "rarity": "Rare", "sea": "Second Sea" },
-    { "name": "Blue Spikey Coat", "rarity": "Rare", "sea": "Second Sea" },
-    { "name": "Choppa", "rarity": "Rare", "sea": null },
-    { "name": "Coat", "rarity": "Rare", "sea": "First Sea" },
-    { "name": "Cool Shades", "rarity": "Rare", "sea": "First Sea" },
-    { "name": "Dojo Belt (Black)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Elf Hat", "rarity": "Rare", "sea": null },
-    { "name": "Ghoul Mask", "rarity": "Rare", "sea": "Second Sea" },
-    { "name": "Golden Sunhat", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Hunter Cape (Black)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Hunter Cape (Green)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Hunter Cape (Red)", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Jaw Shield", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Lei", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Marine Cap", "rarity": "Rare", "sea": null },
-    { "name": "Pilot Helmet", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Pretty Helmet", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Red Spikey Coat", "rarity": "Rare", "sea": null },
-    { "name": "Santa Hat", "rarity": "Rare", "sea": null },
-    { "name": "Shark Tooth Necklace", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Swordsman Hat", "rarity": "Rare", "sea": "First Sea" },
-    { "name": "T-Rex Skull", "rarity": "Rare", "sea": "Third Sea" },
-    { "name": "Tomoe Ring", "rarity": "Rare", "sea": "First Sea" },
-    { "name": "Top Hat", "rarity": "Rare", "sea": null },
-    { "name": "Usoap's Hat", "rarity": "Rare", "sea": null },
-    { "name": "Warrior Helmet", "rarity": "Rare", "sea": "Second Sea" },
-    { "name": "50b Party Hat", "rarity": "Mythical", "sea": null },
-    { "name": "Celestial Helmet", "rarity": "Mythical", "sea": null },
-    { "name": "Coven Witch Hat", "rarity": "Mythical", "sea": null },
-    { "name": "Cracked Egg Helmet", "rarity": "Mythical", "sea": null },
-    { "name": "Cupid's Top Hat", "rarity": "Mythical", "sea": null },
-    { "name": "Dark Coat", "rarity": "Mythical", "sea": "Second Sea" },
-    { "name": "Divine Cloak", "rarity": "Mythical", "sea": null },
-    { "name": "Easter Bunny Cape", "rarity": "Mythical", "sea": null },
-    { "name": "Frosty Helmet", "rarity": "Mythical", "sea": null },
-    { "name": "Holiday Cloak", "rarity": "Mythical", "sea": null },
-    { "name": "Leviathan Shield", "rarity": "Mythical", "sea": "Third Sea" },
-    { "name": "Oni Helmet", "rarity": "Mythical", "sea": null },
-    { "name": "Party Hat", "rarity": "Mythical", "sea": null },
-    { "name": "Peppermint Helmet", "rarity": "Mythical", "sea": null },
-    { "name": "Pumpkin Mask", "rarity": "Mythical", "sea": null },
-    { "name": "Red Ribbon", "rarity": "Mythical", "sea": null },
-    { "name": "Romantic Bouquet", "rarity": "Mythical", "sea": null },
-    { "name": "Sanguine Cloak", "rarity": "Mythical", "sea": null },
-    { "name": "Uzoth's Cloak", "rarity": "Mythical", "sea": null },
-    { "name": "Cupid's Coat", "rarity": "Legendary", "sea": null },
-    { "name": "D.S. Coat", "rarity": "Legendary", "sea": null },
-    { "name": "Dino Hood", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Dragon Mantle", "rarity": "Legendary", "sea": null },
-    { "name": "Feathered Visage", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Heart Shades", "rarity": "Legendary", "sea": null },
-    { "name": "Holy Crown", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Kitsune Mask", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Kitsune Ribbon", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Leviathan Crown", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Musketeer Hat", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Pale Scarf", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Swan Glasses", "rarity": "Legendary", "sea": "Second Sea" },
-    { "name": "Terror Jaw", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Valkyrie Helm", "rarity": "Legendary", "sea": "Third Sea" },
-    { "name": "Wyvern Helmet", "rarity": "Legendary", "sea": null },
-    { "name": "Zebra Cap", "rarity": "Legendary", "sea": "Second Sea" },
-    { "name": "Headband (Blue)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (Green)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (Orange)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (Purple)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (Red)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (White)", "rarity": "Common", "sea": "Third Sea" },
-    { "name": "Headband (Yellow)", "rarity": "Common", "sea": "Third Sea" }
+    {
+      "name": "Dojo Belt (Blue)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (Green)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (Orange)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (Purple)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (Red)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (White)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dojo Belt (Yellow)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Black)",
+      "rarity": "Uncommon",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Pink Coat",
+      "rarity": "Uncommon",
+      "sea": "First Sea"
+    },
+    {
+      "name": "Bandanna (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Bandanna (Green)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Bandanna (Red)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Bear Ears",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Black Cape",
+      "rarity": "Rare",
+      "sea": "First Sea"
+    },
+    {
+      "name": "Black Spikey Coat",
+      "rarity": "Rare",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Blue Spikey Coat",
+      "rarity": "Rare",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Choppa",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Coat",
+      "rarity": "Rare",
+      "sea": "First Sea"
+    },
+    {
+      "name": "Cool Shades",
+      "rarity": "Rare",
+      "sea": "First Sea"
+    },
+    {
+      "name": "Dojo Belt (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Elf Hat",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Ghoul Mask",
+      "rarity": "Rare",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Golden Sunhat",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Hunter Cape (Black)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Hunter Cape (Green)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Hunter Cape (Red)",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Jaw Shield",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Lei",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Marine Cap",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Pilot Helmet",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Pretty Helmet",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Red Spikey Coat",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Santa Hat",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Shark Tooth Necklace",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Swordsman Hat",
+      "rarity": "Rare",
+      "sea": "First Sea"
+    },
+    {
+      "name": "T-Rex Skull",
+      "rarity": "Rare",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Tomoe Ring",
+      "rarity": "Rare",
+      "sea": "First Sea"
+    },
+    {
+      "name": "Top Hat",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Usoap's Hat",
+      "rarity": "Rare",
+      "sea": null
+    },
+    {
+      "name": "Warrior Helmet",
+      "rarity": "Rare",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "50b Party Hat",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Celestial Helmet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Coven Witch Hat",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Cracked Egg Helmet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Cupid's Top Hat",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Dark Coat",
+      "rarity": "Mythical",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Divine Cloak",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Easter Bunny Cape",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Frosty Helmet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Holiday Cloak",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Leviathan Shield",
+      "rarity": "Mythical",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Oni Helmet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Party Hat",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Peppermint Helmet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Pumpkin Mask",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Red Ribbon",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Romantic Bouquet",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Sanguine Cloak",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Uzoth's Cloak",
+      "rarity": "Mythical",
+      "sea": null
+    },
+    {
+      "name": "Cupid's Coat",
+      "rarity": "Legendary",
+      "sea": null
+    },
+    {
+      "name": "D.S. Coat",
+      "rarity": "Legendary",
+      "sea": null
+    },
+    {
+      "name": "Dino Hood",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Dragon Mantle",
+      "rarity": "Legendary",
+      "sea": null
+    },
+    {
+      "name": "Feathered Visage",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Heart Shades",
+      "rarity": "Legendary",
+      "sea": null
+    },
+    {
+      "name": "Holy Crown",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Kitsune Mask",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Kitsune Ribbon",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Leviathan Crown",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Musketeer Hat",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Pale Scarf",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Swan Glasses",
+      "rarity": "Legendary",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Terror Jaw",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Valkyrie Helm",
+      "rarity": "Legendary",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Wyvern Helmet",
+      "rarity": "Legendary",
+      "sea": null
+    },
+    {
+      "name": "Zebra Cap",
+      "rarity": "Legendary",
+      "sea": "Second Sea"
+    },
+    {
+      "name": "Headband (Blue)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Green)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Orange)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Purple)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Red)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (White)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    },
+    {
+      "name": "Headband (Yellow)",
+      "rarity": "Common",
+      "sea": "Third Sea"
+    }
   ]
 }
