@@ -273,11 +273,6 @@
       "how_to_get": "Purchasable with 25 Ectoplasm from El Rodolfo (Second Sea)"
     },
     {
-      "name": "Bizarre Rifle",
-      "rarity": "Rare",
-      "how_to_get": "Quest reward in the Second Sea"
-    },
-    {
       "name": "Dual Flintlock",
       "rarity": "Uncommon",
       "how_to_get": "Purchasable for 65,000 Beli from the Advanced Weapon Dealer"
@@ -285,16 +280,6 @@
     {
       "name": "Magma Blaster",
       "rarity": "Legendary",
-      "how_to_get": "Drop from Magma Admiral"
-    },
-    {
-      "name": "Refined Flintlock",
-      "rarity": "Rare",
-      "how_to_get": "Purchasable for 65,000 Beli from the Advanced Weapon Dealer"
-    },
-    {
-      "name": "Refined Musket",
-      "rarity": "Rare",
       "how_to_get": "Drop from Magma Admiral"
     },
     {
