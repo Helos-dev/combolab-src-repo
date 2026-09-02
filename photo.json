@@ -866,7 +866,7 @@
     "image": "https://imgs.search.brave.com/agNG3_ZhfwxiO1WbY_Dh5jHrRvbdQKxpoQFCRAuTQa8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90cmFk/ZWtpdHN1bmUuY29t/L19uZXh0L2ltYWdl/P3VybD1odHRwczov/L3N0YXRpYy50cmFk/ZWtpdHN1bmUuY29t/L3Byb2R1Y3QvYmxv/eGZydWl0cy9nYW1l/cGFzcy9mYXN0X2Jv/YXRzLndlYnAmdz0z/ODQmcT03NQ",
     "type": "gamepass"
   },
-   {
+  {
     "name": "Dual Katana",
     "image": "https://bloxfruitsdatabase.com/item-images/dual-katana.webp",
     "type": "sword"
@@ -995,5 +995,145 @@
     "name": "Dog Blade",
     "image": "https://bloxfruitsdatabase.com/item-images/dog-blade.webp",
     "type": "sword"
+  },
+    {
+    "name": "Acidum Rifle",
+    "image": "https://bloxfruitsdatabase.com/item-images/acidum-rifle.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Bizarre Revolver",
+    "image": "https://bloxfruitsdatabase.com/item-images/bizarre-revolver.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Bizarre Rifle",
+    "image": "https://bloxfruitsdatabase.com/item-images/bizarre-rifle.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Dual Flintlock",
+    "image": "https://bloxfruitsdatabase.com/item-images/dual-flintlock.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Magma Blaster",
+    "image": "https://bloxfruitsdatabase.com/item-images/magma-blaster.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Refined Flintlock",
+    "image": "https://bloxfruitsdatabase.com/item-images/refined-flintlock.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Refined Musket",
+    "image": "https://bloxfruitsdatabase.com/item-images/refined-musket.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Refined Slingshot",
+    "image": "https://bloxfruitsdatabase.com/item-images/refined-slingshot.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Shotgun",
+    "image": "https://bloxfruitsdatabase.com/item-images/shotgun.webp",
+    "type": "gun"
+  },
+  {
+    "name": "Combat",
+    "image": "https://cdn.wikiwiki.jp/to/w/bloxfruits/Combat/%3A%3Aref/IMG_1591.webp",
+    "type": "melee"
+  },
+  {
+    "name": "Dark Step",
+    "image": "https://static.wikia.nocookie.net/roblox-blox-piece/images/3/39/Dark_Step.png/revision/latest?cb=20220228201917",
+    "type": "melee"
+  },
+  {
+    "name": "Electric",
+    "image": "https://cdn.wikiwiki.jp/to/w/bloxfruits/Electric/%3A%3Aref/IMG_1600.webp?rev=9dc2d78b94c0fe494d7c83fa9bdd188e&t=20250115081303",
+    "type": "melee"
+  },
+  {
+    "name": "Water Kung Fu",
+    "image": "https://static.beebom.com/wp-content/uploads/2025/01/Water-Kung-Fu-Blox-Fruits.jpg?quality=75&w=1250",
+    "type": "melee"
+  },
+  {
+    "name": "Dragon Breath",
+    "image": "https://bffr.fr/wiki/assets/img/dragon-breath/card-400.webp",
+    "type": "melee"
+  },
+  {
+    "name": "Death Step",
+    "image": "https://cdn.ligadegamers.com/imagenes/mejores-estilos-de-pelea-en-blox-fruits-death-step.jpg",
+    "type": "melee"
+  },
+  {
+    "name": "Sharkman Karate",
+    "image": "https://progameguides.com/wp-content/uploads/2025/09/Blox-Fruits-Sharkman-Karate.jpg?fit=1200%2C675",
+    "type": "melee"
+  },
+  {
+    "name": "Superhuman",
+    "image": "https://cdn.wikiwiki.jp/to/w/bloxfruits/Superhuman/%3A%3Aref/IMG_1592.webp?rev=d423b9b42593c4aa97a76a04bd288012&t=20250115081417",
+    "type": "melee"
+  },
+  {
+    "name": "Electric Claw",
+    "image": "https://cdn.ligadosgames.com/imagens/05-electric-claw.jpg",
+    "type": "melee"
+  },
+  {
+    "name": "Dragon Talon",
+    "image": "https://cdn.ligadosgames.com/imagens/06-dragon-talon.jpg?class=article",
+    "type": "melee"
+  },
+  {
+    "name": "Godhuman",
+    "image": "https://www.destructoid.com/wp-content/uploads/2024/05/blox-fruits-godhuman-symbol-over-pirate.jpg?fit=1200%2C675",
+    "type": "melee"
+  },
+  {
+    "name": "Sanguine Art",
+    "image": "https://static.beebom.com/wp-content/uploads/2025/01/Sanguine-Art-Blox-Fruits-2.jpg?quality=75&w=1250",
+    "type": "melee"
+  },
+  {
+    "name": "Human",
+    "image": "https://wikigame.vn/blox-fruits/wp-content/uploads/2024/11/Human.png",
+    "type": "race"
+  },
+  {
+    "name": "Rabbit",
+    "image": "https://bloxfruitswiki.org/wiki/_assets/img/abbf322f781d1c156a98c42e5df6ab77.webp",
+    "type": "race"
+  },
+  {
+    "name": "Shark",
+    "image": "https://assets.empyreus.site/bloxfruits/races/Shark.png",
+    "type": "race"
+  },
+  {
+    "name": "Angel",
+    "image": "https://bloxfruitswiki.org/wiki/_assets/img/e5b8c3184e575b439c3b5473f234b0c1.webp",
+    "type": "race"
+  },
+  {
+    "name": "Cyborg",
+    "image": "https://blox-fruits.com/wp-content/uploads/2024/12/Cyborg-Race-in-Blox-Fruits-1.webp",
+    "type": "race"
+  },
+  {
+    "name": "Ghoul",
+    "image": "https://blox-fruits.com/wp-content/uploads/2024/12/Ghoul-Race-in-Blox-Fruits-1.webp",
+    "type": "race"
+  },
+  {
+    "name": "Draco",
+    "image": "https://cdn.sharpify.com.br/sharpify-public/fe5f07d0-5b4f-450c-b942-33dde3a9582e.webp",
+    "type": "race"
   }
 ]
