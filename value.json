@@ -1,37 +1,37 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-03",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
       "name": "West Dragon",
       "rarity": "Mythical",
-      "value_normal": "3.33B",
-      "value_permanent": "6.69B",
-      "demand": "7/10",
+      "value_normal": "2.85B",
+      "value_permanent": "6.57B",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "East Dragon",
       "rarity": "Mythical",
-      "value_normal": "2.91B",
-      "value_permanent": "6.69B",
-      "demand": "7/10",
+      "value_normal": "2.46B",
+      "value_permanent": "6.57B",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Kitsune",
       "rarity": "Mythical",
       "value_normal": "600M",
-      "value_permanent": "5.49B",
+      "value_permanent": "5.43B",
       "demand": "10/10",
-      "trend": "Overpaid"
+      "trend": "Stable"
     },
     {
       "name": "Control",
       "rarity": "Mythical",
       "value_normal": "150M",
-      "value_permanent": "5.49B",
+      "value_permanent": "5.43B",
       "demand": "8/10",
       "trend": "Stable"
     },
@@ -361,50 +361,50 @@
     },
     {
       "name": "Dog Blade",
-      "value": "750M",
+      "value": "1.02B",
       "demand": "10/10",
-      "trend": "SOON"
+      "trend": "Overpaid"
     },
     {
       "name": "Fiend Yeti",
-      "value": "990M",
-      "demand": "9/10",
+      "value": "1.08B",
+      "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Galaxy Empyrean Kitsune",
-      "value": "9.96B",
+      "value": "9.63B",
       "demand": "10/10",
-      "trend": "Overpaid"
+      "trend": "Stable"
     },
     {
       "name": "Ember West Dragon",
-      "value": "6.24B",
+      "value": "6.12B",
       "demand": "9/10",
       "trend": "Stable"
     },
     {
       "name": "Crimson Kitsune",
-      "value": "7.59B",
-      "demand": "10/10",
+      "value": "7.41B",
+      "demand": "9/10",
       "trend": "Stable"
     },
     {
       "name": "Meme-Meme",
-      "value": "4.29B",
+      "value": "4.5B",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Divine Portal",
       "value": "1.56B",
-      "demand": "10/10",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Purple Lightning",
-      "value": "4.68B",
-      "demand": "8/10",
+      "value": "4.59B",
+      "demand": "7/10",
       "trend": "Stable"
     },
     {
@@ -421,7 +421,7 @@
     },
     {
       "name": "Yellow Lightning",
-      "value": "1.62B",
+      "value": "1.53B",
       "demand": "9/10",
       "trend": "Stable"
     },
@@ -433,7 +433,7 @@
     },
     {
       "name": "Werewolf",
-      "value": "1.11B",
+      "value": "1.2B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
@@ -445,14 +445,14 @@
     },
     {
       "name": "Emerald Diamond",
-      "value": "220M",
+      "value": "210M",
       "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Topaz Diamond",
-      "value": "210M",
-      "demand": "5/10",
+      "value": "180M",
+      "demand": "4/10",
       "trend": "Stable"
     },
     {
@@ -469,13 +469,13 @@
     },
     {
       "name": "Eclipse",
-      "value": "0",
+      "value": "2B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Super Spirit Pain",
-      "value": "2.91B",
+      "value": "3B",
       "demand": "8/10",
       "trend": "Stable"
     },
@@ -487,26 +487,26 @@
     },
     {
       "name": "Sadness Pain",
-      "value": "780M",
+      "value": "750M",
       "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Frustration Pain",
-      "value": "810M",
+      "value": "780M",
       "demand": "6/10",
       "trend": "Stable"
     },
     {
       "name": "Celestial Pain",
-      "value": "930M",
+      "value": "900M",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Requiem",
       "value": "150M",
-      "demand": "4/10",
+      "demand": "5/10",
       "trend": "Stable"
     },
     {
@@ -517,7 +517,7 @@
     },
     {
       "name": "Eagle Matrix",
-      "value": "240M",
+      "value": "270M",
       "demand": "5/10",
       "trend": "Stable"
     },
