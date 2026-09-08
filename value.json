@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-09-07",
+  "last_updated": "2026-09-08",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -351,13 +351,13 @@
       "name": "Doghouse (Frame Break)",
       "value": "6.63B",
       "demand": "10/10",
-      "trend": "SOON"
+      "trend": "Stable"
     },
     {
       "name": "Rabid Dog Blade",
       "value": "7.98B",
       "demand": "10/10",
-      "trend": "SOON"
+      "trend": "Stable"
     },
     {
       "name": "Dog Blade",
