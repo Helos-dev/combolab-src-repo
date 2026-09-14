@@ -1,15 +1,15 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-14",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
       "name": "West Dragon",
       "rarity": "Mythical",
       "value_normal": "2.91B",
-      "value_permanent": "6.69B",
+      "value_permanent": "2.91B",
       "demand": "6/10",
-      "trend": "Stable"
+      "trend": "SOON"
     },
     {
       "name": "East Dragon",
