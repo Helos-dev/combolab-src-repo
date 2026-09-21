@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-21",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -524,9 +524,9 @@
       "trend": "Stable"
     },
     {
-      "name": "Torment Pain -",
-      "value": "0",
-      "demand": "N/A",
+      "name": "Torment Pain",
+      "value": "150M",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
