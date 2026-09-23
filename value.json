@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -193,6 +193,94 @@
       "value_normal": "1.5M",
       "value_permanent": "2.01B",
       "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Love",
+      "rarity": "Legendary",
+      "value_normal": "1.5M",
+      "value_permanent": "1.77B",
+      "demand": "3/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Magma",
+      "rarity": "Rare",
+      "value_normal": "1.15M",
+      "value_permanent": "1.17B",
+      "demand": "5/10",
+      "trend": "Overpaid"
+    },
+    {
+      "name": "Quake",
+      "rarity": "Legendary",
+      "value_normal": "1M",
+      "value_permanent": "1.44B",
+      "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Diamond",
+      "rarity": "Uncommon",
+      "value_normal": "1M",
+      "value_permanent": "750M",
+      "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Light",
+      "rarity": "Rare",
+      "value_normal": "800K",
+      "value_permanent": "930M",
+      "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Ghost",
+      "rarity": "Rare",
+      "value_normal": "800K",
+      "value_permanent": "1.08B",
+      "demand": "1/10",
+      "trend": "Underpaid"
+    },
+    {
+      "name": "Eagle",
+      "rarity": "Uncommon",
+      "value_normal": "800K",
+      "value_permanent": "735M",
+      "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Rubber",
+      "rarity": "Rare",
+      "value_normal": "700K",
+      "value_permanent": "990M",
+      "demand": "1/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Ice",
+      "rarity": "Uncommon",
+      "value_normal": "550K",
+      "value_permanent": "600M",
+      "demand": "2/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Sand",
+      "rarity": "Uncommon",
+      "value_normal": "420K",
+      "value_permanent": "660M",
+      "demand": "1/10",
+      "trend": "Stable"
+    },
+    {
+      "name": "Dark",
+      "rarity": "Uncommon",
+      "value_normal": "400K",
+      "value_permanent": "720M",
+      "demand": "1/10",
       "trend": "Stable"
     },
     {
@@ -491,8 +579,8 @@
     },
     {
       "name": "Thermite Bomb",
-      "value": "0",
-      "demand": "N/A",
+      "value": "540M",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
