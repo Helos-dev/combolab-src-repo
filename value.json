@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "26M",
+      "value": "0",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -513,7 +513,7 @@
     },
     {
       "name": "Eclipse",
-      "value": "0",
+      "value": "4B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
