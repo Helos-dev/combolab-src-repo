@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-10-19",
+  "last_updated": "2026-10-20",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -47,7 +47,7 @@
       "name": "Yeti",
       "rarity": "Mythical",
       "value_normal": "90M",
-      "value_permanent": "3.73B",
+      "value_permanent": "3.78B",
       "demand": "6/10",
       "trend": "Stable"
     },
@@ -63,7 +63,7 @@
       "name": "Tiger",
       "rarity": "Mythical",
       "value_normal": "100M",
-      "value_permanent": "3.73B",
+      "value_permanent": "3.78B",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -111,7 +111,7 @@
       "name": "Gravity",
       "rarity": "Mythical",
       "value_normal": "10M",
-      "value_permanent": "2.76B",
+      "value_permanent": "2.67B",
       "demand": "5/10",
       "trend": "Stable"
     },
@@ -357,19 +357,19 @@
     },
     {
       "name": "Doghouse (Frame Break)",
-      "value": "17.67B",
-      "demand": "10/10",
+      "value": "16.56B",
+      "demand": "9/10",
       "trend": "Stable"
     },
     {
       "name": "Rabid Dog Blade",
-      "value": "26.67B",
+      "value": "26.28B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Dog Blade",
-      "value": "1.8B",
+      "value": "1.83B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
@@ -381,26 +381,26 @@
     },
     {
       "name": "Galaxy Empyrean Kitsune",
-      "value": "9.75B",
+      "value": "9.84B",
       "demand": "10/10",
       "trend": "Stable"
     },
     {
       "name": "Ember West Dragon",
-      "value": "6.78B",
+      "value": "6.84B",
       "demand": "9/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Crimson Kitsune",
-      "value": "7.86B",
+      "value": "7.74B",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Vibe (Frame Break)",
-      "value": "14.37B",
-      "demand": "9/10",
+      "value": "13.89B",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
@@ -411,7 +411,7 @@
     },
     {
       "name": "Runic Fiend",
-      "value": "1.8B",
+      "value": "1.74B",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -435,19 +435,19 @@
     },
     {
       "name": "Meme-Meme",
-      "value": "6.24B",
+      "value": "6.3B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Divine Portal",
-      "value": "2.61B",
+      "value": "2.88B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Parrot",
-      "value": "7.59B",
+      "value": "7.65B",
       "demand": "4/10",
       "trend": "Stable"
     },
@@ -466,7 +466,7 @@
     {
       "name": "Yellow Lightning",
       "value": "150M",
-      "demand": "6/10",
+      "demand": "7/10",
       "trend": "Stable"
     },
     {
