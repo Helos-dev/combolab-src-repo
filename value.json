@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-10-28",
+  "last_updated": "2026-10-29",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -157,7 +157,7 @@
     },
     {
       "name": "Blizzard",
-      "rarity": "Legendary",
+      "rarity": "Mythical",
       "value_normal": "5M",
       "value_permanent": "2.58B",
       "demand": "5/10",
@@ -513,7 +513,7 @@
     },
     {
       "name": "Eclipse",
-      "value": "25M",
+      "value": "3B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
