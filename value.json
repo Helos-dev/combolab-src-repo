@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-10-31",
+  "last_updated": "2026-11-01",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -356,6 +356,12 @@
       "trend": "Overpaid"
     },
     {
+      "name": "Hellfire Gas",
+      "value": "1B",
+      "demand": "10/10",
+      "trend": "Stable"
+    },
+    {
       "name": "Doghouse (Frame Break)",
       "value": "14.4B",
       "demand": "8/10",
@@ -569,7 +575,7 @@
       "name": "Celebration Bomb",
       "value": "10M",
       "demand": "4/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Azura Bomb",
