@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-01",
+  "last_updated": "2026-11-02",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -79,7 +79,7 @@
       "name": "Venom",
       "rarity": "Mythical",
       "value_normal": "25M",
-      "value_permanent": "2.97B",
+      "value_permanent": "2.45K",
       "demand": "9/10",
       "trend": "Stable"
     },
@@ -357,8 +357,8 @@
     },
     {
       "name": "Hellfire Gas",
-      "value": "1B",
-      "demand": "10/10",
+      "value": "540M",
+      "demand": "7/10",
       "trend": "Stable"
     },
     {
@@ -575,7 +575,7 @@
       "name": "Celebration Bomb",
       "value": "10M",
       "demand": "4/10",
-      "trend": "Overpaid"
+      "trend": "Stable"
     },
     {
       "name": "Azura Bomb",
