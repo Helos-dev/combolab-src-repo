@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-06",
+  "last_updated": "2026-11-07",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -8,7 +8,7 @@
       "rarity": "Mythical",
       "value_normal": "2.7B",
       "value_permanent": "2.7B",
-      "demand": "9/10",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
@@ -16,7 +16,7 @@
       "rarity": "Mythical",
       "value_normal": "2.25B",
       "value_permanent": "4.92B",
-      "demand": "9/10",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
@@ -38,7 +38,7 @@
     {
       "name": "Magnet",
       "rarity": "Mythical",
-      "value_normal": "360M",
+      "value_normal": "330M",
       "value_permanent": "3.39B",
       "demand": "7/10",
       "trend": "Stable"
@@ -78,7 +78,7 @@
     {
       "name": "Venom",
       "rarity": "Mythical",
-      "value_normal": "100M",
+      "value_normal": "110M",
       "value_permanent": "2.45K",
       "demand": "10/10",
       "trend": "Stable"
@@ -357,25 +357,25 @@
     },
     {
       "name": "Hellfire Gas",
-      "value": "180M",
-      "demand": "6/10",
+      "value": "120M",
+      "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Doghouse (Frame Break)",
-      "value": "10.89B",
+      "value": "11.04B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Rabid Dog Blade",
-      "value": "20.7B",
+      "value": "21.42B",
       "demand": "8/10",
       "trend": "Stable"
     },
     {
       "name": "Dog Blade",
-      "value": "1.74B",
+      "value": "1.8B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
@@ -387,19 +387,19 @@
     },
     {
       "name": "Galaxy Empyrean Kitsune",
-      "value": "8.19B",
+      "value": "8.46B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Ember West Dragon",
-      "value": "6.03B",
+      "value": "5.97B",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Crimson Kitsune",
-      "value": "6.12B",
+      "value": "6.09B",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -441,7 +441,7 @@
     },
     {
       "name": "Meme-Meme",
-      "value": "5.88B",
+      "value": "5.76B",
       "demand": "9/10",
       "trend": "Overpaid"
     },
@@ -453,13 +453,13 @@
     },
     {
       "name": "Parrot",
-      "value": "6.12B",
+      "value": "6.09B",
       "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Purple Lightning",
-      "value": "4.32B",
+      "value": "4.5B",
       "demand": "8/10",
       "trend": "Stable"
     },
@@ -490,13 +490,13 @@
     {
       "name": "Rose Quartz Diamond",
       "value": "180M",
-      "demand": "6/10",
+      "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Emerald Diamond",
       "value": "150M",
-      "demand": "5/10",
+      "demand": "4/10",
       "trend": "Stable"
     },
     {
@@ -508,7 +508,7 @@
     {
       "name": "Ruby Diamond",
       "value": "80M",
-      "demand": "5/10",
+      "demand": "4/10",
       "trend": "Stable"
     },
     {
@@ -532,12 +532,12 @@
     {
       "name": "Torment Pain",
       "value": "80M",
-      "demand": "6/10",
+      "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Sadness Pain",
-      "value": "540M",
+      "value": "570M",
       "demand": "7/10",
       "trend": "Stable"
     },
@@ -549,26 +549,26 @@
     },
     {
       "name": "Celestial Pain",
-      "value": "600M",
+      "value": "630M",
       "demand": "7/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Requiem",
-      "value": "170M",
-      "demand": "6/10",
+      "value": "180M",
+      "demand": "5/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Glacier",
-      "value": "20M",
+      "value": "25M",
       "demand": "4/10",
       "trend": "Stable"
     },
     {
       "name": "Eagle Matrix",
       "value": "300M",
-      "demand": "7/10",
+      "demand": "6/10",
       "trend": "Stable"
     },
     {
