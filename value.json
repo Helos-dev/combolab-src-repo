@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-10",
+  "last_updated": "2026-11-11",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -17,7 +17,7 @@
       "value_normal": "2.31B",
       "value_permanent": "5.04B",
       "demand": "8/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Kitsune",
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "0",
+      "value": "2B",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -431,7 +431,7 @@
       "name": "Scarlet Ghost",
       "value": "20M",
       "demand": "4/10",
-      "trend": "Overpaid"
+      "trend": "Stable"
     },
     {
       "name": "Lime Blade",
@@ -527,7 +527,7 @@
       "name": "Super Spirit Pain",
       "value": "2.4B",
       "demand": "7/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Torment Pain",
