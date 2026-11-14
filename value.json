@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-13",
+  "last_updated": "2026-11-14",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -173,10 +173,10 @@
     },
     {
       "name": "Phoenix",
-      "rarity": "Legendary",
-      "value_normal": "2.75M",
-      "value_permanent": "1.71B",
-      "demand": "3/10",
+      "rarity": "Unknown",
+      "value_normal": "0",
+      "value_permanent": "0",
+      "demand": "N/A",
       "trend": "Stable"
     },
     {
