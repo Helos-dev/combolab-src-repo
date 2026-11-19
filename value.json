@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-18",
+  "last_updated": "2026-11-19",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -245,10 +245,10 @@
     },
     {
       "name": "Eagle",
-      "rarity": "Uncommon",
-      "value_normal": "800K",
-      "value_permanent": "585M",
-      "demand": "2/10",
+      "rarity": "Unknown",
+      "value_normal": "0",
+      "value_permanent": "0",
+      "demand": "N/A",
       "trend": "Stable"
     },
     {
