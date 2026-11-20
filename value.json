@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-19",
+  "last_updated": "2026-11-20",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -15,7 +15,7 @@
       "name": "East Dragon",
       "rarity": "Mythical",
       "value_normal": "2.31B",
-      "value_permanent": "5.04B",
+      "value_permanent": "2.31B",
       "demand": "9/10",
       "trend": "Stable"
     },
@@ -165,10 +165,10 @@
     },
     {
       "name": "Creation",
-      "rarity": "Legendary",
-      "value_normal": "2M",
-      "value_permanent": "1.41B",
-      "demand": "2/10",
+      "rarity": "Unknown",
+      "value_normal": "0",
+      "value_permanent": "0",
+      "demand": "N/A",
       "trend": "Stable"
     },
     {
@@ -245,10 +245,10 @@
     },
     {
       "name": "Eagle",
-      "rarity": "Unknown",
-      "value_normal": "0",
-      "value_permanent": "0",
-      "demand": "N/A",
+      "rarity": "Uncommon",
+      "value_normal": "800K",
+      "value_permanent": "585M",
+      "demand": "2/10",
       "trend": "Stable"
     },
     {
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "0",
+      "value": "02M",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -513,13 +513,13 @@
     },
     {
       "name": "Dragon Token",
-      "value": "0",
+      "value": "00M",
       "demand": "4/10",
       "trend": "Overpaid"
     },
     {
       "name": "Eclipse",
-      "value": "0",
+      "value": "00M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
