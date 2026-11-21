@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-20",
+  "last_updated": "2026-11-21",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -73,7 +73,7 @@
       "value_normal": "20M",
       "value_permanent": "1.83B",
       "demand": "6/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Venom",
@@ -165,10 +165,10 @@
     },
     {
       "name": "Creation",
-      "rarity": "Unknown",
-      "value_normal": "0",
-      "value_permanent": "0",
-      "demand": "N/A",
+      "rarity": "Legendary",
+      "value_normal": "2M",
+      "value_permanent": "1.41B",
+      "demand": "2/10",
       "trend": "Stable"
     },
     {
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "02M",
+      "value": "09M",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -497,7 +497,7 @@
       "name": "Emerald Diamond",
       "value": "150M",
       "demand": "4/10",
-      "trend": "Stable"
+      "trend": "Overpaid"
     },
     {
       "name": "Topaz Diamond",
@@ -513,13 +513,13 @@
     },
     {
       "name": "Dragon Token",
-      "value": "00M",
+      "value": "08M",
       "demand": "4/10",
       "trend": "Overpaid"
     },
     {
       "name": "Eclipse",
-      "value": "00M",
+      "value": "08M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
