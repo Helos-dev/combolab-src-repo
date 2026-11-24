@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-23",
+  "last_updated": "2026-11-24",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -341,7 +341,7 @@
     },
     {
       "name": "Rocket",
-      "rarity": "Common",
+      "rarity": "Mythical",
       "value_normal": "5K",
       "value_permanent": "10M",
       "demand": "1/10",
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "12M",
+      "value": "21M",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -513,13 +513,13 @@
     },
     {
       "name": "Dragon Token",
-      "value": "11M",
+      "value": "19M",
       "demand": "4/10",
       "trend": "Overpaid"
     },
     {
       "name": "Eclipse",
-      "value": "11M",
+      "value": "19M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
