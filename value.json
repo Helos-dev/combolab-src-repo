@@ -1,6 +1,6 @@
 {
   "source": "https://bloxfruitsvalues.com",
-  "last_updated": "2026-11-26",
+  "last_updated": "2026-11-27",
   "currency_note": "Trading values from BloxfruitsValues.com",
   "Valuefruits": [
     {
@@ -301,7 +301,7 @@
     },
     {
       "name": "Smoke",
-      "rarity": "Legendary",
+      "rarity": "Common",
       "value_normal": "100K",
       "value_permanent": "90M",
       "demand": "1/10",
@@ -351,7 +351,7 @@
   "Limited": [
     {
       "name": "Permanent Dragon Token",
-      "value": "59M",
+      "value": "06M",
       "demand": "6/10",
       "trend": "Overpaid"
     },
@@ -513,20 +513,20 @@
     },
     {
       "name": "Dragon Token",
-      "value": "58M",
+      "value": "04M",
       "demand": "4/10",
       "trend": "Overpaid"
     },
     {
       "name": "Eclipse",
-      "value": "58M",
+      "value": "04M",
       "demand": "10/10",
       "trend": "Overpaid"
     },
     {
       "name": "Super Spirit Pain",
-      "value": "0",
-      "demand": "N/A",
+      "value": "3.12B",
+      "demand": "8/10",
       "trend": "Stable"
     },
     {
